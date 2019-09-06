@@ -273,7 +273,7 @@ broad. The departure of our theoretical
 results from the Toburen rule can be easily explained by the fact that 
 our atomic cross sections $\sigma_{\alpha}$ behave differently for 
 each atom in terms of the projectile charges. By inspecting Figure 1, 
-one can easily see that the rule $\sigma_{\alpha}/v_{\alpha}\sim
+one can easily see that the rule $\sigma_{\alpha}/\nu_{\alpha}\sim
 \sigma_{e}$ is not well satisfied by the CDW. A much better general 
 atomic rule is given by
 \begin{equation}
@@ -290,7 +290,7 @@ where
 4.5,\ \  & \text{for P and S}
 \end{array}
 \right. 
-\label{35}
+\label{eq:scalingCDW}
 \end{equation}
 and, obviously, $\nu_{\text{H}}^{\text{CDW}}=1$. The cross sections 
 $\sigma_{e}^{\text{CDW}}$ are plotted in Figure~4b. A much better sharp 
@@ -473,94 +473,124 @@ $n_{\alpha}$ by the fractional values $n_{\alpha}^{\prime}$. This
 analog formulations are now implemented to compute the new ionization 
 cross sections, $\sigma^{\prime}$.
 
-In Figure 7, we display the relative difference of ionization cross 
+In Figure 8, we display the relative difference of ionization cross 
 sections 
 \begin{equation}
 e=\frac{\sigma^{\prime}-\sigma}{\sigma}\times 100
 \label{120}
 \end{equation}
-for the four DNA basis. The difference obtained is of just very few 
+for the four DNA bases. The difference obtained is of just very few 
 percents, which indicates that the SSM is a quite robust model to treat 
 the type of molecule we are dealing with, and of course within the 
 range error that one can expect from the SSM.
 
-We now return to the calculation of the mean electron energy of H$^{+}$ and
-He$^{2+~}$ in water\ \ $\overline{E}_{H_{2}O}$. If we consider that \ the
-residual charge of \ each hydrogen in water is $q_{H}=$+0.35 \ \cite%
-{rappe1991}\ which implies that on Oxygen we have \ a residual charge of $%
-q_{O}=$-0.7, we could re-write the formula of water using (\ref{120}) as H$%
-_{1.3}$O$_{1.17}$ considering $n_{O}^{CDW}\simeq 4$ and $n_{H}^{CDW}\simeq
-1. $ Recalculating mean electron energy by impact of \ H$^{+}$ and He$^{2+~}$
-on water at 1 MeV/amu we obtain: $\overline{E}_{H_{2}O}=$46.2 \ and 47.6 eV
-which compared a little better with the experiments: 51.5 and 52.2 eV \cite%
-{pimblott2007}, respectively. i.e. within 10\% of the experiments which is
-not bad accounting for the simplicity of our method.
 
-Another parameter that we can calculate in our model is the fraction of
-energy carried by the electron $f$ defined as%
+Our molecular binding energies of the outer electrons for adenine, 
+cytosine, guanine and thymine are shown in Figure~7. On the left side 
+of the figure, we show the atomic Hartree--Fock energies of the 
+constituent elements, which can give an idea of how the molecular levels 
+distribute. A dashed line around -0.8 a.u. is drawn to separate in two 
+the band levels of the outer electrons. The electrons in the molecular 
+targets corresponding to the $2s$ of N and C in the atomic case are 
+placed in a secondary gap. The lower levels of the secondary gap 
+correspond to the oxygen. The number of electrons in the valence 
+shell for all O would seem to be equal to 4, as previously setted by the 
+scaling rule Eq.~(\ref{eq:scalingCDW}). The N case is not as straightfoward;
+the electrons that would correspond to the $2s$ are located just below
+the line. The $\nu_{\alpha }^{\text{CDW}}$ value given for N would 
+suggest that a significant amount of electron density from the secondary gap 
+is shared with the valence band.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{energylevels/DNA.eps}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We now return to the calculation of the mean electron energy of H$^{+}$ 
+and He$^{2+}$ in water, $\overline{E}_{\text{H}_2\text{O}}$. If we 
+consider that the residual charge of each hydrogen in water is 
+$q_{\text{H}}=+0.35$~\cite{rappe1991}, which implies that on oxygen we have a 
+residual charge of $q_{\text{O}}=-0.7$, we could re-write the formula of water 
+using Eq.~(\ref{120}) as H$_{1.3}$O$_{1.17}$ by considering 
+$n_{\text{O}}^{\text{CDW}}\simeq 4$ and 
+$n_{\text{H}}^{\text{CDW}}\simeq 1$. Recalculating mean electron energy 
+by impact of H$^{+}$ and He$^{2+}$ on water at 1 MeV/amu, we obtain
+$\overline{E}_{\text{H}_2\text{O}}=46.2$ and 47.6 eV. Our results 
+are 10\% apart from the experimental values: 51.5 and 
+52.2~eV~\cite{pimblott2007}, respectively, which is not bad considering 
+the simplicity of our model.
+
+Another parameter that can computed within our model is the fraction of
+energy carried by the electron $f$, which is defined as
 \begin{equation}
-f=\frac{\sum\limits_{\alpha }n_{\alpha }\sigma _{\alpha }\overline{%
-E_{\alpha }}}{\sum\limits_{\alpha }n_{\alpha }(\sigma _{\alpha }\overline{%
-E_{\alpha }}+\sum\limits_{nl}\sigma _{\alpha nl}E_{\alpha nl})}  \label{90}
-\end{equation}%
-Using our shell-to-shell ionization cross sections $\sigma _{\alpha nl}\ $%
-\cite{miraglia2019}\ and atomic binding energies of the atom$\ \alpha ,$ $%
-E_{\alpha nl}\ $\cite{clementi}, we obtain $f=$0$.70\ $and $\ 0.71$ for \ H$%
-^{+}$ and He$^{2+~}$ on water at 1 MeV/amu,. which differ from the
-experiments \ $f=0.81$ and $0.80$, \ respectively.
+f=\frac{\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}
+\overline{E_{\alpha}}}{\sum\limits_{\alpha}n_{\alpha}(\sigma_{\alpha}
+\overline{E_{\alpha}}+\sum\limits_{nl}\sigma_{\alpha nl}E_{\alpha nl})}\,.
+\label{90}
+\end{equation}
+Using our shell-to-shell ionization cross sections 
+$\sigma_{\alpha nl}$~\cite{miraglia2019}, and atomic binding energies of 
+the atom $\alpha$, $E_{\alpha nl}$~\cite{clementi}, we obtain 
+$f=0.70$ and $0.71$ on water at 1 MeV/amu for H$^{+}$ and He$^{2+}$, 
+which differ from the respective experimental values $f=0.81$ and $0.80$.
 
-This difference with the experiment could be attributed to the difference of
-binding energy between the molecular water 12.65 eV and the atomic component
-H (13.6 eV) and O (17.19 eV), which is an issue beyond our independent atom
-approximation and so our model cannot not accounted for. We could estimate
-this contribution resorting, once more to the stoichiometric, model, we can
-arriesgar a upper-limit difference per molecule of water\ as
-
+The difference between our calculations and the experiments could be 
+attributed to the binding energy values of the molecular water~12.65 eV 
+and its atomic components, H (13.6 eV) and O (17.19 eV). This theoretical
+discrepancy goes beyond our independent atom approximation and so it 
+cannot be accounted for by our model. Once again, we could estimate this 
+contribution by resorting to the stoichiometric model. We can make an 
+asses for a maximum difference per molecule of water as
 \begin{equation}
-\delta E=(13.6-12.65)1.17+(17.19-12.65)1.3=7\ \text{eV}  \label{80}
-\end{equation}%
-Most of this energy should be transfer to the kinetics energy of the emitted
-electron. Thus we can \ add 7 eV to the previous values to give $\overline{E}%
-_{H_{2}O}=$53.2 \ and 54.6 eV for \ H$^{+}$ and He$^{2+~}$ on water at 1
-MeV/amu, respectively, much near to the experiments: 51.5 and 52.2 eV. If we
-add $\delta E$ to the numerator of Eq.(\ref{90}) we obtain\ $f=0.81$ and $%
-0.80$ in perfect agreement with the experiments (see Table 1 of Ref.(\cite%
-{pimblott2007})
+\delta E=(13.6-12.65)\times1.17+(17.19-12.65)\times1.3=7\,\text{eV}  
+\label{80}
+\end{equation}
+Most of this energy should be transfer to the kinetic energy of the 
+emitted electron. Thus, by adding 7 eV to the previous values, we obtain
+$\overline{E}_{\text{H}_2\text{O}}=53.2$ and 54.6 eV for H$^{+}$ and 
+He$^{2+}$ on water at 1 MeV/amu, respectively, which are much closer to
+the experimental values. If we add $\delta E$ to the numerator of 
+Eq.~(\ref{90}), we obtain $f=0.81$ and $0.80$, in perfect agreement with 
+the experiments (see Table 1 of Ref.~\cite{pimblott2007}).
 
-\section{CONCLUSIONS}
+\section{Conclusions}
 
-We have calculated ionization cross sections by impact of antiprotons, H$^{+}
-$, He$^{2+}$, Be$^{4+}$, C$^{6+}$,\ and O$^{8+}$ with molecule involved in
-biological basis containing H, C, N, O, P and S with the CDW method. \ The
-importance of the influence of $Z\ $was observed in the mean energy $%
-\overline{E}_{\alpha }\ $and angle $\overline{\theta }_{\alpha }.$ For a
-given target $\alpha ,$ as $Z$ increases $\overline{E}_{\alpha }$ increases
-but $\overline{\theta }_{\alpha }$ decreases \ At high impact energy, say
-larger than 1 MeV/amu these values tend to the ones of the Born
-approximation which embodies the simple Z$^{2}$ law. Sixteen molecules were
-investigated using the simple stoichiometric model. Results for the six DNA
-basis were presented and compared with the sparse available experiments \ We
-explore the rule of Toburen which scales all the molecular ionization cross
-section when divided by the number of weakly bound valence electrons $\nu
-_{\alpha }$ given by Eq.(\ref{27})$.$ We have found the rule scales much
-better when normalizing our theoretical ionization cross sections to the
-number\ $\upsilon _{\alpha }^{\prime }$ given by Eq.(\ref{35}). And finally
-we attempt to improve the stoichiometric model by the use of the Mulliken
-charge to redefine a new stoichiometric model containing continuum rather
-than integer proportions. NO substantial correction was found indicating
-that the SSM works quite well.
+We calculated ionization cross sections by impact of antiprotons, 
+H$^{+}$, He$^{2+}$, Be$^{4+}$, C$^{6+}$, and O$^{8+}$ for sixteen 
+molecules containing H, C, N, O, P and S with the CDW method. The 
+importance of the influence of $Z$ was observed in the mean energy 
+$\overline{E}_{\alpha}$ and angle $\overline{\theta}_{\alpha}$. 
+For a given target $\alpha$, as $Z$ increases, $\overline{E}_{\alpha}$ 
+increases, but $\overline{\theta}_{\alpha}$ decreases. At high impact 
+energy, say larger than 1 MeV/amu, these values converge to the Born 
+approximation, which embodies the simple $Z^{2}$ law. The sixteen 
+molecules selected were investigated using the simple stoichiometric 
+model. Results for six DNA bases were presented and compared with the 
+sparse available experiments. We explore the rule of Toburen which scales 
+all the molecular ionization cross section when divided by the number of 
+weakly bound valence electrons $\nu_{\alpha}$ given by Eq.~(\ref{27}). 
+We found the rule scales much better when normalizing our theoretical 
+ionization cross sections to the number $\nu_{\alpha}^{\text{CDW}}$ 
+given by Eq.~(\ref{eq:scalingCDW}). Finally, we attempt to improve the 
+stoichiometric model by using the Mulliken charge to define a new model 
+containing fractional rather than integer proportions. No substantial 
+correction was found, which indicates that the SSM works quite well.
+By inspecting the molecular binding energy from quantum mechanical 
+structure calculations, we were able to understand the values defined
+for $\nu_{\alpha}^{\text{CDW}}$.
 
-Our aims is this article is to provide the tools to estimate any inelastic
-parameter parameter -such as the emission angle, the emitted mean energy and
-cross section- by the impact of any multicharged \ on any molecule
-containing H, C, N, O, P and S, with the help of the stoichimetrical model.
-Our goal was quite \textbf{pretencioso}, considering the simplicity of our
-proposal. However we think our results could be used to estimate the
-ionization magnitude with an acceptable level of uncertailties
+The main objective of this article is to provide the tools to estimate 
+any inelastic parameter parameter --such as emission angle, emitted mean 
+energy and cross section-- by the impact of any multicharged on any 
+molecule containing H, C, N, O, P and S, with the help of the 
+stoichimetrical model. Our goal was quite ambitious, considering the 
+simplicity of our proposal. However, we think our results could be used 
+to estimate the ionization magnitude with an acceptable level of 
+uncertainty.
 
 \bigskip
-
-\section{References}
 
 \begin{thebibliography}{99}
 
@@ -665,6 +695,11 @@ Physics and Chemistry 76, 1244-1247 (2007)
 M. E. Rudd, Y.-K. Kim,, D. H. Madison and T. J. Gay.
 Electron production in proton collisions with atoms and molecules: energy
 distributions. Rev. Mod. Phys. \textbf{64}, 44-490 (1992).
+
+\bibitem{clementi}
+E. Clementi, C. Roetti,
+At. Data Nucl. Data Tables 14, 177--478 (1974).
+
 
 \end{thebibliography}
 
