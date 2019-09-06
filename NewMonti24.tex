@@ -7,6 +7,8 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{multirow}
+\usepackage{gensymb}
+\usepackage{float}
 
 \usepackage{authblk}
 
@@ -44,8 +46,8 @@ Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
 
 \section{Introduction}
 
-The damage caused by the impact of multicharged heavy projectile has 
-become a field of interest because of its implementation in ion-beam 
+The damage caused by the impact of multicharged heavy projectiles has 
+become a field of interest due to its recent implementation in ion-beam 
 cancer therapy. The effectiveness of the radiation depends on the 
 choice of the ions. In particular, theoretical and experimental studies 
 with different projectiles have concluded that charged carbon ions 
@@ -64,9 +66,9 @@ First, we perform more appropriate calculations on the primary damage
 mechanism, i.e., atomic ionization by multicharged ions, which can 
 replace the Born results. Second, we inspect and use an stoichiometric 
 model, which reduces a molecule to a sum of atomic processes quantities 
-weighted by the numbers of such atom in the molecule.
+weighted by the number of such atom in the molecule.
 
-To overcome the first perturbative approximation limitations and 
+To overcome the first perturbative approximation limitations, and 
 since the projectiles are multicharged ions, we resort to the 
 Continuum Distorted Wave-Eikonal Initial State (CDW), which includes 
 higher perturbative corrections. We start from the premise that the 
@@ -90,7 +92,7 @@ approximation--, we calculate ionization cross-section of several
 molecules (see Table~\ref{tab:families}) by the impact of antiprotons,
 H$^{+}$, He$^{2+}$, Be$^{4+}$, C$^{6+}$,\ and O$^{8+}$. Furthermore, 
 in Section 3, we investigate different DNA and RNA molecules
-such as adenine, timine, cytosine, guanine, uracil, and also DNA 
+such as adenine, cytosine, guanine, thymine, uracil, and also DNA 
 backbone.
 
 The results are processed to test the Toburen scaling rule, which 
@@ -104,7 +106,7 @@ of valence electrons.
 
 It is well known that the residual electrons from the ionization 
 process cause significant biological damage. To inspect this mechanism, 
-in Section 3.3 and 3.4, we calculated the mean electron energy an 
+in Section 3.3 and 3.4, we calculated the mean electron energy and
 angular distributions. Surprisingly, we found a substantial dependence 
 of the charged projectile, which is unexpected in the first Born 
 approximation. 
@@ -181,33 +183,32 @@ sections of the isolated atoms $\sigma_{\alpha}$,
  \sigma_{M}=\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}\,.  
  \label{eq:sumion}
 \end{equation}
-We divided sixteen molecular targets of our interest in 3 families. 
+We divided sixteen molecular targets of our interest in three families. 
 The classification defined is given in Table~\ref{tab:families}.
 \begin{table}
 \begin{center}
-\begin{tabular}{|p{0.06\textwidth}|p{0.55\textwidth}|}
+\begin{tabular}{|p{0.06\textwidth}|p{0.65\textwidth}|}
 \hline
  CH  & CH$_4$, C$_2$H$_2$, C$_2$H$_4$, C$_2$H$_6$, and C$_6$H$_6$ \\
 \hline
  CHN & C$_5$H$_5$N, C$_4$H$_4$N$_2$, C$_2$H$_7$N, and CH$_5$N \\
 \hline
  \multirow{4}{*}{DNA} & adenine (C$_5$H$_5$N$_5$), 
-                        timine (C$_5$H$_6$N$_2$O$_2$), \\
-     & cytosine (C$_4$H$_5$N$_2$O), guanine (C$_5$H$_5$N$_5$O), \\
-     & uracil (C$_4$H$_4$N$_2$O$_2$), \\
-     & DNA backbone (C$_5$H$_{10}$O$_5$P), \\
+                        cytosine (C$_4$H$_5$N$_2$O), \\
+     & guanine (C$_5$H$_5$N$_5$O), thymine (C$_5$H$_6$N$_2$O$_2$), \\
+     & uracil (C$_4$H$_4$N$_2$O$_2$), DNA backbone (C$_5$H$_{10}$O$_5$P), \\
      & dry DNA (C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$)\\
 \hline
 \end{tabular}
-\caption{Sixteen molecular targets of our interest classified in 3 
-\label{tab:families}
+\caption{Sixteen molecular targets of our interest classified in three 
 families.}
+\label{tab:families}
 \end{center}
 \end{table}
 
 In Figure 2, we report the total ionization cross sections by the 
 impact of multicharged ions for the four fundamental DNA components: 
-adenine, timine, cytosine, and guanine. Our reports for uracil and 
+adenine, cytosine, guanine and thymine. Our reports for uracil and 
 DNA backbone containing P are given in Figure 3. For adenine, the 
 agreement with the experimental data available in our range of validity 
 is quite good. For uracil, we have a puzzling situation: our results 
@@ -215,7 +216,7 @@ show good agreement with the experiments by proton impact of Itoh
 {\it et al.}~\cite{itoh2013}, but for the same target our theory fails 
 by a factor of two for the impact of C$^{4+}$ and O$^{6+}$ ions. 
 Nonetheless, it should be stated that our theoretical results coincide 
-with the ones by Champion, Rivarola and 
+with calculations by Champion, Rivarola and 
 collaborators~\cite{champion2012,agnihotri2012}, which may indicate a 
 possible misstep of the experiments. 
 
@@ -374,11 +375,11 @@ We will came back on this issue later.
 \subsection{Emitted electron angles}
 
 As mentioned before, secondary electrons contribute to the total damage. 
-Then, it is important not only the ejection energy but also the angle 
+Then, not only is the ejection energy important but also the angle 
 of emission. Once again, we can consider the single differential cross 
 section in terms of the ejected electron solid angle $\Omega$, 
-$d\sigma_{\alpha,nl}/d\Omega$, to be expressed as a distribution 
-function, and define the mean angle $\overline{\theta}_{\alpha}$ as
+$d\sigma_{\alpha,nl}/d\Omega$, to be expressed as a distribution function, 
+and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
 \begin{equation}
 \overline{\theta}_{\alpha}=\frac{\langle\theta_{\alpha}\rangle}
 {\langle 1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}
@@ -386,94 +387,102 @@ function, and define the mean angle $\overline{\theta}_{\alpha}$ as
 \end{equation}
 Figure 6 shows $\overline{\theta}_{\alpha}$ for our six elements of 
 interest. A new important dependence of $\overline{\theta}_{\alpha}$ 
-with $Z$ is observed. It is the common view~\cite{Rudd1992} that the 
-angular dispersion of emitted electrons are nearly isotropic due to the
-fact that angular anisotropy of sub-50-eV yield is not significant. 
-A typical value of ejection angle used in the literature is 
-$\overline{\theta}_{\alpha}\sim 70$ degrees~\cite{surdutovic2018}, and 
+with $Z$ is observed. It is a general belief~\cite{Rudd1992} that the 
+angular dispersion of emitted electrons are nearly isotropic. This effect 
+is caused by the insignificant angular anisotropy of sub-50-eV yield. 
+A typical value for the ejection angle considered in the literature is 
+$\overline{\theta}_{\alpha}\sim 70\degree$~\cite{surdutovic2018}, and 
 it is quite correct in the range of validity of the first Born 
-approximation for any target. But when a distorted wave approximation 
+approximation for any target. But, when a distorted wave approximation 
 is used, $\overline{\theta}_{\alpha}$ decreases substantially with $Z$ 
 in the intermediate energy region, as observed in Figure 6. 
 For example, for C$^{6+}$ impact, the Bragg peak occurs at 0.3 MeV/amu, 
-where $\overline{\theta}_{\alpha}$ computed with the CDW method is 
+where $\overline{\theta}_{\alpha}$, computed with the CDW method, is 
 about half of the value obtained with the first Born approximation. 
 This correction should close the damage to the forward direction.
 
-The only responsible of this correction is the capture to the continuum
-effect: the larger the charge $Z$ the smaller $\overline{\theta}$ will 
-be, of course at intermediate energies, not at high impact energies, 
-where the Born approximation rules. One illustrative observation is the 
-behavior of antiprotons: the projectile in this case repels the 
-electrons making the distribution almost symmetric. Note the opposite 
-effect of proton and antiprotons, they run one opposite to the other, 
-as compared with the first Born approximation.
+We can attribute this correction to the capture to the continuum effect;
+the larger the charge $Z$, the smaller $\overline{\theta}$ will be. Of 
+course, this effect only holds at intermediate energies and not at high 
+impact energies, where the Born approximation rules. One illustrative 
+observation is the behavior of antiprotons: the projectile in this case 
+repels the electrons, making the distribution almost symmetric. 
+Note the opposite effect of proton and antiprotons; they run one 
+opposite to the other, as compared with the first Born approximation.
 
 \subsection{A modified stoichiometric model}
 
-One can correctly argue that\ the SSM considers an assembly of isolated
-neutral atoms which is definitively unrealistic. A first improvement is to
-consider that the atoms are not neutral and within the molecule they have
-more or less electrons given by a \ charge $q_{\alpha }$. One parameter that
-measures $q_{\alpha }$ is the Mulliken charge. This is not the only one,
-there is a large variety of charges such as the net or natural atomic charge 
-\cite{lee2003}, the lowin charge, etc.
+The SSM considers the molecule to be assembled by isolated neutral atoms, 
+which is definitively unrealistic. A first improvement can be suggested 
+by assuming that the atoms are not neutral and that they have an uneven
+distribution of electrons within the molecule; this distribution can be
+given by an effective charge $q_{\alpha}$. A possible value for 
+$q_{\alpha}$ is given by the Mulliken charge. However, there are a wide
+variety of charge distributions, such as the net or natural atomic
+charge~\cite{lee2003}, the L\"owdin charge, etc.
 
-Consider\ that the total amount of electrons $Q_{\alpha }\ $on element $%
-\alpha $ are equally distributed on all the atoms $\alpha ,$ therefore each
-element $\alpha \ $\ will have a an additional charge: $q_{\alpha
-}=Q_{\alpha }/n_{\alpha }$. positive or negative depending on the relative
-electronegative value respect to the other ones~\cite{rappe1991}. Instead
-of the integer number of elements $n_{\alpha }$ of the atom $\alpha$, it
-could be argued that we have now an continuous number of atoms given by 
+Consider that the total amount of electrons $Q_{\alpha }$ on the element
+$\alpha$ are equally distributed on all the $\alpha$ atoms. Therefore, 
+each element $\alpha$ will have an additional charge: 
+$q_{\alpha}=Q_{\alpha}/n_{\alpha}$, which can be positive or negative.
+This value will depend on the relative electronegativity value with 
+respect to the other atoms~\cite{rappe1991}. Now, instead of an
+integer number of elements $n_{\alpha}$ of the atom $\alpha$, we have a 
+fractional number of atoms given by 
 \begin{equation}
-n_{\alpha }^{\prime }=n_{\alpha }-\frac{q_{\alpha }}{v_{\alpha }^{CDW}}
-\label{100}
+n_{\alpha }^{\prime }=n_{\alpha }-
+\frac{q_{\alpha }}{\nu_{\alpha }^{\text{CDW}}}
+\label{eq:newstoi}
 \end{equation}%
-In the case of neutral atoms $q_{\alpha }=0,$ we obviously recover $%
-n_{\alpha }^{\prime }=n_{\alpha }$ as before$.$
+In the case of neutral atoms, $q_{\alpha}=0$ and we recover 
+$n_{\alpha}^{\prime}=n_{\alpha}$, as it should be.
 
-To inspect the effect of the $q_{\alpha }$ we have run GAMES with the 
-6-31G basis set, including polarization functions for all the atoms. 
-The calculations were carried out implementing the B3LYP 
-functional~\cite{Becke1993,Stephens1994}. In Table~(\ref{110}) we display
-$q_{\alpha }$ of the different DNA basis and in the last column we rewrite
-the new stoichiometric expression. 
-\begin{equation}
-\begin{array}{|l|l|l|l|l|l|}
+To inspect the effect of $q_{\alpha}$, we computed the molecular
+structure of several nucleobases with the {\sc gamess} code. We 
+used the 6-31G(d,p) basis set, which includes polarization 
+functions for all the atoms. The calculations were carried out 
+implementing the B3LYP functional~\cite{Becke1993,Stephens1994} to 
+account for the correlation and exchange effects. 
+In Table~\ref{tab:newstoi}, we display the charge $q_{\alpha}$ of four 
+DNA molecules. The last column shows the new stoichiometric formula
+found by implementing Eq.~(\ref{eq:newstoi}).
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{0.12\textwidth}|p{0.07\textwidth}|p{0.07\textwidth}|p{
+0.07\textwidth}|p{0.07\textwidth}|p{0.25\textwidth}|}
 \hline
-\text{Element}\,\,\, & \mathrm{H} & \mathrm{C} & \mathrm{N} & \mathrm{O} & 
-\text{New stoichiometry} \\ 
+Element & C & H & N & O & New stoichiometry \\
 \hline
-\mathrm{Adenine}  & +0.32 & -0.55 & +0.23 &       & 
-\mathrm{C}_{4.92}\mathrm{H}_{5.14}\mathrm{N}_{4.77} \\ 
+Adenine & +0.32 & +0.23 & --0.55 &       & C$_{4.92}$H$_{4.77}$N$_{5.14}$ \\ 
 \hline
-\mathrm{Thymine}  & +0.20 & -0.54 & +0.19 & -0.52 & 
-\mathrm{C}_{4.95}\mathrm{H}_{6.13}\mathrm{N}_{1.95}\mathrm{O}_{2.13} \\ 
+Cytosine & +0.28 & +0.21 & --0.56 & --0.53 & C$_{3.93}$H$_{2.79}$N$_{5.14}$O$_{1.13}$ \\ 
 \hline
-\mathrm{Cytosine} & +0.28 & -0.56 & +0.21 & -0.53 & 
-\mathrm{C}_{3.93}\mathrm{H}_{5.14}\mathrm{N}_{2.79}\mathrm{O}_{1.13} \\ 
+Guanine & +0.46 & +0.20 & --0.58 & --0.36 & C$_{4.89}$H$_{4.80}$N$_{5.15}$O$_{1.09}$ \\ 
 \hline
-\mathrm{Guanine}  & +0.46 & -0.58 & +0.20 & -0.36 & 
-\mathrm{C}_{4.89}\mathrm{H}_{5.15}\mathrm{N}_{4.80}\mathrm{O}_{1.09} \\ 
+Thymine & +0.20 & +0.19 & --0.54 & --0.52 & C$_{4.95}$H$_{1.95}$N$_{6.13}$O$_{2.13}$ \\ 
 \hline
-\end{array}
-\label{110}
-\end{equation}
+\end{tabular}
+\caption{Effective charge $q_{\alpha}$ and new stoichiometric formula 
+defined by Eq.~(\ref{eq:newstoi}) for four DNA molecules.}
+\label{tab:newstoi}
+\end{center}
+\end{table}
 
-All the previous formula holds with the simple replacement of integer value $%
-n_{\alpha }$ by the continuous values\ $n_{\alpha }^{\prime }$ to produce a
-new ionization cross section $\sigma ^{\prime }$
+The previous formula can be rewritten by replacing the integer value 
+$n_{\alpha}$ by the fractional values $n_{\alpha}^{\prime}$. This 
+analog formulations are now implemented to compute the new ionization 
+cross sections, $\sigma^{\prime}$.
 
-In Figure 7, we displays the relative difference of ionization cross
+In Figure 7, we display the relative difference of ionization cross 
 sections 
 \begin{equation}
-e=\frac{\sigma ^{\prime }-\sigma }{\sigma }\times 100  \label{120}
-\end{equation}%
-for the four DNA basis. The difference is \ just very few percents.
-Indicating that the SSM is a quite robust model to treat the type of
-molecule we are dealing with, and of course within the range error that one
-can expect from the SSM.
+e=\frac{\sigma^{\prime}-\sigma}{\sigma}\times 100
+\label{120}
+\end{equation}
+for the four DNA basis. The difference obtained is of just very few 
+percents, which indicates that the SSM is a quite robust model to treat 
+the type of molecule we are dealing with, and of course within the 
+range error that one can expect from the SSM.
 
 We now return to the calculation of the mean electron energy of H$^{+}$ and
 He$^{2+~}$ in water\ \ $\overline{E}_{H_{2}O}$. If we consider that \ the
