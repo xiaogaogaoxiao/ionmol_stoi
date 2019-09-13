@@ -187,7 +187,7 @@ We divided sixteen molecular targets of our interest in three families.
 The classification defined is given in Table~\ref{tab:families}.
 \begin{table}
 \begin{center}
-\begin{tabular}{|p{0.06\textwidth}|p{0.65\textwidth}|}
+\begin{tabular}{|p{0.06\textwidth}|p{0.62\textwidth}|}
 \hline
  CH  & CH$_4$, C$_2$H$_2$, C$_2$H$_4$, C$_2$H$_6$, and C$_6$H$_6$ \\
 \hline
@@ -196,11 +196,12 @@ The classification defined is given in Table~\ref{tab:families}.
  \multirow{4}{*}{DNA} & adenine (C$_5$H$_5$N$_5$), 
                         cytosine (C$_4$H$_5$N$_2$O), \\
      & guanine (C$_5$H$_5$N$_5$O), thymine (C$_5$H$_6$N$_2$O$_2$), \\
-     & uracil (C$_4$H$_4$N$_2$O$_2$), DNA backbone (C$_5$H$_{10}$O$_5$P), \\
+     & uracil (C$_4$H$_4$N$_2$O$_2$), tetrahydrofuran (C$_4$H$_8$O), \\
+     & DNA backbone (C$_5$H$_{10}$O$_5$P), \\
      & dry DNA (C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$)\\
 \hline
 \end{tabular}
-\caption{Sixteen molecular targets of our interest classified in three 
+\caption{Seventeen molecular targets of our interest classified in three 
 families.}
 \label{tab:families}
 \end{center}
@@ -236,7 +237,8 @@ n_{\alpha}\sigma_{\alpha}}{\sum\limits_{\alpha}n_{\alpha}\nu_{\alpha}}
 =\sigma_{e}(v)\,, 
 \label{27} 
 \end{equation}
-where
+where $\nu_{\alpha}$ is the number of weakly bound electrons of the atom
+$\alpha$, given by
 \begin{equation}
 \nu_{\alpha}=\left\{ 
 \begin{array}{ll}
@@ -260,9 +262,16 @@ E\text{(MeV)}               & 0.25 & 1.00 & 2.00 \\
 \end{equation}
 with an estimated error of about 20\%. A similar ratio was found in 
 Ref.~\cite{itoh2013} for proton impact on uracil and adenine. 
+
+\begin{figure}[t!]
+\includegraphics[width=\textwidth]{figuras/scaling85.eps}
+\caption{Ionization cross section per weakly bound electron using
+(a) Eq.~(\ref{eq:nelec}) and (b) Eq.~(\ref{eq:scalingCDW}).}
+\label{fig:newscaling}
+\end{figure}
 Figure 4a shows $\sigma_{e}$ calculated with the CDW as a function of 
-the impact velocity for different projectile charges computed with the 
-SSM for the sixteen molecular targets displayed in 
+the impact energy for different projectile charges computed with the 
+SSM for the seventeen molecular targets displayed in 
 Table~\ref{tab:families}. The universality with $Z$ is the one provided 
 by Born approximation, i.e., $\sigma _{e}(Z)=Z^{2}\sigma_{e}(Z=1)$, 
 and it holds for large impact velocities, as shown Figure 4a.
@@ -297,6 +306,8 @@ $\sigma_{e}^{\text{CDW}}$ are plotted in Figure~4b. A much better sharp
 band is observed, especially at high energy, where the theory is 
 expected to work. It will be interesting for experiments to cross-check 
 this theoretical prediction.
+
+
 
 \subsection{Emitted electron energies}
 
@@ -559,14 +570,14 @@ the experiments (see Table 1 of Ref.~\cite{pimblott2007}).
 \section{Conclusions}
 
 We calculated ionization cross sections by impact of antiprotons, 
-H$^{+}$, He$^{2+}$, Be$^{4+}$, C$^{6+}$, and O$^{8+}$ for sixteen 
+H$^{+}$, He$^{2+}$, Be$^{4+}$, C$^{6+}$, and O$^{8+}$ for seventeen 
 molecules containing H, C, N, O, P and S with the CDW method. The 
 importance of the influence of $Z$ was observed in the mean energy 
 $\overline{E}_{\alpha}$ and angle $\overline{\theta}_{\alpha}$. 
 For a given target $\alpha$, as $Z$ increases, $\overline{E}_{\alpha}$ 
 increases, but $\overline{\theta}_{\alpha}$ decreases. At high impact 
 energy, say larger than 1 MeV/amu, these values converge to the Born 
-approximation, which embodies the simple $Z^{2}$ law. The sixteen 
+approximation, which embodies the simple $Z^{2}$ law. The seventeen 
 molecules selected were investigated using the simple stoichiometric 
 model. Results for six DNA bases were presented and compared with the 
 sparse available experiments. We explore the rule of Toburen which scales 
