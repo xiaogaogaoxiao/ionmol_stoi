@@ -90,8 +90,8 @@ approximation--, we calculate ionization cross-section of several
 molecules (see Table~\ref{tab:families}) by the impact of antiprotons,
 H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$,\ and O$^{+8}$. Furthermore, 
 in Section 3, we investigate different DNA and RNA molecules
-such as adenine, cytosine, guanine, thymine, uracil, and also DNA 
-backbone.
+such as adenine, cytosine, guanine, thymine, uracil, tetrahydrofuran 
+(THF), pyrimidine and also DNA backbone.
 
 The results are processed to test the Toburen scaling rule, which 
 states that the ratio between the ionization cross-section and the 
@@ -119,7 +119,9 @@ modified to account for the departure from neutrality of the atoms.
 We find that for the DNA molecules this modification does not introduce 
 a substantial change.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theory: Ionization of Atoms}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 In our study, we will consider six atoms $\alpha=$ H, C, N, O, P, and S. 
 Most of the organic molecules are composed of these atoms. Some 
@@ -149,6 +151,14 @@ will be reporting state to state ionization cross sections for these
 cases in Ref.~\cite{miraglia2019}, which will be very useful to estimate 
 molecule fragmentation.
 
+\begin{figure}[H]
+\centering
+%\includegraphics[width=\textwidth]{figuras/atomicscaling.eps}
+\includegraphics[width=0.7\textwidth]{figuras/Fig_finales/Fig1.eps}
+\caption{Scaled total ionization cross section of six atomic targets 
+by impact of six projectiles.}
+\label{eq:atomscaling}
+\end{figure} 
 In Figure 1, we report our total ionization results for the six 
 essential elements by the impact of six different projectiles: 
 antiprotons, H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
@@ -168,13 +178,10 @@ H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$, respectively.
 Notably, there is no complete tabulation of ionization of atoms by 
 the impact of multicharged ions. We hope that the ones presented 
 in this article will be of help for future works.
-\begin{figure}
-\includegraphics[width=\textwidth]{figuras/atomicscaling.eps}
-\caption{.}
-\label{eq:atomscaling}
-\end{figure} 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ionization of Molecules}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{The stoichiometric model}
 
@@ -190,18 +197,18 @@ We divided sixteen molecular targets of our interest in three families.
 The classification defined is given in Table~\ref{tab:families}.
 \begin{table}
 \begin{center}
-\begin{tabular}{|p{0.06\textwidth}|p{0.62\textwidth}|}
+\begin{tabular}{|p{0.06\textwidth}|p{0.56\textwidth}|}
 \hline
- CH  & CH$_4$, C$_2$H$_2$, C$_2$H$_4$, C$_2$H$_6$, and C$_6$H$_6$ \\
+ CH  & CH$_4$, C$_2$H$_2$, C$_2$H$_4$, C$_2$H$_6$, C$_6$H$_6$ \\
 \hline
- CHN & C$_5$H$_5$N, C$_4$H$_4$N$_2$, C$_2$H$_7$N, and CH$_5$N \\
+ CHN & C$_5$H$_5$N, C$_4$H$_4$N$_2$, C$_2$H$_7$N, CH$_5$N \\
 \hline
- \multirow{4}{*}{DNA} & adenine (C$_5$H$_5$N$_5$), 
-                        cytosine (C$_4$H$_5$N$_3$O), \\
-     & guanine (C$_5$H$_5$N$_5$O), thymine (C$_5$H$_6$N$_2$O$_2$), \\
-     & uracil (C$_4$H$_4$N$_2$O$_2$), tetrahydrofuran (C$_4$H$_8$O), \\
-     & DNA backbone (C$_5$H$_{10}$O$_5$P), \\
-     & dry DNA (C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$)\\
+ \multirow{5}{*}{DNA} 
+     & C$_5$H$_5$N$_5$ (adenine), C$_4$H$_5$N$_3$O (cytosine), \\
+     & C$_5$H$_5$N$_5$O (guanine), C$_5$H$_6$N$_2$O$_2$ (thymine), \\
+     & C$_4$H$_4$N$_2$O$_2$ (uracil), C$_4$H$_8$O (THF), \\
+     & C$_5$H$_{10}$O$_5$P (DNA backbone), \\
+     & C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$ (dry DNA) \\
 \hline
 \end{tabular}
 \caption{Seventeen molecular targets of our interest classified in three 
@@ -211,18 +218,54 @@ families.}
 \end{table}
 
 In Figure 2, we report the total ionization cross sections by the 
-impact of multicharged ions for the four fundamental DNA components: 
-adenine, cytosine, guanine and thymine. Our reports for uracil and 
-DNA backbone containing P are given in Figure 3. For adenine, the 
-agreement with the experimental data available in our range of validity 
-is quite good. For uracil, we have a puzzling situation: our results 
-show good agreement with the experiments by proton impact of Itoh 
-{\it et al.}~\cite{itoh2013}, but for the same target our theory fails 
-by a factor of two for the impact of C$^{+4}$ and O$^{+6}$ ions. 
+impact of multicharged ions for adenine, cytosine, guanine and thymine. 
+For adenine, the agreement with the experimental data 
+available (circles)~\cite{iriki2011} is quite good in our range of validity. 
+To the best of our knowledge, there are not experimental data on 
+ion--collision ionization for the rest of the molecules. We included 
+electron impact measurements (right--oriented triangles)~\cite{mozejko2003} 
+for incident energies greater than 500keV, were good agreement is found 
+with proton ionization for all the molecules. 
+%In fact, recent models for electron impact in complex biomolecules 
+%have been under progress~\ref{tan2018}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figuras/Fig_finales/Fig2.eps}
+\caption{Present ionization cross section by impact of six projectiles, 
+and experimental values for proton and electron ionization.}
+\label{eq:crossDNA}
+\end{figure} 
+
+Our reports for uracil, DNA backbone, pyrimidine and THF are given in 
+Figure 3. For uracil, we have good agreement with the experimental 
+proton impact measurements by Itoh~{\it et al.}~\cite{itoh2013}. 
+However, for the same target, our theory fails by a factor of two for 
+the experimental ionization values by the impact of C$^{+4}$~(square symbols), 
+O$^{+6}$~(circle symbols) and O$^{+8}$~(triangle--down symbols) 
+ions~\cite{agnihotri2012,agnihotri2013}. 
 Nonetheless, it should be stated that our theoretical results coincide 
 with calculations by Champion, Rivarola and 
 collaborators~\cite{champion2012,agnihotri2012}, which may indicate a 
 possible misstep of the experiments. 
+For pyrimidine, we show comparison of our results with experimental 
+proton~\cite{wolff2014} and electron~\cite{bug2017} ionization. 
+The electron impact measurements agree with our calculations for energies
+higher than 500keV. Unexpectedly, the proton impact cross sections are
+significantly lower than our findings. 
+The THF molecule results are compared with proton~\cite{wang2016} and 
+electron~\cite{wolf2019,bug2017,fuss2009} impact measurements, showing
+overall good agreement with our theory. 
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figuras/Fig_finales/Fig3.eps}
+\caption{Present ionization cross section by impact of six projectiles, 
+and experimental values for proton and electron ionization.}
+\label{eq:crossDNA}
+\end{figure} 
+
 
 \subsection{Scaling rule}
 
@@ -646,11 +689,23 @@ J. E. Miraglia. Shell-to-shell ionization cross
 sections of antiprotons, H$^{+}$, He$^{+2},$ Be$^{+4},$ C$^{+6}$ and 
 O$^{+8}$ on H, C, N, O, P, and S atoms To be published Archive 2019.
 
+\bibitem{iriki2011}
+Y. Iriki, Y. Kikuchi, M. Imai, and A. Itoh
+Phys. Rev. A \textbf{84} 052719 (2011).
+
+\bibitem{mozejko2003}
+P. Mozejko and L. Sanche, Radiat Environ. 
+Biophys \textbf{42}, 201 (2003).
+
+\bibitem{tan2018}
+H. Q. Tan, Z. Mi, and A. A. Bettiol, 
+Simple and universal model for electron-impact ionization of complex biomolecules, 
+Phys. Rev. E \text{97}, 032403 (2018)
+
 \bibitem{itoh2013} 
-A. Itoh, Y. Iriki, M. Imai, C. Champion, and R. D.
-Rivarola, Cross sections for ionization of uracil by MeV-energy-proton
-impact, 
-Phys. Rev. A 88, 052711 (2013)
+A. Itoh, Y. Iriki, M. Imai, C. Champion, and R. D. Rivarola, 
+Cross sections for ionization of uracil by MeV-energy-proton impact, 
+Phys. Rev. A 88, 052711 (2013).
 
 \bibitem{} in energy and angles~,
 
@@ -667,6 +722,48 @@ H. Lekadir, P. F. Weck, and L. C. Tribedi. Ionization of uracil in
 collisions with highly charged carbon and oxygen ions of energy 100 keV to
 78 MeV. 
 Phys. Rev. A 85, 032711 (2012).
+
+\bibitem{agnihotri2013}
+A N Agnihotri, S Kasthurirangan, S Nandi, A Kumar, C Champion,, H Lekadir, 
+J Hanssen, P FWeck, M E Galassi, R D Rivarola, O Fojon and L C Tribedi, 
+Absolute total ionization cross sections of uracil (C4H4N2O2) in 
+collisions with MeV energy highly charged carbon, oxygen and fluorine ions
+J. Phys. B \textbf{46}, 185201 (2013).
+
+\bibitem{wolff2014}
+W. Wolff, H. Luna, L. Sigaud, A. C. Tavares, and E. C. Montenegro
+Absolute total and partial dissociative cross sections of pyrimidine
+at electron and proton intermediate impact velocities
+J. Chem. Phys. \textbf{140}, 064309 (2014).
+
+\bibitem{bug2017}
+M. U. Bug, W. Y. Baek, H. Rabus, C. Villagrasa, S. Meylan, A. B. Rosenfeld,
+An electron-impact cross section data set (10 eV--1 keV) of DNA
+constituents based on consistent experimental data: A requisite for 
+Monte Carlo simulations,
+Rad. Phys. Chem. \textbf{130} 459--479 (2017).
+
+\bibitem{wang2016}
+M. Wang, B. Rudek, D. Bennett, P. de Vera, M. Bug, T. Buhr, W. Y. Baek, 
+G. Hilgers, H. Rabus, 
+Cross sections for ionization of tetrahydrofuran by protons at energies 
+between 300 and 3000 keV
+Phys. Rev. A \textbf{93}, 052711 (2016).
+
+\bibitem{wolf2019}
+W. Wolff, B. Rudek, L. A. da Silva, G. Hilgers, E. C. Montenegro, 
+M. G. P. Homem,
+Absolute ionization and dissociation cross sections of tetrahydrofuran:
+Fragmentation--ion production mechanisms
+J. Chem. Phys. \textbf{151}, 064304 (2019).
+
+\bibitem{fuss2009}
+M. Fuss, A. Muñoz, J. C. Oller, F. Blanco, D. Almeida, P. Limão-Vieira, 
+T. P. D. Do, M. J. Brunger, G. García,
+Electron-scattering cross sections for collisions with tetrahydrofuran 
+from 50 to 5000 eV
+Phys. Rev. A \textbf{80}, 052709 (2009).
+
 
 \bibitem{toburen1975} 
 W. E. Wilson and L. H. Toburen. Electron emission from

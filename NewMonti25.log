@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.19)  15 SEP 2019 15:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  16 SEP 2019 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **NewMonti25.tex
 (./NewMonti25.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 6 language(s) loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 5 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -35,40 +35,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen103
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -89,38 +89,42 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip46
-\multirow@cntb=\count99
-\multirow@dima=\skip47
 \bigstrutjot=\dimen114
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
@@ -136,8 +140,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip48
-\@affilsep=\skip49
+\affilsep=\skip46
+\@affilsep=\skip47
 \c@Maxaffil=\count101
 \c@authors=\count102
 \c@affil=\count103
@@ -146,7 +150,11 @@ Package: authblk 2001/02/27 1.3 (PWD)
 LaTeX Warning: Unused global option(s):
     [preprint].
 
-(./NewMonti25.aux)
+(./NewMonti25.aux
+
+LaTeX Warning: Label `eq:crossDNA' multiply defined.
+
+)
 \openout1 = `NewMonti25.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -161,8 +169,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen115
@@ -175,57 +182,49 @@ LaTeX Font Info:    ... okay on input line 25.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks24
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -254,154 +253,213 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package epstopdf Info: Source file: <figuras/atomicscaling.eps>
-(epstopdf)                    date: 2019-09-15 15:20:07
-(epstopdf)                    size: 244183 bytes
-(epstopdf)             Output file: <figuras/atomicscaling-eps-converted-to.pdf
->
-(epstopdf)                    date: 2019-09-15 15:20:35
-(epstopdf)                    size: 19836 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/atomicscaling-eps-
-converted-to.pdf figuras/atomicscaling.eps>
-(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Source file: <figuras/Fig_finales/Fig1.eps>
+(epstopdf)                    date: 2019-09-15 10:33:04
+(epstopdf)                    size: 109166 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/Fig1-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-09-16 14:08:34
+(epstopdf)                    size: 42993 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig1-e
+ps-converted-to.pdf figuras/Fig_finales/Fig1.eps>
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./figuras/atomicscaling-eps-converted-to.pdf): P
-DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/atomicscaling-eps-converted-to.pdf, id=15, 1112.72708pt x 632.4729pt>
-File: figuras/atomicscaling-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras/atomicscaling-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/atomicscaling-eps-converted-to.pdf  used on in
-put line 172.
-(pdftex.def)             Requested size: 390.0pt x 221.668pt.
-[3] [4 <./figuras/atomicscaling-eps-converted-to.pdf>]
-Overfull \hbox (2.70346pt too wide) in paragraph at lines 197--197
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figuras/Fig_finales/Fig1-eps-converted-to.pdf, id=15, 829.0975pt x 581.17125pt
+>
+File: figuras/Fig_finales/Fig1-eps-converted-to.pdf Graphic file (type pdf)
+ <use figuras/Fig_finales/Fig1-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/Fig1-eps-converted-to.pdf used on 
+input line 157.
+(pdftex.def)             Requested size: 272.99881pt x 191.36143pt.
+ [3] [4 <./figuras/Fig_finales/Fig1-eps-converted-to.pdf>]
+Overfull \hbox (2.70346pt too wide) in paragraph at lines 204--204
 []\OT1/cmr/m/n/12 CHN| 
  []
 
 
-Overfull \hbox (3.19096pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.19096pt too wide) in paragraph at lines 206--207
 [][]| 
  []
 
+Package epstopdf Info: Source file: <figuras/Fig_finales/Fig2.eps>
+(epstopdf)                    date: 2019-09-15 10:35:02
+(epstopdf)                    size: 105309 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/Fig2-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-09-16 12:22:10
+(epstopdf)                    size: 41458 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig2-e
+ps-converted-to.pdf figuras/Fig_finales/Fig2.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
 
-Overfull \hbox (2.83759pt too wide) in paragraph at lines 229--237
+
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<figuras/Fig_finales/Fig2-eps-converted-to.pdf, id=86, 829.0975pt x 581.17125pt
+>
+File: figuras/Fig_finales/Fig2-eps-converted-to.pdf Graphic file (type pdf)
+ <use figuras/Fig_finales/Fig2-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/Fig2-eps-converted-to.pdf used on 
+input line 234.
+(pdftex.def)             Requested size: 272.99881pt x 191.36143pt.
+ [5]
+Package epstopdf Info: Source file: <figuras/Fig_finales/Fig3.eps>
+(epstopdf)                    date: 2019-09-16 18:58:43
+(epstopdf)                    size: 241090 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/Fig3-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-09-16 18:58:59
+(epstopdf)                    size: 64196 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig3-e
+ps-converted-to.pdf figuras/Fig_finales/Fig3.eps>
+(epstopdf)             \includegraphics on input line 263.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig3-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/Fig_finales/Fig3-eps-converted-to.pdf, id=92, 807.015pt x 566.115pt>
+File: figuras/Fig_finales/Fig3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figuras/Fig_finales/Fig3-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/Fig3-eps-converted-to.pdf used on 
+input line 263.
+(pdftex.def)             Requested size: 272.99881pt x 191.50906pt.
+ [6 <./figuras/Fig_finales/Fig2-eps-converted-to.pdf>]
+Overfull \hbox (2.83759pt too wide) in paragraph at lines 272--280
 \OT1/cmr/m/n/12 The first at-tempt to de-velop a com-pre-hen-sive but straight-
 for-ward phe-nomeno-
  []
 
-[5]
+[7 <./figuras/Fig_finales/Fig3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/molscaling85.eps>
-(epstopdf)                    date: 2019-09-14 19:08:12
-(epstopdf)                    size: 257803 bytes
+(epstopdf)                    date: 2019-09-16 15:34:53
+(epstopdf)                    size: 259628 bytes
 (epstopdf)             Output file: <figuras/molscaling85-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2019-09-14 19:08:38
-(epstopdf)                    size: 20891 bytes
+(epstopdf)                    date: 2019-09-16 15:58:20
+(epstopdf)                    size: 21417 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/molscaling85-eps-c
 onverted-to.pdf figuras/molscaling85.eps>
-(epstopdf)             \includegraphics on input line 270.
+(epstopdf)             \includegraphics on input line 313.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/molscaling85-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/molscaling85-eps-converted-to.pdf, id=39, 1110.91035pt x 571.1438pt>
+
+<figuras/molscaling85-eps-converted-to.pdf, id=235, 1113.15875pt x 629.35126pt>
 File: figuras/molscaling85-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/molscaling85-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/molscaling85-eps-converted-to.pdf  used on inp
-ut line 270.
-(pdftex.def)             Requested size: 390.0pt x 200.50465pt.
-[6] [7 <./figuras/molscaling85-eps-converted-to.pdf>] [8] [9]
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 467--467
+Package pdftex.def Info: figuras/molscaling85-eps-converted-to.pdf used on inpu
+t line 313.
+(pdftex.def)             Requested size: 390.0pt x 220.4971pt.
+ [8 <./figuras/molscaling85-eps-converted-to.pdf>] [9] [10] [11]
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 510--510
 []\OT1/cmr/m/n/12 +0.32| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 467--467
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 510--510
 []\OT1/cmr/m/n/12 +0.23| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 470--470
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 513--513
 []\OT1/cmr/m/n/12 +0.28| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 470--470
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 513--513
 []\OT1/cmr/m/n/12 +0.21| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 516--516
 []\OT1/cmr/m/n/12 +0.46| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 516--516
 []\OT1/cmr/m/n/12 +0.20| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 519--519
 []\OT1/cmr/m/n/12 +0.20| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 476--476
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 519--519
 []\OT1/cmr/m/n/12 +0.19| 
  []
 
-[10]
+[12]
 Package epstopdf Info: Source file: <figuras/levelsDNA.eps>
-(epstopdf)                    date: 2019-09-14 19:04:44
-(epstopdf)                    size: 199024 bytes
+(epstopdf)                    date: 2019-09-16 11:31:31
+(epstopdf)                    size: 199053 bytes
 (epstopdf)             Output file: <figuras/levelsDNA-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-09-14 19:08:46
-(epstopdf)                    size: 10696 bytes
+(epstopdf)                    date: 2019-09-16 11:31:35
+(epstopdf)                    size: 10691 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/levelsDNA-eps-conv
 erted-to.pdf figuras/levelsDNA.eps>
-(epstopdf)             \includegraphics on input line 521.
+(epstopdf)             \includegraphics on input line 564.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/levelsDNA-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/levelsDNA-eps-converted-to.pdf, id=64, 1120.26526pt x 563.47513pt>
+<figuras/levelsDNA-eps-converted-to.pdf, id=261, 1121.18875pt x 564.1075pt>
 File: figuras/levelsDNA-eps-converted-to.pdf Graphic file (type pdf)
+
 <use figuras/levelsDNA-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/levelsDNA-eps-converted-to.pdf  used on input 
-line 521.
-(pdftex.def)             Requested size: 390.0pt x 196.1617pt.
-[11 <./figuras/levelsDNA-eps-converted-to.pdf>] [12] [13] [14] [15]
-(./NewMonti25.aux) ) 
+Package pdftex.def Info: figuras/levelsDNA-eps-converted-to.pdf used on input l
+ine 564.
+(pdftex.def)             Requested size: 390.0pt x 196.2269pt.
+ [13 <./figuras/levelsDNA-eps-converted-to.pdf>] [14] [15] [16]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ­ in font cmr12!
+ [17] [18] (./NewMonti25.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2632 strings out of 494861
- 34821 string characters out of 6178804
- 92820 words of memory out of 5000000
- 5908 multiletter control sequences out of 15000+600000
+ 2651 strings out of 494966
+ 35197 string characters out of 6179559
+ 96034 words of memory out of 5000000
+ 5819 multiletter control sequences out of 15000+600000
  11358 words of font info for 42 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 41i,14n,26p,277b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on NewMonti25.pdf (15 pages, 221007 bytes).
+ 38i,14n,26p,248b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NewMonti25.pdf (18 pages, 344164 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 336 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
