@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.19)  14 SEP 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.19)  15 SEP 2019 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,12 +255,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package epstopdf Info: Source file: <figuras/atomicscaling.eps>
-(epstopdf)                    date: 2019-09-14 19:07:50
-(epstopdf)                    size: 232317 bytes
+(epstopdf)                    date: 2019-09-15 15:20:07
+(epstopdf)                    size: 244183 bytes
 (epstopdf)             Output file: <figuras/atomicscaling-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2019-09-14 19:08:31
-(epstopdf)                    size: 14553 bytes
+(epstopdf)                    date: 2019-09-15 15:20:35
+(epstopdf)                    size: 19836 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/atomicscaling-eps-
 converted-to.pdf figuras/atomicscaling.eps>
 (epstopdf)             \includegraphics on input line 172.
@@ -398,7 +398,7 @@ lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb>
-Output written on NewMonti25.pdf (15 pages, 215815 bytes).
+Output written on NewMonti25.pdf (15 pages, 221007 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
