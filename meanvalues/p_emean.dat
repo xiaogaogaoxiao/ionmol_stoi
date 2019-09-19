@@ -1,0 +1,77 @@
+0
+VI  1.00  PP_CDW_total_E1  XS  13.03  E1  4.983  E1/XS  0.3824  Ne  0.295
+VI  1.41  PP_CDW_total_E1  XS  20.85  E1  11.7  E1/XS  0.5614  Ne  1.24
+VI  2.00  PP_CDW_total_E1  XS  18.06  E1  13.67  E1/XS  0.7568  Ne  2.64
+VI  2.83  PP_CDW_total_E1  XS  11.78  E1  11.63  E1/XS  0.987  Ne  4.21
+VI  3.46  PP_CDW_total_E1  XS  8.7  E1  10.09  E1/XS  1.16  Ne  5.2
+VI  4.00  PP_CDW_total_E1  XS  6.936  E1  9.071  E1/XS  1.308  Ne  5.98
+VI  4.47  PP_CDW_total_E1  XS  5.789  E1  8.298  E1/XS  1.433  Ne  6.6
+VI  5.29  PP_CDW_total_E1  XS  4.38  E1  7.165  E1/XS  1.636  Ne  7.56
+VI  6.32  PP_CDW_total_E1  XS  3.234  E1  5.987  E1/XS  1.852  Ne  8.4
+VI  8.94  PP_CDW_total_E1  XS  1.767  E1  3.925  E1/XS  2.221  Ne  9.32
+0
+VI  1.00  APP_CDW_total_E  XS  18.89  E1  9.396  E1/XS  0.4973  Ne  0.864
+VI  1.41  APP_CDW_total_E  XS  20.53  E1  12.17  E1/XS  0.5928  Ne  1.68
+VI  2.00  APP_CDW_total_E  XS  16.79  E1  12.4  E1/XS  0.739  Ne  2.83
+VI  2.83  APP_CDW_total_E  XS  11.22  E1  10.59  E1/XS  0.9435  Ne  4.19
+VI  3.46  APP_CDW_total_E  XS  8.378  E1  9.176  E1/XS  1.095  Ne  5.05
+VI  4.00  APP_CDW_total_E  XS  6.716  E1  8.206  E1/XS  1.222  Ne  5.74
+VI  4.47  APP_CDW_total_E  XS  5.623  E1  7.488  E1/XS  1.332  Ne  6.31
+VI  5.29  APP_CDW_total_E  XS  4.275  E1  6.431  E1/XS  1.504  Ne  6.96
+VI  6.32  APP_CDW_total_E  XS  3.174  E1  5.432  E1/XS  1.711  Ne  7.83
+VI  8.94  APP_CDW_total_E  XS  1.751  E1  3.663  E1/XS  2.093  Ne  8.64
+0
+VI  1.00  He2P_CDW_total_  XS  11.18  E1  5.008  E1/XS  0.448  Ne  0.287
+VI  1.41  He2P_CDW_total_  XS  37.07  E1  24.58  E1/XS  0.6632  Ne  2.62
+VI  2.00  He2P_CDW_total_  XS  48.17  E1  40.68  E1/XS  0.8444  Ne  7.87
+VI  2.83  He2P_CDW_total_  XS  39.04  E1  40.12  E1/XS  1.028  Ne  14.4
+VI  3.46  He2P_CDW_total_  XS  30.99  E1  36.54  E1/XS  1.179  Ne  18.7
+VI  4.00  He2P_CDW_total_  XS  25.58  E1  33.78  E1/XS  1.321  Ne  22
+VI  4.47  He2P_CDW_total_  XS  21.79  E1  31.59  E1/XS  1.449  Ne  24.9
+VI  5.29  He2P_CDW_total_  XS  16.85  E1  28  E1/XS  1.661  Ne  29.2
+VI  6.32  He2P_CDW_total_  XS  12.63  E1  23.87  E1/XS  1.889  Ne  33.3
+VI  8.94  He2P_CDW_total_  XS  7.004  E1  15.87  E1/XS  2.266  Ne  37.5
+0
+VI  1.00  Be3P_CDW_total_  XS  3.606  E1  1.792  E1/XS  0.4968  Ne  0.0935
+VI  1.41  Be3P_CDW_total_  XS  39.94  E1  32.83  E1/XS  0.8219  Ne  3.42
+VI  2.00  Be3P_CDW_total_  XS  90.83  E1  96.53  E1/XS  1.063  Ne  18.8
+VI  2.83  Be3P_CDW_total_  XS  101.5  E1  119  E1/XS  1.172  Ne  42.2
+VI  3.46  Be3P_CDW_total_  XS  91.48  E1  114.7  E1/XS  1.254  Ne  58
+VI  4.00  Be3P_CDW_total_  XS  81.04  E1  109.7  E1/XS  1.354  Ne  71
+VI  4.47  Be3P_CDW_total_  XS  72.24  E1  105.5  E1/XS  1.461  Ne  82.9
+VI  5.29  Be3P_CDW_total_  XS  58.98  E1  97.9  E1/XS  1.66  Ne  102
+VI  6.32  Be3P_CDW_total_  XS  46.14  E1  87.85  E1/XS  1.904  Ne  123
+VI  8.94  Be3P_CDW_total_  XS  26.9  E1  62.22  E1/XS  2.313  Ne  149
+0
+VI  1.00  C6P_CDW_total_E  XS  0.8796  E1  0.4496  E1/XS  0.5112  Ne  0.0223
+VI  1.41  C6P_CDW_total_E  XS  31.12  E1  28.18  E1/XS  0.9057  Ne  2.86
+VI  2.00  C6P_CDW_total_E  XS  111.1  E1  138.6  E1/XS  1.247  Ne  26.6
+VI  2.83  C6P_CDW_total_E  XS  156.1  E1  211.3  E1/XS  1.354  Ne  74.6
+VI  3.46  C6P_CDW_total_E  XS  154.5  E1  213.2  E1/XS  1.381  Ne  107
+VI  4.00  C6P_CDW_total_E  XS  144.5  E1  206.9  E1/XS  1.432  Ne  133
+VI  4.47  C6P_CDW_total_E  XS  133.5  E1  201  E1/XS  1.506  Ne  156
+VI  5.29  C6P_CDW_total_E  XS  114.2  E1  191  E1/XS  1.672  Ne  198
+VI  6.32  C6P_CDW_total_E  XS  92.91  E1  176.9  E1/XS  1.903  Ne  249
+VI  8.94  C6P_CDW_total_E  XS  57.07  E1  132.9  E1/XS  2.329  Ne  320
+0
+VI  1.00  O8P_CDW_total_E  XS  0.1904  E1  0.09869  E1/XS  0.5184  Ne  0.00475
+VI  1.41  O8P_CDW_total_E  XS  21.74  E1  20.72  E1/XS  0.9532  Ne  2.06
+VI  2.00  O8P_CDW_total_E  XS  118.5  E1  165.5  E1/XS  1.397  Ne  31.8
+VI  2.83  O8P_CDW_total_E  XS  199.1  E1  306.7  E1/XS  1.54  Ne  109
+VI  3.46  O8P_CDW_total_E  XS  212.2  E1  324.4  E1/XS  1.529  Ne  163
+VI  4.00  O8P_CDW_total_E  XS  207.5  E1  319.4  E1/XS  1.54  Ne  204
+VI  4.47  O8P_CDW_total_E  XS  197.5  E1  311.8  E1/XS  1.578  Ne  240
+VI  5.29  O8P_CDW_total_E  XS  175.7  E1  300  E1/XS  1.708  Ne  309
+VI  6.32  O8P_CDW_total_E  XS  147.9  E1  283.1  E1/XS  1.914  Ne  398
+VI  8.94  O8P_CDW_total_E  XS  95.14  E1  222.2  E1/XS  2.336  Ne  538
+0
+VI  1.00  PP_Brn_total_E1  XS  40.85  E1  14.02  E1/XS  0.3431  Ne  0.923
+VI  1.41  PP_Brn_total_E1  XS  32.74  E1  16.46  E1/XS  0.5028  Ne  1.85
+VI  2.00  PP_Brn_total_E1  XS  21.24  E1  14.91  E1/XS  0.702  Ne  3.02
+VI  2.83  PP_Brn_total_E1  XS  12.46  E1  11.77  E1/XS  0.9441  Ne  4.39
+VI  3.46  PP_Brn_total_E1  XS  8.953  E1  9.995  E1/XS  1.116  Ne  5.3
+VI  4.00  PP_Brn_total_E1  XS  7.051  E1  8.828  E1/XS  1.252  Ne  5.9
+VI  4.47  PP_Brn_total_E1  XS  5.846  E1  8.006  E1/XS  1.369  Ne  6.42
+VI  5.29  PP_Brn_total_E1  XS  4.396  E1  6.877  E1/XS  1.564  Ne  7.33
+VI  6.32  PP_Brn_total_E1  XS  3.236  E1  5.753  E1/XS  1.778  Ne  8.18
+VI  8.94  PP_Brn_total_E1  XS  1.784  E1  3.818  E1/XS  2.14  Ne  9.14
