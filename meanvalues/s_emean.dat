@@ -53,10 +53,6 @@ VI  4.47  C6S_CDW_total_E  XS  120  E1  180.1  E1/XS  1.501  Ne  142
 VI  5.29  C6S_CDW_total_E  XS  105.3  E1  171.7  E1/XS  1.629  Ne  182
 VI  6.32  C6S_CDW_total_E  XS  87.94  E1  160.4  E1/XS  1.824  Ne  231
 VI  8.94  C6S_CDW_total_E  XS  56.15  E1  124.7  E1/XS  2.22  Ne  312
-VI  10.9  C6S_CDW_total_E  XS  41.4  E1  98.37  E1/XS  2.376  Ne  324
-VI  14.1  C6S_CDW_total_E  XS  27.4  E1  69.01  E1/XS  2.519  Ne  328
-VI  16.7  C6S_CDW_total_E  XS  20.65  E1  53.64  E1/XS  2.597  Ne  326
-VI  20.0  C6S_CDW_total_E  XS  15.2  E1  40.6  E1/XS  2.672  Ne  327
 0
 VI  1.00  O8S_CDW_total_E  XS  0.06523  E1  0.03313  E1/XS  0.5079  Ne  0.00156
 VI  1.41  O8S_CDW_total_E  XS  11.93  E1  11.38  E1/XS  0.9533  Ne  1.12

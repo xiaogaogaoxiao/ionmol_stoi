@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  18 SEP 2019 16:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  19 SEP 2019 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,6 +146,165 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count102
 \c@affil=\count103
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup6
+\symMnSyB=\mathgroup7
+\symMnSyC=\mathgroup8
+\symMnSyD=\mathgroup9
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
 
 LaTeX Warning: Unused global option(s):
     [preprint].
@@ -164,6 +323,12 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -227,19 +392,19 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\symgns@font=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+Package gensymb Info: Math companion symbols declared on input line 25.
+LaTeX Info: Redefining \degree on input line 25.
 LaTeX Info: Redefining \celsius on input line 25.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
-
-
-
-Package gensymb Warning: Not defining \perthousand.
-
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 25.
 LaTeX Info: Redefining \ohm on input line 25.
-Package gensymb Info: Using \Omega for \ohm on input line 25.
-
-Package gensymb Warning: Not defining \micro.
-
+Package gensymb Info: Using \textohm for \ohm on input line 25.
+Package gensymb Info: Using \textmu for \micro on input line 25.
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -266,7 +431,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig1-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figuras/Fig_finales/Fig1-eps-converted-to.pdf, id=19, 829.0975pt x 581.17125pt
+<figuras/Fig_finales/Fig1-eps-converted-to.pdf, id=21, 829.0975pt x 581.17125pt
 >
 File: figuras/Fig_finales/Fig1-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/Fig_finales/Fig1-eps-converted-to.pdf>
@@ -284,103 +449,107 @@ Overfull \hbox (3.19096pt too wide) in paragraph at lines 212--213
  []
 
 Package epstopdf Info: Source file: <figuras/Fig_finales/fig2.eps>
-(epstopdf)                    date: 2019-09-18 12:06:58
-(epstopdf)                    size: 199164 bytes
+(epstopdf)                    date: 2019-09-19 15:41:36
+(epstopdf)                    size: 199334 bytes
 (epstopdf)             Output file: <figuras/Fig_finales/fig2-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-09-18 12:35:30
-(epstopdf)                    size: 42103 bytes
+(epstopdf)                    date: 2019-09-19 15:44:31
+(epstopdf)                    size: 41787 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/fig2-e
 ps-converted-to.pdf figuras/Fig_finales/fig2.eps>
-(epstopdf)             \includegraphics on input line 242.
+(epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/Fig_finales/fig2-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/Fig_finales/fig2-eps-converted-to.pdf, id=87, 807.015pt x 566.115pt>
+<figuras/Fig_finales/fig2-eps-converted-to.pdf, id=89, 807.015pt x 566.115pt>
 File: figuras/Fig_finales/fig2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Fig_finales/fig2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Fig_finales/fig2-eps-converted-to.pdf used on 
-input line 242.
+input line 241.
 (pdftex.def)             Requested size: 292.5pt x 205.18335pt.
  [5]
-Package epstopdf Info: Source file: <figuras/Fig_finales/Fig3.eps>
-(epstopdf)                    date: 2019-09-18 11:14:09
-(epstopdf)                    size: 245564 bytes
-(epstopdf)             Output file: <figuras/Fig_finales/Fig3-eps-converted-to.
+Package epstopdf Info: Source file: <figuras/Fig_finales/fig3.eps>
+(epstopdf)                    date: 2019-09-19 15:41:37
+(epstopdf)                    size: 245088 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/fig3-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-09-18 11:15:29
-(epstopdf)                    size: 63688 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig3-e
-ps-converted-to.pdf figuras/Fig_finales/Fig3.eps>
+(epstopdf)                    date: 2019-09-19 15:45:29
+(epstopdf)                    size: 60954 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/fig3-e
+ps-converted-to.pdf figuras/Fig_finales/fig3.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig3-eps-converted-to.pdf)
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/fig3-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/Fig_finales/Fig3-eps-converted-to.pdf, id=93, 807.015pt x 566.115pt>
-File: figuras/Fig_finales/Fig3-eps-converted-to.pdf Graphic file (type pdf)
+<figuras/Fig_finales/fig3-eps-converted-to.pdf, id=95, 807.015pt x 566.115pt>
+File: figuras/Fig_finales/fig3-eps-converted-to.pdf Graphic file (type pdf)
 
-<use figuras/Fig_finales/Fig3-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Fig_finales/Fig3-eps-converted-to.pdf used on 
+<use figuras/Fig_finales/fig3-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/fig3-eps-converted-to.pdf used on 
 input line 272.
 (pdftex.def)             Requested size: 292.5pt x 205.18335pt.
 
-Overfull \hbox (2.83759pt too wide) in paragraph at lines 284--292
+Overfull \hbox (2.83759pt too wide) in paragraph at lines 291--299
 \OT1/cmr/m/n/12 The first at-tempt to de-velop a com-pre-hen-sive but straight-
 for-ward phe-nomeno-
  []
 
 [6 <./figuras/Fig_finales/fig2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/Fig_finales/Fig4.eps>
-(epstopdf)                    date: 2019-09-18 11:15:49
-(epstopdf)                    size: 736617 bytes
-(epstopdf)             Output file: <figuras/Fig_finales/Fig4-eps-converted-to.
+Package epstopdf Info: Source file: <figuras/Fig_finales/fig4.eps>
+(epstopdf)                    date: 2019-09-19 15:41:38
+(epstopdf)                    size: 737187 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/fig4-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-09-18 11:17:22
-(epstopdf)                    size: 223642 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig4-e
-ps-converted-to.pdf figuras/Fig_finales/Fig4.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)                    date: 2019-09-19 15:45:29
+(epstopdf)                    size: 223462 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/fig4-e
+ps-converted-to.pdf figuras/Fig_finales/fig4.eps>
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig4-eps-converted-to.pdf)
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/fig4-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figuras/Fig_finales/Fig4-eps-converted-to.pdf, id=157, 810.02625pt x 626.34pt>
-File: figuras/Fig_finales/Fig4-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras/Fig_finales/Fig4-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Fig_finales/Fig4-eps-converted-to.pdf used on 
-input line 333.
+<figuras/Fig_finales/fig4-eps-converted-to.pdf, id=160, 810.02625pt x 626.34pt>
+File: figuras/Fig_finales/fig4-eps-converted-to.pdf Graphic file (type pdf)
+<use figuras/Fig_finales/fig4-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/fig4-eps-converted-to.pdf used on 
+input line 340.
 (pdftex.def)             Requested size: 292.5pt x 226.17033pt.
- [7 <./figuras/Fig_finales/Fig3-eps-converted-to.pdf>] [8 <./figuras/Fig_finale
-s/Fig4-eps-converted-to.pdf>] [9]
-Package epstopdf Info: Source file: <figuras/fig_recta.eps>
-(epstopdf)                    date: 2019-09-18 11:05:07
-(epstopdf)                    size: 164652 bytes
-(epstopdf)             Output file: <figuras/fig_recta-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-09-18 11:05:25
-(epstopdf)                    size: 31672 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/fig_recta-eps-conv
-erted-to.pdf figuras/fig_recta.eps>
-(epstopdf)             \includegraphics on input line 439.
+ [7 <./figuras/Fig_finales/fig3-eps-converted-to.pdf>] [8 <./figuras/Fig_finale
+s/fig4-eps-converted-to.pdf>] [9]
+Package epstopdf Info: Source file: <figuras/Fig_finales/fig_recta.eps>
+(epstopdf)                    date: 2019-09-19 15:41:38
+(epstopdf)                    size: 167248 bytes
+(epstopdf)             Output file: <figuras/Fig_finales/fig_recta-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-09-19 16:08:49
+(epstopdf)                    size: 31840 bytes
+(epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/fig_re
+cta-eps-converted-to.pdf figuras/Fig_finales/fig_recta.eps>
+(epstopdf)             \includegraphics on input line 452.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./figuras/fig_recta-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/fig_recta-eps-converted-to.pdf, id=289, 807.015pt x 618.31pt>
-File: figuras/fig_recta-eps-converted-to.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./figuras/Fig_finales/fig_recta-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
 
-<use figuras/fig_recta-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/fig_recta-eps-converted-to.pdf used on input l
-ine 439.
+<figuras/Fig_finales/fig_recta-eps-converted-to.pdf, id=292, 807.015pt x 618.31
+pt>
+File: figuras/Fig_finales/fig_recta-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use figuras/Fig_finales/fig_recta-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/Fig_finales/fig_recta-eps-converted-to.pdf use
+d on input line 452.
 (pdftex.def)             Requested size: 292.5pt x 224.10097pt.
- [10 <./figuras/fig_recta-eps-converted-to.pdf>]
+ [10 <./figuras/Fig_finales/fig_recta-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/Fig_finales/Fig5.eps>
 (epstopdf)                    date: 2019-09-18 11:17:02
 (epstopdf)                    size: 108456 bytes
@@ -390,19 +559,19 @@ pdf>
 (epstopdf)                    size: 45009 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig5-e
 ps-converted-to.pdf figuras/Fig_finales/Fig5.eps>
-(epstopdf)             \includegraphics on input line 470.
+(epstopdf)             \includegraphics on input line 488.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig5-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figuras/Fig_finales/Fig5-eps-converted-to.pdf, id=355, 829.0975pt x 581.17125p
+<figuras/Fig_finales/Fig5-eps-converted-to.pdf, id=358, 829.0975pt x 581.17125p
 t>
 File: figuras/Fig_finales/Fig5-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/Fig_finales/Fig5-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Fig_finales/Fig5-eps-converted-to.pdf used on 
-input line 470.
+input line 488.
 (pdftex.def)             Requested size: 292.5pt x 205.02695pt.
  [11 <./figuras/Fig_finales/Fig5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/Fig_finales/Fig6.eps>
@@ -414,81 +583,81 @@ pdf>
 (epstopdf)                    size: 78815 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Fig_finales/Fig6-e
 ps-converted-to.pdf figuras/Fig_finales/Fig6.eps>
-(epstopdf)             \includegraphics on input line 545.
+(epstopdf)             \includegraphics on input line 563.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/Fig_finales/Fig6-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figuras/Fig_finales/Fig6-eps-converted-to.pdf, id=427, 829.0975pt x 581.17125p
+<figuras/Fig_finales/Fig6-eps-converted-to.pdf, id=432, 829.0975pt x 581.17125p
 t>
 File: figuras/Fig_finales/Fig6-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/Fig_finales/Fig6-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Fig_finales/Fig6-eps-converted-to.pdf used on 
-input line 545.
+input line 563.
 (pdftex.def)             Requested size: 292.5pt x 205.02695pt.
  [12] [13 <./figuras/Fig_finales/Fig6-eps-converted-to.pdf>]
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 620--620
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 639--639
 []\OT1/cmr/m/n/12 +0.32| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 620--620
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 639--639
 []\OT1/cmr/m/n/12 +0.23| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 623--623
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 642--642
 []\OT1/cmr/m/n/12 +0.28| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 623--623
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 642--642
 []\OT1/cmr/m/n/12 +0.21| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 626--626
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 645--645
 []\OT1/cmr/m/n/12 +0.46| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 626--626
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 645--645
 []\OT1/cmr/m/n/12 +0.20| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 629--629
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 648--648
 []\OT1/cmr/m/n/12 +0.20| 
  []
 
 
-Overfull \hbox (2.72461pt too wide) in paragraph at lines 629--629
+Overfull \hbox (2.72461pt too wide) in paragraph at lines 648--648
 []\OT1/cmr/m/n/12 +0.19| 
  []
 
 Package epstopdf Info: Source file: <figuras/levelsDNA.eps>
-(epstopdf)                    date: 2019-09-18 16:12:01
-(epstopdf)                    size: 199176 bytes
+(epstopdf)                    date: 2019-09-19 17:42:45
+(epstopdf)                    size: 202725 bytes
 (epstopdf)             Output file: <figuras/levelsDNA-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-09-18 16:12:15
-(epstopdf)                    size: 10717 bytes
+(epstopdf)                    date: 2019-09-19 17:42:53
+(epstopdf)                    size: 11086 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/levelsDNA-eps-conv
 erted-to.pdf figuras/levelsDNA.eps>
-(epstopdf)             \includegraphics on input line 641.
+(epstopdf)             \includegraphics on input line 660.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/levelsDNA-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/levelsDNA-eps-converted-to.pdf, id=501, 1121.18875pt x 564.1075pt>
+<figuras/levelsDNA-eps-converted-to.pdf, id=507, 1130.2225pt x 568.1225pt>
 File: figuras/levelsDNA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/levelsDNA-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/levelsDNA-eps-converted-to.pdf used on input l
-ine 641.
-(pdftex.def)             Requested size: 390.0pt x 196.2269pt.
+ine 660.
+(pdftex.def)             Requested size: 390.0pt x 196.03714pt.
  [14] [15 <./figuras/levelsDNA-eps-converted-to.pdf>] [16] [17] [18]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ± in font cmr12!
@@ -496,33 +665,38 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [19] [20] (./NewMonti25.aux) ) 
+ [19] [20] [21] (./NewMonti25.aux) ) 
 Here is how much of TeX's memory you used:
- 2670 strings out of 494966
- 35878 string characters out of 6179559
- 96035 words of memory out of 5000000
- 5835 multiletter control sequences out of 15000+600000
- 11358 words of font info for 42 fonts, out of 8000000 for 9000
+ 4345 strings out of 494966
+ 58932 string characters out of 6179559
+ 101254 words of memory out of 5000000
+ 7480 multiletter control sequences out of 15000+600000
+ 16491 words of font info for 57 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,14n,26p,300b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on NewMonti25.pdf (20 pages, 690246 bytes).
+ 38i,11n,26p,783b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ale/.texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/tcrm1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/
+MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD
+.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}</usr/share/texlive/te
+xmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/mnsymbol/MnSymbol8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NewMonti25.pdf (21 pages, 709103 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 604 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
