@@ -24,8 +24,8 @@
 %\input{tcilatex}
 \begin{document}
 
-\title{Ionization of molecules by multicharged bared ions by using the
-stoichiometric model}
+\title{Ionization of biological molecules by multicharged ions by using 
+the stoichiometric model}
 \author{author}
 \affil{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio (CONICET-UBA).
 Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
@@ -44,22 +44,22 @@ Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
 
 \section{Introduction}
 
-The damage caused by the impact of multicharged heavy projectiles has 
-become a field of interest due to its recent implementation in ion-beam 
-cancer therapy. The effectiveness of the radiation depends on the 
-choice of the ions. In particular, theoretical and experimental studies 
-with different projectiles have concluded that charged carbon ions 
-could be the most suitable ions to use. The study of such systems 
-represent a challenge from the theoretical point of view. The most 
-widely used method to compute ionization of multicharged atoms is the 
-first Born approximation. 
-This perturbative method warrants the $Z^{2}$ laws, where $Z$ is the 
-projectile charge. However, the damage concentrated in the vicinities 
-of the Bragg peak correspond to energies of hundreds of KeV/amu. 
-Precisely in this region, often refered to as the intermediate energy 
+The damage caused by the impact of multicharged heavy projectiles on 
+biological targets has become a field of interest due to its recent 
+implementation in ion--beam cancer therapy. The effectiveness of the 
+radiation depends on the choice of the ions. In particular, theoretical 
+and experimental studies with different projectiles have concluded that 
+charged carbon ions could be the most suitable ions to be used. The 
+study of such systems represent a challenge from the theoretical point 
+of view. The most widely used method to compute ionization of 
+multicharged atoms is the first Born approximation. This perturbative 
+method warrants the $Z^{2}$ laws, where $Z$ is the projectile charge. 
+However, the damage is concentrated in the vicinities of the Bragg peak,
+at energies of hundreds of keV/amu. Precisely in this intermediate 
 region, the Born approximation starts to fail. Another theoretical 
 issue arises from the targets themselves; we are dealing with complex 
-molecules. This article deals precisely with these two aspects. 
+molecules, which are a hard task for {\it ab initio} calculations. 
+The objective of this article is to deal with these two aspects. 
 First, we perform more appropriate calculations on the primary damage 
 mechanism, i.e., atomic ionization by multicharged ions, which can 
 replace the Born results. Second, we inspect and use an stoichiometric 
@@ -182,6 +182,121 @@ by impact of multicharged projectiles.}
 \end{figure} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Emitted electron energies}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In a given biological medium, direct ionization by ion impact accounts 
+for just a fraction of the overall damage. Secondary electrons, as well 
+as recoil target ions, also contribute substantially to the total damage. 
+We can consider the single differential cross section of the shell 
+$nl$ of the atom $\alpha$, $d\sigma_{\alpha nl}/dE$, to be a function 
+of the ejected electron energy $E$ as a simple distribution 
+function~\cite{surdutovic2018}. Then, we can define the mean value 
+$\overline{E}_{\alpha}$ as in Ref.~\cite{abril2015},
+\begin{eqnarray}
+\overline{E}_{\alpha} &=&\frac{\langle E_{\alpha}\rangle}{\langle
+1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}\int dE\,E
+\frac{d\sigma_{\alpha,nl}}{dE}\,,  
+\label{40} \\
+\langle 1\rangle &=&\sigma_{\alpha}=\sum\limits_{nl}\int dE\,
+\frac{d\sigma_{\alpha,nl}}{dE}\,,  
+\label{50}
+\end{eqnarray}
+where $\Sigma_{nl}$ takes into account the sum of the different 
+sub-shell contributions of the element $\alpha$.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig5.eps}
+\caption{Mean emitted energy distribution for ionization by impact of
+multicharged ions. Charge state of projectiles given by arrow.}
+\label{fig:emittedener}
+\end{figure} 
+
+Figure~\ref{fig:emittedener} shows $\overline{E}_{\alpha}$ for six elements from 
+Table~\ref{tab:families}. The range of impact velocities was shorten up 
+to $v=10$ a.u. due to numerical limitations in the spherical harmonics 
+expansion. In our theoretical treatment, we expand our final continuum 
+wave function as per usual,
+\begin{equation}
+\psi_{\overrightarrow{k}}^{-}(\overrightarrow{r})=\sum_{l=0}^{l_{\max
+}}\sum_{m=-l}^{l}R_{kl}^{-}(r)Y_{l}^{m}(\widehat{r})Y_{l}^{m^{\ast }}
+(\widehat{k})\,.
+\label{60}
+\end{equation}
+We are confident with our calculations up to $l_{\max}\sim 30$. 
+As the impact velocity $v$ increases, so do $\langle E_{\alpha}\rangle$
+and $l_{\max}$, which results in the inclusion of very oscillatory 
+functions in the integrand. Furthermore, the integrand of
+$\langle E_{\alpha}\rangle$ includes the kinetic energy $E$
+(see Eq.~(\ref{40})), which cancels the small energy region and 
+reinforces the large values, making the result more sensible to large
+angular momenta. Regardless, for $v>10$ a.u., the first Born 
+approximation holds.
+
+In Figure~\ref{fig:emittedener} , we estimate $\overline{E}_{\alpha}$ 
+in the 0.5--2 a.u.
+velocity range, or equivalently from 15 to 50 eV, for all the targets.
+Our results agree with the experimental findings~\cite{surdutovic2018}. 
+The dependence of the mean energy value with the projectile charge $Z$ 
+is surprisingly sensible, which can duplicate the proton results. 
+This effect can be attributed to the depletion caused by the 
+multicharged ions to the yields of low energy electrons. In the high 
+approximation, surviving the $Z^{2}$ law. Then, the ratio in 
+Eq.~(\ref{40}) cancels out and $\overline{E}_{\alpha}$ becomes a 
+universal value independent on $Z$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Emitted electron angles}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+As mentioned before, secondary electrons contribute to the total damage. 
+Then, not only is the ejection energy important but also the angle 
+of emission. Once again, we can consider the single differential cross 
+section in terms of the ejected electron solid angle $\Omega$, 
+$d\sigma_{\alpha,nl}/d\Omega$, to be expressed as a distribution function, 
+and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
+\begin{equation}
+\overline{\theta}_{\alpha}=\frac{\langle\theta_{\alpha}\rangle}
+{\langle 1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}
+\int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega}
+\end{equation}
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig6.eps}
+\caption{Mean emitted angle distribution for ionization by impact of
+multicharged ions.}
+\label{fig:emittedang}
+\end{figure} 
+
+Figure~\ref{fig:emittedang} shows $\overline{\theta}_{\alpha}$ for our six elements of 
+interest. A new important dependence of $\overline{\theta}_{\alpha}$ 
+with $Z$ is observed. It is a general belief~\cite{Rudd1992} that the 
+angular dispersion of emitted electrons are nearly isotropic. This effect 
+is caused by the insignificant angular anisotropy of sub-50-eV yield. 
+A typical value for the ejection angle considered in the literature is 
+$\overline{\theta}_{\alpha}\sim 70\degree$~\cite{surdutovic2018}, and 
+it is quite correct in the range of validity of the first Born 
+approximation for any target. But, when a distorted wave approximation 
+is used, $\overline{\theta}_{\alpha}$ decreases substantially with $Z$ 
+in the intermediate energy region, as observed in Figure~\ref{fig:emittedang}. 
+For example, for C$^{+6}$ impact, the Bragg peak occurs at 0.3 MeV/amu, 
+where $\overline{\theta}_{\alpha}$, computed with the CDW method, is 
+about half of the value obtained with the first Born approximation. 
+This correction should close the damage to the forward direction.
+
+We can attribute this correction to the capture to the continuum effect;
+the larger the charge $Z$, the smaller $\overline{\theta}$ will be. Of 
+course, this effect only holds at intermediate energies and not at high 
+impact energies, where the Born approximation rules. One illustrative 
+observation is the behavior of antiprotons: the projectile in this case 
+repels the electrons, making the distribution almost symmetric. 
+Note the opposite effect of proton and antiprotons; they run one 
+opposite to the other, as compared with the first Born approximation.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ionization of Molecules}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The stoichiometric model}
@@ -195,7 +310,7 @@ sections of the isolated atoms $\sigma_{\alpha}$,
  \sigma_{M}=\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}\,.  
  \label{eq:sumion}
 \end{equation}
-We divided sixteen molecular targets of our interest in three families. 
+We divided seventeen molecular targets of our interest in three families. 
 The classification defined is given in Table~\ref{tab:families}.
 
 \begin{table}[H]
@@ -318,17 +433,6 @@ The Toburen rule can be stated by saying that
 $\sigma_{e}$ is a \textit{universal} parameter independent on the 
 molecule, which depends solely on the impact velocity, and holds for 
 high impact energies (i.e. 0.25--5 Mev/amu).
-%In Ref.~\cite{toburen1976}, it was found experimentally that for proton 
-%impact on some simple molecules, $\sigma_{e}$ results
-%\begin{equation}
-%\begin{array}{cccc}
-%E\text{(MeV)}               & 0.25 & 1.00 & 2.00 \\ 
-%\sigma_{e} (10^{-16}cm^{2}) & 0.39 & 0.17 & 0.11
-%\end{array}
-%\label{30}
-%\end{equation}
-%with an estimated error of about 20\%. A similar ratio was found in 
-%Ref.~\cite{itoh2013} for proton impact on uracil and adenine. 
 These $\nu_{\alpha}^T$ can be interpreted as the number of active 
 electrons in the collision. Of course, at very high energies also de 
 K--shell electrons will be ionized and these numbers will be different.
@@ -460,138 +564,6 @@ $\bigstar$ amonia and H$_2$~\cite{rudd1985}, and $\bullet$ water~\cite{luna2007}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Emitted electron energies}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-In a given biological medium, direct ionization by ion impact accounts 
-for just a fraction of the overall damage. Secondary electrons, as well 
-as recoil target ions, also contribute substantially to the total damage. 
-We can consider the single differential cross section of the shell 
-$nl$ of the atom $\alpha$, $d\sigma _{\alpha nl}/dE$, to be a function 
-of the ejected electron energy $E$ as a simple distribution 
-function~\cite{surdutovic2018}. Then, we can define the mean value 
-$\overline{E}_{\alpha}$ as in Ref.~\cite{abril2015},
-\begin{eqnarray}
-\overline{E}_{\alpha} &=&\frac{\langle E_{\alpha}\rangle}{\langle
-1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}\int dE\,E
-\frac{d\sigma_{\alpha,nl}}{dE}\,,  
-\label{40} \\
-\langle 1\rangle &=&\sigma_{\alpha}=\sum\limits_{nl}\int dE\,
-\frac{d\sigma_{\alpha,nl}}{dE}\,,  
-\label{50}
-\end{eqnarray}
-where $\Sigma_{nl}$ takes into account the sum of the different 
-sub-shell contributions of the element $\alpha$.
-
-\begin{figure}[t!]
-\centering
-\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/Fig5.eps}
-\caption{Mean emitted energy distribution for ionization by impact of
-multicharged ions.}
-\label{fig:emittedener}
-\end{figure} 
-
-Figure~\ref{fig:emittedener} shows $\overline{E}_{\alpha}$ for six elements from 
-Table~\ref{tab:families}. The range of impact velocities was shorten up 
-to $v=10$ a.u. due to numerical limitations in the spherical harmonics 
-expansion. In our theoretical treatment, we expand our final continuum 
-wave function as per usual,
-\begin{equation}
-\psi_{\overrightarrow{k}}^{-}(\overrightarrow{r})=\sum_{l=0}^{l_{\max
-}}\sum_{m=-l}^{l}R_{kl}^{-}(r)Y_{l}^{m}(\widehat{r})Y_{l}^{m^{\ast }}
-(\widehat{k})\,.
-\label{60}
-\end{equation}
-We are confident with our calculations up to $l_{\max}\sim 30$. 
-As the impact velocity $v$ increases, so do $\langle E_{\alpha}\rangle$
-and $l_{\max}$, which results in the inclusion of very oscillatory 
-functions in the integrand. Furthermore, the integrand of
-$\langle E_{\alpha}\rangle$ includes the kinetic energy $E$
-(see Eq.~(\ref{40})), which cancels the small energy region and 
-reinforces the large values, making the result more sensible to large
-angular momenta. Regardless, for $v>10$ a.u., the first Born 
-approximation holds.
-
-In Figure~\ref{fig:emittedener} , we estimate $\overline{E}_{\alpha}$ in the 0.5--2 a.u.
-velocity range, or equivalently from 15 to 50 eV, for all the targets.
-Our results agree with the experimental findings~\cite{surdutovic2018}. 
-The dependence of the mean energy value with the projectile charge $Z$ 
-is surprisingly sensible, which can duplicate the proton results. 
-This effect can be attributed to the depletion caused by the 
-multicharged ions to the yields of low energy electrons. In the high 
-approximation, surviving the $Z^{2}$ law. Then, the ratio in 
-Eq.~(\ref{40}) cancels out and $\overline{E}_{\alpha}$ becomes a 
-universal value independent on $Z$.
-
-Extending the simple stoichiometric model for the mean electron energy
-calculation, it results
-\begin{equation}
-\overline{E}_{M}=\frac{\sum\limits_{\alpha}n_{\alpha}
-\overline{E_{\alpha}}}{\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}}.
-\label{70}
-\end{equation}
-For impact of H$^{+}$ and He$^{+2}$ on water at 1 MeV/amu, we obtain 
-\mbox{$\overline{E}_{\text{H}_{2}\text{O}}=43.7$} and 45 eV, while the 
-experimental values 
-on liquid water by Pimblott and LaVerne \cite{pimblott2007} were found 
-to be 51.5 and 52.2 eV, respectively. Just to stress the importance of 
-the projectile charge, for O$^{+8}$ on water, at the same impact energy 
-1 MeV/amu, we obtained \mbox{$\overline{E}_{\text{H}_{2}\text{O}}=54.7$} eV, 
-which is 25\% larger than proton impact result. It is worth noting that 
-there should not be any difference if the calculations were carried in 
-first Born approximation. We will came back on this issue later.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Emitted electron angles}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-As mentioned before, secondary electrons contribute to the total damage. 
-Then, not only is the ejection energy important but also the angle 
-of emission. Once again, we can consider the single differential cross 
-section in terms of the ejected electron solid angle $\Omega$, 
-$d\sigma_{\alpha,nl}/d\Omega$, to be expressed as a distribution function, 
-and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
-\begin{equation}
-\overline{\theta}_{\alpha}=\frac{\langle\theta_{\alpha}\rangle}
-{\langle 1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}
-\int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega}
-\end{equation}
-
-
-\begin{figure}[t!]
-\centering
-\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/Fig6.eps}
-\caption{Mean emitted angle distribution for ionization by impact of
-multicharged ions.}
-\label{fig:emittedang}
-\end{figure} 
-
-Figure~\ref{fig:emittedang} shows $\overline{\theta}_{\alpha}$ for our six elements of 
-interest. A new important dependence of $\overline{\theta}_{\alpha}$ 
-with $Z$ is observed. It is a general belief~\cite{Rudd1992} that the 
-angular dispersion of emitted electrons are nearly isotropic. This effect 
-is caused by the insignificant angular anisotropy of sub-50-eV yield. 
-A typical value for the ejection angle considered in the literature is 
-$\overline{\theta}_{\alpha}\sim 70\degree$~\cite{surdutovic2018}, and 
-it is quite correct in the range of validity of the first Born 
-approximation for any target. But, when a distorted wave approximation 
-is used, $\overline{\theta}_{\alpha}$ decreases substantially with $Z$ 
-in the intermediate energy region, as observed in Figure~\ref{fig:emittedang}. 
-For example, for C$^{+6}$ impact, the Bragg peak occurs at 0.3 MeV/amu, 
-where $\overline{\theta}_{\alpha}$, computed with the CDW method, is 
-about half of the value obtained with the first Born approximation. 
-This correction should close the damage to the forward direction.
-
-We can attribute this correction to the capture to the continuum effect;
-the larger the charge $Z$, the smaller $\overline{\theta}$ will be. Of 
-course, this effect only holds at intermediate energies and not at high 
-impact energies, where the Born approximation rules. One illustrative 
-observation is the behavior of antiprotons: the projectile in this case 
-repels the electrons, making the distribution almost symmetric. 
-Note the opposite effect of proton and antiprotons; they run one 
-opposite to the other, as compared with the first Born approximation.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{A modified stoichiometric model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -679,6 +651,23 @@ located just below the line. The $\nu_{\alpha }^{\text{CDW}}$ value
 given for N would suggest that a significant amount of electron density 
 from the secondary gap is shared with the valence band.
 
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{llllll}
+\hline
+ $E_{\text{av}}$ & Adenine & Cytosine & Guanine & Thymine & Uracil \\
+\hline
+ Molecular & -7.1955 & -6.9058 & -7.4725 & -7.5304 & -7.6224 \\
+ Toburen   & -8.4236 & -8.6743 & -8.7275 & -8.7947 & -9.0022 \\
+ Our work  & -7.9027 & -7.8639 & -7.9420 & -7.8066 & -7.8839 \\
+\hline
+\end{tabular}
+\caption{.}
+\label{tab:gravener}
+\end{center}
+\end{table}
+
+
 By implementing Eq.~(\ref{eq:newstoi}), it is possible to determine a 
 new stoichiometric formula (last column of Table~\ref{tab:newstoi}). 
 Now, instead of having an integer number of atoms $n_{\alpha}$, we obtain 
@@ -689,58 +678,6 @@ computed for the DNA bases from Table~\ref{tab:newstoi}. The differences
 obtained were of just very few percents, which indicates that the modified 
 SSM is a quite robust model to handle these type of molecule within 
 the range error expected for this model.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Ionization of water}
-
-%We now return to the calculation of the mean electron energy of H$^{+}$ 
-%and He$^{+2}$ in water, $\overline{E}_{\text{H}_2\text{O}}$. 
-Considering that the residual charge of each hydrogen in water is 
-$q_{\text{H}}=+0.35$~\cite{rappe1991}, we can imply that the residual charge 
-of oxygen is $q_{\text{O}}=-0.7$. Then, we could re-write the formula 
-of water using Eq.~(\ref{eq:newstoi}) as H$_{1.3}$O$_{1.17}$ (assuming
-$n_{\text{O}}^{\text{CDW}}\simeq 4$ and $n_{\text{H}}^{\text{CDW}}\simeq 1$). 
-Recalculating the mean electron energy by the impact of H$^{+}$ and 
-He$^{+2}$ on water at 1 MeV/amu, we obtain 
-$\overline{E}_{\text{H}_2\text{O}}=46.2$ and 47.6 eV. Our results 
-are 10\% apart from the experimental values: 51.5 and 
-52.2~eV~\cite{pimblott2007}, respectively, which is not bad considering 
-the simplicity of our model.
-
-We can be compute the fraction of energy carried by 
-the electron $f$, which is defined as
-\begin{equation}
-f=\frac{\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}
-\overline{E_{\alpha}}}{\sum\limits_{\alpha}n_{\alpha}(\sigma_{\alpha}
-\overline{E_{\alpha}}+\sum\limits_{nl}\sigma_{\alpha nl}E_{\alpha nl})}\,.
-\label{90}
-\end{equation}
-Using our shell-to-shell ionization cross sections 
-$\sigma_{\alpha nl}$~\cite{miraglia2019}, and the atomic binding energies
-$E_{\alpha nl}$~\cite{clementi} of the atom $\alpha$, we obtain 
-$f=0.70$ and $0.71$ on water at 1 MeV/amu for H$^{+}$ and He$^{+2}$, 
-which differ from the respective experimental values $f=0.81$ and $0.80$.
-
-The difference between our calculations and the experimental values 
-could be attributed to the binding energy values of the molecular 
-water~12.65 eV with respect to its atomic components, H (13.6 eV) and 
-O (17.19 eV). This theoretical discrepancy goes beyond our independent 
-atom approximation and it cannot be accounted for by our model. Once 
-again, we could estimate this contribution by resorting to the 
-stoichiometric model. We can make an assesment for a maximum difference 
-per molecule of water as 
-\begin{equation}
-\delta E=(13.6-12.65)\times1.17+(17.19-12.65)\times1.3=7\,\text{eV}  
-\label{80}
-\end{equation}
-Most of this energy should be transfer to the kinetic energy of the 
-emitted electron. Thus, by adding 7 eV to the previous values, we obtain
-$\overline{E}_{\text{H}_2\text{O}}=53.2$ and 54.6 eV for H$^{+}$ and 
-He$^{+2}$ on water at 1 MeV/amu, respectively, which are much closer to
-the experimental values. If we add $\delta E$ to the numerator of 
-Eq.~(\ref{90}), we obtain $f=0.81$ and $0.80$, in perfect agreement with 
-the experiments (see Table 1 of Ref.~\cite{pimblott2007}).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
