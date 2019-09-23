@@ -1,7 +1,5 @@
 %\documentclass[pra,showpacs,twocolumn]{revtex4}
-
-
-\documentclass[preprint,12pt]{article}
+\documentclass[preprint]{revtex4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -11,35 +9,32 @@
 \usepackage{float}
 \usepackage{authblk}
 \usepackage{MnSymbol}
+\usepackage{gensymb}
 
-\setcounter{MaxMatrixCols}{10}
-%TCIDATA{OutputFilter=LATEX.DLL}
-%TCIDATA{Version=5.50.0.2953}
-%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
-%TCIDATA{BibliographyScheme=Manual}
-%TCIDATA{LastRevised=Thursday, March 07, 2019 14:11:39}
-%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
-%TCIDATA{Language=American English}
-
-%\input{tcilatex}
 \begin{document}
 
 \title{Ionization of biological molecules by multicharged ions by using 
 the stoichiometric model}
+
 \author{author}
-\affil{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio (CONICET-UBA).
-Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
+%\affiliation{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio 
+%(CONICET-UBA).
+%Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
 %\author{author}
 %\affil{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio (CONICET-UBA).
 %Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
 %\affil{Fac. de Ciencias Exactas y Naturales, Universidad de Buenos Aires}
-\date{\today }
 
-\maketitle
+\date{\today}% It is always \today, today,
 
 \begin{abstract}
 \end{abstract}
 
+%\keywords{Suggested keywords}
+
+\maketitle
+
+\tableofcontents
 %\pacs{79.20.Rf, 68.49.Bc, 34.20.Cf,34.50.-s,34.35.+a}
 
 \section{Introduction}
@@ -49,141 +44,145 @@ biological targets has become a field of interest due to its recent
 implementation in ion--beam cancer therapy. The effectiveness of the 
 radiation depends on the choice of the ions. In particular, theoretical 
 and experimental studies with different projectiles have concluded that 
-charged carbon ions could be the most suitable ions to be used. The 
-study of such systems represent a challenge from the theoretical point 
-of view. The most widely used method to compute ionization of 
-multicharged atoms is the first Born approximation. This perturbative 
-method warrants the $Z^{2}$ laws, where $Z$ is the projectile charge. 
-However, the damage is concentrated in the vicinities of the Bragg peak,
-at energies of hundreds of keV/amu. Precisely in this intermediate 
-region, the Born approximation starts to fail. Another theoretical 
-issue arises from the targets themselves; we are dealing with complex 
-molecules, which are a hard task for {\it ab initio} calculations. 
-The objective of this article is to deal with these two aspects. 
-First, we perform more appropriate calculations on the primary damage 
-mechanism, i.e., atomic ionization by multicharged ions, which can 
-replace the Born results. Second, we inspect and use an stoichiometric 
-model, which reduces a molecule to a sum of atomic processes quantities 
-weighted by the number of such atom in the molecule.
+charged carbon ions could be the most suitable ions to be used. 
+Nonetheless, the study of such systems represents a challenge from the 
+theoretical point of view. 
 
-To overcome the first perturbative approximation limitations, and 
-since the projectiles are multicharged ions, we resort to the 
-Continuum Distorted Wave-Eikonal Initial State (CDW), which includes 
-higher perturbative corrections. We start from the premise that the 
-ionization process is the mechanism that deposits the most significant 
-amount of primary energy. This process produces an electron-energy 
-spectrum that needs to be integrated. Moreover, the ejected electrons 
-become a new source of local damage. These secondary electrons are 
-included in Monte Carlo simulations and hence their behavior must be
-investigated. With this end in mind, we calculate not only the 
-ionization cross-sections but also energy and mean angular distributions 
-of the emitted electrons.
+The ionization of biological molecules by multicharged ions constitutes 
+the primary damage mechanism. The most widely used method to predict
+such processes is the first Born approximation. At high energies, this 
+perturbative method warrants the $Z^{2}$ laws, where $Z$ is the 
+projectile charge. However, the damage is concentrated in the 
+vicinities of the Bragg peak --at energies of hundreds of keV/amu--, 
+precisely where the Born approximation starts to fail. 
+Another theoretical issue arises due to the targets themselves; we are 
+dealing with complex molecules, and the description of such targets 
+represents a hard task for {\it ab initio} calculations. The objective 
+of this article is to deal with these two aspects; first, we perform 
+more appropriate calculations on the primary damage mechanism, which can 
+replace the Born results. Second, we inspect and test a stoichiometric 
+model to describe the ionization of molecular targets.
 
-The molecular structure complexity of the target is dealt with by 
-implementing the simplest stoichiometric model (SSM); we assume that 
-the molecule is composed of isolated independent atoms. In all cases, 
-the total cross-section is simply the sum of the cross-section of each 
-atom.
+To overcome the first perturbative approximation limitations, and since 
+the projectiles are multicharged ions, we resort to the Continuum 
+Distorted Wave--Eikonal Initial State (CDW), which includes higher 
+perturbative corrections. We start from the premise that the ionization 
+process is the mechanism that deposits the most significant amount of 
+primary energy. Moreover, it is well known that the residual electrons 
+from the ionization become a source of significant local biological 
+damage. The secondary electrons are included in Monte Carlo simulations, 
+and hence their behavior must be investigated. 
+In Section~\ref{subsec:meanener} and \ref{subsec:meanang}, we calculate
+the mean energy and angular distributions of the ejected electrons. 
+Surprisingly, we found a substantial dependence of the charged 
+projectile, which is unexpected in the first Born approximation. 
+We deal with the molecular structure complexity of the target by 
+implementing the simplest stoichiometric model (SSM): the molecules are 
+assumed to be composed of isolated independent atoms, and the total 
+cross--section by a linear combination of weighted atomic calculations.
 
-Then, by implementing the SSM and the CDW --instead of the first Born 
-approximation--, we calculate ionization cross-section of several 
-molecules (see Table~\ref{tab:families}) by the impact of antiprotons,
-H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$,\ and O$^{+8}$. Furthermore, 
-in Section 3, we investigate different DNA and RNA molecules
-such as adenine, cytosine, guanine, thymine, uracil, tetrahydrofuran 
-(THF), pyrimidine and also DNA backbone.
+By implementing the CDW and the SSM, we calculate ionization 
+cross--section of several molecules of interest (see 
+Table~\ref{tab:families}) by the impact of antiprotons, H$^{+}$, 
+He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
+In Section~3, we show our results for different DNA and RNA molecules, 
+such as adenine, cytosine, guanine, thymine, uracil, tetrahydrofuran~(THF), 
+pyrimidine, and also DNA backbone. In Section~\ref{subsec:scaling}, we
+test the Toburen scaling rule~\cite{toburen1975,toburen1976}, which 
+states that the ratio between the ionization cross--section and the 
+number of weakly bound electrons can be arranged in a narrow universal 
+band in terms of the projectile velocity. We applied this rule to 
+several hydrocarbons and nucleobases and noted that the width of the 
+resulting universal band could be significantly reduced if we redefine 
+the effective number of active electrons in the collision. The new 
+scaling is then tested by comparison with experimental data.
 
-The results are processed to test the Toburen scaling rule, which 
-states that the ratio between the ionization cross-section and the 
-number of valence electrons (outer electrons) in terms of the 
-projectile velocity can be arranged in a narrow universal band. 
-We have also applied this rule to several hydrocarbons and nucleobases. 
-In Section 3.2, we will prove that the width of the resulting universal 
-band can be significantly reduced if we redefine the effective number 
-of valence electrons.
-
-It is well known that the residual electrons from the ionization 
-process cause significant biological damage. To inspect this mechanism, 
-in Section 3.3 and 3.4, we calculated the mean electron energy and
-angular distributions. Surprisingly, we found a substantial dependence 
-of the charged projectile, which is unexpected in the first Born 
-approximation. 
-
-The hefty charge projectiles are dealt with the CDW. However, the 
-stoichiometric model used seems to be very simplistic. The approximation
+Although the multicharged projectiles are dealt with the CDW, the 
+stoichiometric model used seems to be very simplistic. The approach
 considers each atom as neutral, which is not correct. In Section 3.5, 
 we used the molecular electronic structure code 
 {\sc gamess}~\cite{gamess} to calculate the excess or defect of 
-electron density one each atom. Then, the simple stoichiometric model is
-modified to account for the departure from neutrality of the atoms. 
-We find that for the DNA molecules this modification does not introduce 
-a substantial change.
+electron density on the atoms composing the molecules. Then, the SSM is 
+modified to account for the departure from the neutrality of the atoms. 
+We find that the modified SSM for the DNA molecules does not introduce 
+substantial changes in the cross sections.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theory: Ionization of Atoms}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In our study, we will consider six atoms $\alpha=$ H, C, N, O, P, and S. 
+In the present study, we consider six atoms, $\alpha=$ H, C, N, O, P, 
+and S, and six projectiles, antiprotons $\bar{p}$, H$^{+}$, He$^{+2}$, 
+Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
 Most of the organic molecules are composed of these atoms. Some 
 particular molecules also include halogen atoms such as fluor and 
-bromine; ionization cross-sections of these elements have been 
+bromine; ionization cross sections of these elements have been 
 previously published~\cite{miraglia2008,miraglia2009}.
 
-The total ionization cross-sections of these atoms were calculated using 
-the CDW. The initial bound and final continuum radial wave functions 
-were obtained by using the {\sc radialf} code, developed by Salvat and 
-co-workers, and a Hartree-Fock potential obtained from the Depurated 
-Inversion Model~\cite{mendez2016,mendez2018}. 
+The total ionization cross sections of these atoms were calculated using 
+the CDW~[xxx]. The initial bound and final continuum radial wave 
+functions were obtained by using the {\sc radialf} code, developed by 
+Salvat and co--workers~\cite{salvat1995}, and a Hartree-Fock potential 
+obtained from the Depurated Inversion Method~\cite{mendez2016,mendez2018}. 
 We used a few thousand pivot points to solve the Schr\"{o}dinger 
 equation, depending on the number of oscillations of the continuum 
-state. The radial integration was performed using the 
-cubic spline technique. The number of angular momenta considered 
-varied from 8, at very low ejected-electron energies, up to 30, 
-for the highest energies considered. The same number of azimuth 
-angles were required to obtain the four-fold differential 
-cross-section. The calculation performed does not display prior-post 
-discrepancies at all. Each atomic total cross-section in 
-Eq.~(\ref{eq:sumion}) was calculated using 35 to 100 momentum transfer 
-values, 28 fixed electron angles, and around 45 electron energies 
-depending on the projectile impact energy. Further details of the 
-calculation are given in Ref.~\cite{montanari2017}. Simultaneously, we 
-will be reporting state to state ionization cross sections for these 
-cases in Ref.~\cite{miraglia2019}, which will be very useful to estimate 
-molecule fragmentation.
+state. The radial integration was performed using the cubic spline 
+technique. The number of angular momenta considered varied from 8, at 
+very low ejected-electron energies, up to 30, for the highest energies 
+considered. The same number of azimuth angles were required to obtain 
+the four-fold differential cross section. The calculation performed does 
+not display prior-post discrepancies at all. Each atomic total cross 
+section was calculated using 35 to 100 momentum transfer values, 28 
+fixed electron angles, and around 45 electron energies depending on the 
+projectile impact energy. In our theoretical treatment, we expand our 
+final continuum wave function as usual,
+\begin{equation}
+\psi_{\overrightarrow{k}}^{-}(\overrightarrow{r})=\sum_{l=0}^{l_{\max
+}}\sum_{m=-l}^{l}R_{kl}^{-}(r)Y_{l}^{m}(\widehat{r})Y_{l}^{m^{\ast }}
+(\widehat{k})\,.
+\label{eq:contwave}
+\end{equation}
+We are confident with our calculations up to $l_{\max}\sim 30$. Further 
+details of the calculation are given in Ref.~\cite{montanari2017}. 
+Simultaneously, we will be reporting state to state ionization cross 
+sections for the 36 ion--target systems considered in the present 
+work~\cite{miraglia2019}. We expect that these results will be useful
+to estimate molecule fragmentation.
 
+\begin{figure*}[t!]
+\centering
+%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/Fig1.eps}
+\includegraphics[width=0.9\textwidth]{figuras/atomicscaling.eps}
+\caption{Reduced CDW total ionization cross section of six atomic 
+targets. The curves are labeled with the charge state corresponding to 
+the six multicharged projectiles.}
+\label{fig:atomscaling}
+\end{figure*} 
 
-In Fig.~\ref{fig:atomscaling}, we report our total ionization results 
-for the six essential elements by the impact of six different projectiles: 
-antiprotons, H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
+We report our total CDW ionization cross sections for the six essential 
+elements by the impact of six projectiles in Fig.~\ref{fig:atomscaling}.
 To reduce the resulting 36 magnitudes into a single consistent 
 figure, we considered the fact that in the first Born approximation
-the ionization cross-section scales with the square of the projectile 
+the ionization cross section scales with the square of the projectile 
 charge, $Z^{2}$. The values of the impact energies considered 
 range between 0.1 to 10 MeV/amu, where the CDW is supposed 
 to hold. In fact, for the highest projectile charges the minimum 
 impact energy where the CDW is expected to be valid could be 
-higher than 100 KeV. Moreover, we corroborated that the first Born 
-approximation provides quite reliable results only for energies higher 
-than a couple of MeV/amu. We use the same color to indicate the 
-projectile charge throughout the figures of this work: dashed-red, 
-solid-red, blue, magenta, olive and orange for antiprotons, 
-H$^{+}$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$, respectively. 
-The charge state of the projectiles are also given in the figures.
-Notably, there is no complete tabulation of ionization of atoms by 
-the impact of multicharged ions. We hope that the ones presented 
-in this article will be of help for future works.
+higher than 100 keV. We also performed similar calculations with the 
+first Born approximation, and we corroborated that it provides quite 
+reliable results only for energies higher than a couple of MeV/amu. 
+We use the same line color to indicate the projectile charge throughout 
+all the figures of this work: dashed--red, solid--red, blue, magenta, 
+olive and orange for antiprotons, H$^{+}$, He$^{+2}$, Be$^{+4}$, 
+C$^{+6}$, and O$^{+8}$, respectively. Notably, there is no complete 
+tabulation of ionization of atoms by the impact of multicharged ions. 
+We hope that the ones presented in this article will be of help for 
+future works.
 
-\begin{figure}[t!]
-\centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/Fig1.eps}
-\includegraphics[width=\textwidth]{figuras/atomicscaling.eps}
-\caption{Scaled total ionization cross section of six atomic targets 
-by impact of multicharged projectiles.}
-\label{fig:atomscaling}
-\end{figure} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Emitted electron energies}
+\label{subsec:meanener}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 In a given biological medium, direct ionization by ion impact accounts 
@@ -204,29 +203,23 @@ $\overline{E}_{\alpha}$ as in Ref.~\cite{abril2015},
 \label{50}
 \end{eqnarray}
 where $\Sigma_{nl}$ takes into account the sum of the different 
-sub-shell contributions of the element $\alpha$.
+sub--shell contributions of the element $\alpha$.
 
-\begin{figure}[t!]
+\begin{figure*}[t!]
 \centering
 %\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig5.eps}
-\includegraphics[width=\textwidth]{figuras/ener_mean.eps}
+\includegraphics[width=0.9\textwidth]{figuras/ener_mean.eps}
 \caption{Mean emitted energy distribution for ionization by impact of
-multicharged ions. Charge state of projectiles given by arrow.}
+multicharged ions, given by Eq.~(\ref{40}). Dashed lines for $\bar{p}$,
+solid lines for ion charges $+1$, $+2$, $+4$, $+6$ and $+8$,
+as indicated.}
 \label{fig:emittedener}
-\end{figure} 
+\end{figure*} 
 
-Figure~\ref{fig:emittedener} shows $\overline{E}_{\alpha}$ for six elements from 
-Table~\ref{tab:families}. The range of impact velocities was shorten up 
-to $v=10$ a.u. due to numerical limitations in the spherical harmonics 
-expansion. In our theoretical treatment, we expand our final continuum 
-wave function as per usual,
-\begin{equation}
-\psi_{\overrightarrow{k}}^{-}(\overrightarrow{r})=\sum_{l=0}^{l_{\max
-}}\sum_{m=-l}^{l}R_{kl}^{-}(r)Y_{l}^{m}(\widehat{r})Y_{l}^{m^{\ast }}
-(\widehat{k})\,.
-\label{60}
-\end{equation}
-We are confident with our calculations up to $l_{\max}\sim 30$. 
+The mean emitted electron energies $\overline{E}_{\alpha}$ for H, C, N, 
+O, P and S are shown in Fig.~\ref{fig:emittedener}. The range of impact 
+velocities was shortened to $v=10$ a.u. due to numerical limitations 
+in the spherical harmonics expansion of Eq.~(\ref{eq:contwave}). 
 As the impact velocity $v$ increases, so do $\langle E_{\alpha}\rangle$
 and $l_{\max}$, which results in the inclusion of very oscillatory 
 functions in the integrand. Furthermore, the integrand of
@@ -236,20 +229,23 @@ reinforces the large values, making the result more sensible to large
 angular momenta. Regardless, for $v>10$ a.u., the first Born 
 approximation holds.
 
-In Figure~\ref{fig:emittedener} , we estimate $\overline{E}_{\alpha}$ 
-in the 0.5--2 a.u.
-velocity range, or equivalently from 15 to 50 eV, for all the targets.
-Our results agree with the experimental findings~\cite{surdutovic2018}. 
-The dependence of the mean energy value with the projectile charge $Z$ 
-is surprisingly sensible, which can duplicate the proton results. 
-This effect can be attributed to the depletion caused by the 
-multicharged ions to the yields of low energy electrons. In the high 
-approximation, surviving the $Z^{2}$ law. Then, the ratio in 
-Eq.~(\ref{40}) cancels out and $\overline{E}_{\alpha}$ becomes a 
-universal value independent on $Z$.
+In Fig.~\ref{fig:emittedener}, we estimate $\overline{E}_{\alpha}$ of
+the emitted electron in the 0.5--2.7 a.u. energy range, or equivalently 
+from 15 to 70 eV, for all the targets. Our results agree with the 
+experimental findings~\cite{surdutovic2018}. As can be noted in the 
+figure, the mean energy value is surprisingly sensible to the 
+projectile charge $Z$, which can duplicate the proton results in the 
+intermediate region, i.e. 100--400 keV/amu. The effect observed can be 
+attributed to the depletion caused by the multicharged ions to the 
+yields of low energy electrons. This behavior cannot be found in the 
+first Born approximation, where the $Z^2$ law cancels the $Z$ dependence
+in Eq.~(\ref{40}). At high energies, $\overline{E}_{\alpha}$ tends to a 
+universal value for all ions, as can be seen in Fig.~\ref{fig:emittedener}.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Emitted electron angles}
+\label{subsec:meanang}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 As mentioned before, secondary electrons contribute to the total damage. 
@@ -264,39 +260,44 @@ and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
 \int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega}
 \end{equation}
 
-\begin{figure}[t!]
+\begin{figure*}[t!]
 \centering
 %\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig6.eps}
-\includegraphics[width=\textwidth]{figuras/ang_mean.eps}
+\includegraphics[width=0.9\textwidth]{figuras/ang_mean.eps}
 \caption{Mean emitted angle distribution for ionization by impact of
 multicharged ions.}
 \label{fig:emittedang}
-\end{figure} 
+\end{figure*} 
 
-Figure~\ref{fig:emittedang} shows $\overline{\theta}_{\alpha}$ for our six elements of 
-interest. A new important dependence of $\overline{\theta}_{\alpha}$ 
-with $Z$ is observed. It is a general belief~\cite{Rudd1992} that the 
-angular dispersion of emitted electrons are nearly isotropic. This effect 
-is caused by the insignificant angular anisotropy of sub-50-eV yield. 
+The mean emitted electron angles $\overline{\theta}_{\alpha}$ for the 
+six atoms of interest are shown in Fig.~\ref{fig:emittedang}, and an 
+important dependence of $\overline{\theta}_{\alpha}$ with $Z$ is 
+observed. Once again, this effect is not observed in the first Born 
+approximation. It is a general belief~\cite{Rudd1992} that the 
+angular dispersion of emitted electrons are nearly isotropic. This 
+behavior is caused by the insignificant angular anisotropy of 
+sub--50--eV yield. 
 A typical value for the ejection angle considered in the literature is 
 $\overline{\theta}_{\alpha}\sim 70\degree$~\cite{surdutovic2018}, and 
 it is quite correct in the range of validity of the first Born 
 approximation for any target. But, when a distorted wave approximation 
 is used, $\overline{\theta}_{\alpha}$ decreases substantially with $Z$ 
-in the intermediate energy region, as observed in Figure~\ref{fig:emittedang}. 
+in the intermediate energy region, as observed in Fig.~\ref{fig:emittedang}. 
 For example, for C$^{+6}$ impact, the Bragg peak occurs at 0.3 MeV/amu, 
 where $\overline{\theta}_{\alpha}$, computed with the CDW method, is 
 about half of the value obtained with the first Born approximation. 
-This correction should close the damage to the forward direction.
+This correction closes the damage to the forward direction.
 
-We can attribute this correction to the capture to the continuum effect;
-the larger the charge $Z$, the smaller $\overline{\theta}$ will be. Of 
-course, this effect only holds at intermediate energies and not at high 
-impact energies, where the Born approximation rules. One illustrative 
-observation is the behavior of antiprotons: the projectile in this case 
-repels the electrons, making the distribution almost symmetric. 
+We can attribute this forward direction correction to the capture to 
+the continuum effect; the larger the charge $Z$, the smaller 
+$\overline{\theta}$ will be. Of course, this effect only holds at 
+intermediate energies and not at high impact energies, where the Born 
+approximation rules. One illustrative observation is the behavior of 
+antiprotons: the projectile in this case repels the electrons, being
+$\overline{\theta}_{\alpha}\sim 90\degree$.
 Note the opposite effect of proton and antiprotons; they run one 
-opposite to the other, as compared with the first Born approximation.
+opposite to the other, as compared with the first Born approximation,
+constituting an angular Barkas effect.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -306,68 +307,72 @@ opposite to the other, as compared with the first Born approximation.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Lets us consider a molecule $M$ composed by $n_{\alpha}$ atoms of the
-element $\alpha$, the SSM describes the total ionization cross section 
-of the molecule $\sigma_{M}$ as a simple sum of ionization cross 
-sections of the isolated atoms $\sigma_{\alpha}$, 
+element $\alpha$, the SSM approaches the total ionization cross section 
+of the molecule $\sigma_{M}$ as a sum of ionization cross sections of 
+the isolated atoms $\sigma_{\alpha}$ weighted by $n_{\alpha}$, 
 \begin{equation}
  \sigma_{M}=\sum\limits_{\alpha}n_{\alpha}\sigma_{\alpha}\,.  
  \label{eq:sumion}
 \end{equation}
-We divided seventeen molecular targets of our interest in three families. 
-The classification defined is given in Table~\ref{tab:families}.
+We classified the molecular targets of our interest in three families: 
+CH, CHN and DNA, as in Table~\ref{tab:families}.
 
 \begin{table}[H]
 \begin{center}
-\begin{tabular}{|p{0.06\textwidth}|p{0.75\textwidth}|}
+\begin{tabular}{|p{0.06\textwidth}|p{0.6\textwidth}|}
 \hline
- CH  & CH$_4$ (methane), C$_2$H$_2$ (acetylene), \\
-     & C$_2$H$_4$ (ethene), C$_2$H$_6$ (ethane), C$_6$H$_6$ (benzene) \\
+\multirow{2}{*}{CH} 
+      & CH$_4$ (methane), C$_2$H$_2$ (acetylene), C$_2$H$_4$ (ethene), \\
+      & C$_2$H$_6$ (ethane), C$_6$H$_6$ (benzene) \\
 \hline
- CHN & C$_5$H$_5$N (pyridine), C$_4$H$_4$N$_2$ (pyrimidine), \\
-& C$_2$H$_7$N 
-(dimenthylamine), CH$_5$N (monomethylamine) \\
+\multirow{2}{*}{CHN} 
+      & C$_5$H$_5$N (pyridine), C$_4$H$_4$N$_2$ (pyrimidine), \\ 
+      & C$_2$H$_7$N (dimenthylamine), CH$_5$N (monomethylamine) \\
 \hline
- \multirow{4}{*}{DNA} 
-     & C$_5$H$_5$N$_5$ (adenine), C$_4$H$_5$N$_3$O (cytosine), \\
-     & C$_5$H$_5$N$_5$O (guanine), C$_5$H$_6$N$_2$O$_2$ (thymine), \\
-     & C$_4$H$_4$N$_2$O$_2$ (uracil), C$_4$H$_8$O (THF), \\
-     & C$_5$H$_{10}$O$_5$P (DNA backbone), C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$ (dry DNA) \\
+\multirow{4}{*}{DNA} 
+      & C$_5$H$_5$N$_5$ (adenine), C$_4$H$_5$N$_3$O (cytosine), \\
+      & C$_5$H$_5$N$_5$O (guanine), C$_5$H$_6$N$_2$O$_2$ (thymine), \\
+      & C$_4$H$_4$N$_2$O$_2$ (uracil), C$_4$H$_8$O (THF), \\
+      & C$_5$H$_{10}$O$_5$P (DNA backbone), 
+        C$_{20}$H$_{27}$N$_7$O$_{13}$P$_2$ 
+(dry DNA) \\
 \hline
 \end{tabular}
-\caption{Molecular targets of our interest classified in three families.}
+\caption{Molecular targets studied in this work, classified in three 
+families.}
 \label{tab:families}
 \end{center}
 \end{table}
 
-We report the total ionization cross sections by the impact of 
-multicharged ions for adenine, cytosine, guanine and thymine in 
-Fig.~\ref{fig:crossDNA_1}. For adenine, the agreement with the 
-experimental data available~\cite{iriki2011} is very good 
-in our range of validity. To the best of our knowledge, there are not 
-experimental data on ion--collision ionization for the rest of the 
-molecules. We included electron impact measurements~\cite{rahman2016} 
-with the corresponding equivelocity 
-conversion for incident energies higher than 500~keV. In this region, 
-the proton and electron cross section should agree. Although the electron 
-impact measurements are above our findings for all the molecular targets, 
-it is worth stating that our results agree very well with other 
-theoretical predictions~\cite{mozejko2003,tan2018}. 
+In Fig.~\ref{fig:crossDNA_1}, we report the total ionization cross 
+sections by the impact of multicharged ions for adenine, cytosine, 
+guanine and thymine. For adenine, the agreement with the experimental 
+data available~\cite{iriki2011} is very good. To the best of our 
+knowledge, there are not experimental data on ion--collision ionization 
+for the rest of the molecules. We included electron impact 
+measurements~\cite{rahman2016} with the corresponding equivelocity 
+conversion for incident energies higher than 300~eV. In this region, 
+the proton and electron cross section should converge. Although the 
+electron impact measurements are above our findings for all the 
+molecular targets, it is worth stating that our results agree very well 
+with other electron impact theoretical 
+predictions~\cite{mozejko2003,tan2018}. 
 
-\begin{figure}[t!]
+\begin{figure*}[t!]
 \centering
 %\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig2.eps}
-\includegraphics[width=\textwidth]{figuras/adn1.eps}
-\caption{Scaled ionization cross section by impact of multicharged ions. 
-Experiments: 
-$\circ$~\cite{iriki2011} for proton impact and $\square$~\cite{rahman2016} 
-for electron impact with equivelocity conversion.}
+\includegraphics[width=0.9\textwidth]{figuras/adn1.eps}
+\caption{Reduced CDW ionization cross section by impact of multicharged 
+ions. Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} for proton 
+impact and $\square$~\cite{rahman2016} for electron impact with 
+equivelocity conversion.}
 \label{fig:crossDNA_1}
-\end{figure} 
+\end{figure*} 
 
-Our calculations for uracil, DNA backbone, pyrimidine and THF are given in 
-Fig.~\ref{fig:crossDNA_2}. 
-For uracil, we have good agreement with the experimental 
-proton impact measurements by Itoh~{\it et al.}~\cite{itoh2013}. 
+Our results for uracil, DNA backbone, pyrimidine and THF are displayed 
+in Fig.~\ref{fig:crossDNA_2}. For uracil, the agreement with the 
+experimental proton impact measurements by 
+Itoh~{\it et al.}~\cite{itoh2013} is good.
 However, for the same target, our theory fails by a factor of two for 
 the experimental ionization values by the impact of 
 C$^{+4}$, O$^{+6}$ and O$^{+8}$ ions~\cite{agnihotri2012,agnihotri2013}.
@@ -385,44 +390,44 @@ The THF molecule results are compared with proton~\cite{wang2016}
 and electron~\cite{bug2017,wolf2019,fuss2009} impact measurements, showing
 overall good agreement with our theory. 
 
-\begin{figure}[t!]
+\begin{figure*}[t!]
 \centering
 %\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig3.eps}
-\includegraphics[width=\textwidth]{figuras/adn2.eps}
-\caption{Scaled ionization cross section by impact of multicharged ions. 
-Experiments: proton impact on $\triangle$ uracil~\cite{itoh2013}, 
+\includegraphics[width=0.9\textwidth]{figuras/adn2.eps}
+\caption{Reduced CDW ionization cross section by impact of multicharged 
+ions. Experiments: proton impact on $\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014} and $\meddiamond$
 THF~\cite{wang2016}. Impact of $\ominus$ C$^{+4}$, 
 $\boxminus$ C$^{+6}$, O$^{+6}$, F$^{+6}$, and
 $\triangle\mkern-14mu-$ O$^{+8}$, F$^{+8}$ on 
 uracil~\cite{agnihotri2012,agnihotri2013}. 
 Symbols~$\rhd$~\cite{bug2017}, $\lhd$~\cite{wolf2019}, and 
-$\medstar$~\cite{fuss2009} for electron impact with equivelocity conversion.}
+$\medstar$~\cite{fuss2009} for electron impact with equivelocity 
+conversion.}
 \label{fig:crossDNA_2}
-\end{figure} 
+\end{figure*} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Scaling rule}
+\label{subsec:scaling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Toburen numbers}
+\subsubsection{Toburen rule}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The first attempt to develop a comprehensive but straightforward 
 phenomenological model for electron ejection from large molecules was 
-proposed by Toburen {\it et al.}~\cite{toburen1975,toburen1976}. 
+proposed by Toburen and coworkers~\cite{toburen1975,toburen1976}. 
 The authors found it convenient to scale the experimental ionization 
-cross section in terms of the number of active or weakly--bound valence 
-electrons $n_e$ (i.e. total number of electrons minus the K--shell).
-Following Toburen, we can define the ionization cross section per weakly 
-bound electron, $\sigma_{e}^T$, as
+cross section in terms of the number of weakly--bound electrons, $n_e$.
+For instance, for C, N, O, P and S, this number is the total number of 
+electrons minus the K--shell. Following Toburen, the scaled ionization 
+cross section per weakly bound electron $\sigma_{e}^T$ is
 \begin{equation}
-\sigma_{e}^T=\frac{\sigma_{M}}{n_e}=\frac{\sum\limits_{\alpha}
-n_{\alpha}\sigma_{\alpha}}{\sum\limits_{\alpha}n_{\alpha}\nu_{\alpha}^T}
-=\sigma_{e}^T(v)\,, 
+\sigma_{e}^T=\frac{\sigma_{M}}{n_e}\,, 
 \label{27} 
 \end{equation}
-where $\nu_{\alpha}^T$ are the Toburen numbers for each $\alpha$ atom 
-is given by
+where $n_e=\sum_{\alpha}n_{\alpha}\nu_{\alpha}^T$, and $\nu_{\alpha}^T$ 
+are the Toburen numbers given by
 \begin{equation}
 \nu_{\alpha}^T=\left\{ 
 \begin{array}{ll}
@@ -436,48 +441,42 @@ is given by
 The Toburen rule can be stated by saying that 
 $\sigma_{e}$ is a \textit{universal} parameter independent on the 
 molecule, which depends solely on the impact velocity, and holds for 
-high impact energies (i.e. 0.25--5 Mev/amu).
+high impact energies (i.e. 0.25--5 MeV/amu).
 These $\nu_{\alpha}^T$ can be interpreted as the number of active 
 electrons in the collision. Of course, at very high energies also de 
 K--shell electrons will be ionized and these numbers will be different.
 A similar dependence with the number of weakly bound electrons was 
 found in Ref.~\cite{itoh2013} for proton impact on uracil and adenine.
 
-\begin{figure}[t!]
+\begin{figure*}[t!]
 \centering
 %\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig4.eps}
-\includegraphics[width=\textwidth]{figuras/molscaling85.eps}
+\includegraphics[width=0.9\textwidth]{figuras/molscaling85.eps}
 \caption{Scaled ionization cross section per weakly bound electron using
 (a)~the Toburen numbers $\nu_{\alpha}^T$, and (b) our proposed numbers
 $\nu_{\alpha}^{\text{CDW}}$. Experiments: proton impact on 
-$\circ$ adenine~\cite{iriki2011}, $\triangle$ uracil~\cite{itoh2013}, 
+\mbox{\Large$\circ$} adenine~\cite{iriki2011}, 
+$\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014} and $\meddiamond$ 
 THF~\cite{wang2016}; electron impact on $\rhd$ pyrimidine~\cite{bug2017},
 and $\lhd$, $\medstar$~\cite{wolf2019,fuss2009} THF.}
 \label{fig:newscaling}
-\end{figure}
+\end{figure*}
 
-Our CDW results for $\sigma_{e}^T$ are shown in 
-Fig.~\ref{fig:newscaling}a as a function of 
-the impact energy for different projectile charges computed with the 
-SSM for the molecular targets from Table~\ref{tab:families}. 
-The universality with $Z$ is the one provided 
-by Born approximation, i.e., $\sigma_{e}^T(Z)=Z^{2}\sigma_{e}^T(Z=1)$, 
-and it holds for large impact velocities, as shown 
+By implementing the SSM, we computed the scaled CDW cross sections 
+$\sigma_{e}^T$ for the molecular targets of Table~\ref{tab:families}.
+Our results are shown in Fig.~\ref{fig:newscaling}a as a function of 
+the impact energy for different projectile charges. Although the 
+Toburen scaling holds for high energies, its performance is still not 
+satisfactory: the universal band is quite broad, as can be noted in 
 Fig.~\ref{fig:newscaling}a.
-Of course, for lower impact velocities, the CDW breaks the behavior of 
-the $Z^{2}$ rule. Although the Toburen scaling holds for high energies, 
-its performance is still not satisfactory: the universal band is quite 
-broad. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{New scaling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The departure of our theoretical 
-results from the Toburen rule can be easily understood %explained by the fact that 
-%our atomic cross sections $\sigma_{\alpha}$ behave differently for 
-%each atom in terms of the projectile charges. By 
+results from the Toburen rule can be easily understood 
 by inspecting Fig.~\ref{fig:atomscaling}. It can be noted that the 
 rule $\sigma_{\alpha}/\nu_{\alpha}^T\sim \sigma_{e}^T$, approximatelly 
 constant, is not well satisfied by the CDW. 
@@ -489,15 +488,13 @@ $\nu_{\alpha}^T$ of Eq.~(\ref{eq:nelec}).
 
 Based on the CDW results, we propose a new scaling,
 \begin{equation}
-\sigma_{e}=\frac{\sigma_M}{\sum\limits_{\alpha}n_{\alpha}
-\nu_{\alpha}^{\text{CDW}}},
+\sigma_{e}=\frac{\sigma_M}{n_e'},
 \label{32} 
 \end{equation}
-where $\sigma_M$ follows Eq.~(\ref{eq:sumion}), and 
-$\nu_{\alpha}^{\text{CDW}}$ are the new active--electron numbers 
+where $n_e'=\sum_{\alpha}n_{\alpha}\nu_{\alpha}^{\text{CDW}}$, and 
+$\nu_{\alpha}^{\text{CDW}}$ are the numbers of active electrons
 per atom obtained from the CDW ionization cross sections for 
-different ions in H, C, N, O, P , and S targets. 
-Our proposed active--electron numbers are
+different ions in H, C, N, O, P , and S targets, given as follows,
 \begin{equation}
 \nu_{\alpha }^{\text{CDW}} \sim\left\{ 
 \begin{array}{ll}
@@ -509,15 +506,17 @@ Our proposed active--electron numbers are
 \label{eq:scalingCDW}
 \end{equation}
 
-The new scaled cross sections $\sigma_{e}$ are plotted in Figure~4b. 
+The new scaled cross sections $\sigma_{e}$ are plotted in 
+Fig.~\ref{fig:newscaling}b. 
 A much better sharp band is observed, especially for impact energies 
 $E=(0.5-8)$~MeV/amu for $Z=1$ and $Z=2$, and $E=(2.5-8)$~MeV/amu for 
 $Z>2$. In fact, the experimental data for ionization of 
 adenine~\cite{iriki2011}, uracil~\cite{itoh2013}, 
-pyrimidine~\cite{wolff2014} and THF~\cite{wang2016} by proton impact 
-seems to corroborate the new scaling. 
-We also included the electron impact ionization measurements with equivelocity 
-conversion on pyrimidine~\cite{bug2017}, and THF~\cite{bug2017,wolf2019,fuss2009}. 
+pyrimidine~\cite{wolff2014} and THF~\cite{wang2016} by proton impact in
+Fig.~\ref{fig:newscaling}b seems to corroborate the new scaling. 
+We also included the electron impact ionization measurements with 
+equivelocity conversion on pyrimidine~\cite{bug2017}, and 
+THF~\cite{bug2017,wolf2019,fuss2009}. 
 It will be interesting to cross--check for experiments with higher 
 projectile charge states. 
 
@@ -525,25 +524,40 @@ projectile charge states.
 \begin{center}
 \begin{tabular}{|ll|ll|ll|}
 \hline
- Molecule & $n_e$ &Molecule         & $n_e$ & Molecule             & $n_e$ \\
+ Molecule & $n_e$ &Molecule          & $n_e$ & Molecule             & $n_e$\\
 \hline
- H$_2$    & 2  & C$_2$H$_7$N         & 19    & C$_4$H$_5$N$_3$O     & 37    \\
- H$_2$O   & 6  & C$_4$H$_8$O         & 28    & C$_5$H$_6$N$_2$O$_2$ & 42    \\
- NH$_3$   & 7  & C$_4$H$_4$N$_2$     & 28    & C$_5$H$_5$N$_5$      & 45    \\
- CH$_4$   & 8  & C$_6$H$_6$          & 30    & C$_5$H$_5$N$_5$O     & 49    \\
- CH$_5$N  & 13 & C$_4$H$_4$N$_2$O$_2$& 36    & C$_5$H$_{10}$O$_5$P  & 54.5  \\
+ H$_2$    & 2  & C$_2$H$_7$N         & 19    & C$_4$H$_5$N$_3$O     & 37   \\
+ H$_2$O   & 6  & C$_4$H$_8$O         & 28    & C$_5$H$_6$N$_2$O$_2$ & 42   \\
+ NH$_3$   & 7  & C$_4$H$_4$N$_2$     & 28    & C$_5$H$_5$N$_5$      & 45   \\
+ CH$_4$   & 8  & C$_6$H$_6$          & 30    & C$_5$H$_5$N$_5$O     & 49   \\
+ CH$_5$N  & 13 & C$_4$H$_4$N$_2$O$_2$& 36    & C$_5$H$_{10}$O$_5$P  & 54.5 \\
  \hline
 \end{tabular}
-\caption{New scaling numbers for some molecular targets of biological interest.}
+\caption{New scaling numbers for some molecular targets of biological 
+interest.}
 \label{nn}
 \end{center}
 \end{table}
 
-By using Eq.~(\ref{eq:scalingCDW}), the number of active electrons 
-$n_e=\sum_{\alpha} n_{\alpha} \nu_{\alpha}^{\text{CDW}}$ can be redefined. 
-We give new values in Table~\ref{nn} for some molecules of interest.
-These values are very different from the ones proposed by Toburen and used by 
-other authors~\cite{itoh2013}.
+\begin{figure*}[t!]
+\centering
+\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig_recta.eps}
+\caption{Ionization cross sections by impact of protons at 0.5, 1 and 2 MeV
+in terms of the number of active electrons given by Table~\ref{nn}.
+Experiments: 
+\mbox{\Large$\circ$}~adenine~\cite{iriki2011}, 
+$\triangle$ uracil~\cite{itoh2013}, 
+$\bigtriangledown$ pyrimidine~\cite{wolff2014}, 
+$\blacktriangle$ C2H$_7$N, CH$_5$N, methane and amonia~\cite{lynch1976},
+\mbox{\scriptsize$\bigstar$} amonia and H$_2$~\cite{rudd1985}, and 
+\mbox{\Large$\bullet$} water~\cite{luna2007}.}
+\label{fig:recta}
+\end{figure*}
+
+By using Eq.~(\ref{eq:scalingCDW}), we define new active electron 
+numbers $n_e'$ for some molecular of interest in Table~\ref{nn}. 
+These values are very different from the ones proposed by Toburen and 
+used by other authors~\cite{itoh2013}.
 Moreover, an alternative way of showing the scaling can be attained by 
 plotting the ionization cross sections of molecules as a function of the 
 number of active electrons from Table~\ref{nn}. Our findings are displayed 
@@ -553,24 +567,97 @@ show a linear dependence with the number of electrons from Table~\ref{nn}.
 We obtain similar results even for $E=10$~MeV. The comparison with the 
 experimental data available shows very nice agreement, from the smallest 
 molecules, H$_2$, H$_2$O and CH$_4$, up to the most complex ones, like 
-adenine or guanine. In some cases, the experimental data were interpolated.
-Care was taken in such procedure.
+adenine. For electron impact data, the experimental data was interpolated
+between close neighboors.
 
-\begin{figure}[t!]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Molecular structure of targets}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+To test the range of validity of the SSM, we performed a full molecular 
+structure calculation of five nucleobases. We employed the {\sc gamess} 
+code and used the 6-31G(d,p) basis set, which includes polarization 
+functions for all the atoms. The calculations were carried out 
+implementing the B3LYP functional~\cite{Becke1993,Stephens1994} to 
+account for the correlation and exchange effects. 
+
+The molecular binding energies of the valence electrons for adenine, 
+cytosine, guanine, thymine and uracil are shown in Fig.~\ref{fig:bindener}. 
+We can compute the center of gravity of the molecular energy levels as 
+an average weighted by the electronic occupation number. The results 
+obtained from the full molecular calculation are given in the first row
+of Table~\ref{tab:gravener}. Similarly, we can compute the baricenter
+of the energy levels defined by the Toburen rule and the one given by
+Eq.~(\ref{eq:scalingCDW}), which are also given in 
+Table~\ref{tab:gravener}. The average energy values obtained from the
+Toburen rule are around 20\% of the full molecular ones. Surprisingly, 
+the new scaling rule gives a significant 
+improvement in the average energy values, reducing the relative errors
+to about~7\%. This improvement would seem to indicate that the new 
+scaling is appropiate.
+
+\begin{figure*}[t!]
 \centering
-\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig_recta.eps}
-\caption{Ionization cross sections by impact of protons at 0.5, 1 and 2 MeV
-in terms of the number of active electrons given by Table~\ref{nn}.
-Experiments: $\circ$~adenine~\cite{iriki2011}, $\triangle$ uracil~\cite{itoh2013}, 
-$\bigtriangledown$ pyrimidine~\cite{wolff2014}, 
-$\blacktriangle$ C2H$_7$N, CH$_5$N, methane and amonia~\cite{lynch1976},
-$\bigstar$ amonia and H$_2$~\cite{rudd1985}, and $\bullet$ water~\cite{luna2007}.}
-\label{fig:recta}
-\end{figure}
+\includegraphics[width=0.9\textwidth]{figuras/levelsDNA.eps}
+\caption{Theoretical molecular binding energies for adenine, cytosine, 
+guanine, thymine and uracil compared to those of atomic constituents.}
+\label{fig:bindener}
+\end{figure*}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{A modified stoichiometric model}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|ccccc|}
+\hline
+ \multirow{2}{*}{$E_{\text{av}}$ (eV)} & A & C & G & T & U \\
+ & C$_5$H$_5$N$_5$ & C$_4$H$_5$N$_3$O & 
+   C$_5$H$_5$N$_5$O & C$_5$H$_6$N$_2$O$_2$ & C$_4$H$_4$N$_2$O$_2$ \\
+\hline
+ Theoretical calc. & $-7.1955$ & $-6.9058$ & $-7.4725$ & $-7.5304$ & $-7.6224$ \\
+ Toburen rule  & $-8.4236$ & $-8.6743$ & $-8.7275$ & $-8.7947$ & $-9.0022$ \\
+ Present work & $-7.9027$ & $-7.8639$ & $-7.9420$ & $-7.8066$ & $-7.8839$ \\
+%                 17%         25%         17%         17%         18%         
+%                 10%         13%         6%          4%          3%
+\hline
+\end{tabular}
+\caption{Center of gravity of the molecular energy levels of five 
+nucleobases.}
+\label{tab:gravener}
+\end{center}
+\end{table}
+
+
+Furthermore, on the left side of the Fig.~\ref{fig:bindener}, we show 
+the atomic Hartree--Fock energies of the constituent elements, which 
+gives an insight on the distribution of the weakly bound electrons. 
+A dashed line around $-11$~eV is drawn to separate the band in two. 
+We can consider the atomic energy levels above this line as the ones
+corresponding to the weakly bound electrons from Eq.~(\ref{eq:scalingCDW}).
+For example, the $2s$ and $2p$ electrons of carbon are placed above
+the separating line, which corresponds to the 4 electrons given by 
+Eq.~(\ref{eq:scalingCDW}). In the case of O, only the 4 electrons of 
+the $2p$ orbitals are located above the separating line.
+
+
+
+The electrons in the molecular 
+targets corresponding to the $2s$ of N and C in the atomic case are 
+placed in a secondary gap. The lower levels of the secondary gap 
+correspond to the oxygen. The number of electrons in the valence 
+shell for all O would seem to be equal to 4, as previously setted by the 
+scaling rule Eq.~(\ref{eq:scalingCDW}). The N case is not as 
+straightfoward; the electrons that would correspond to the $2s$ are 
+located just below the line. The $\nu_{\alpha }^{\text{CDW}}$ value 
+given for N would suggest that a significant amount of electron density 
+from the secondary gap is shared with the valence band.
+
+
+
+
+
+
+
+
 
 The SSM considers the molecule to be assembled by isolated neutral atoms, 
 which is definitively unrealistic. A first improvement can be suggested 
@@ -597,14 +684,8 @@ n_{\alpha }^{\prime }=n_{\alpha }-
 In the case of neutral atoms, $q_{\alpha}=0$ and we recover 
 $n_{\alpha}^{\prime}=n_{\alpha}$, as it should be.
 
-To inspect the effect of $q_{\alpha}$, we computed the molecular
-structure of several nucleobases with the {\sc gamess} code. We 
-used the 6-31G(d,p) basis set, which includes polarization 
-functions for all the atoms. The calculations were carried out 
-implementing the B3LYP functional~\cite{Becke1993,Stephens1994} to 
-account for the correlation and exchange effects. 
 In Table~\ref{tab:newstoi}, we display the charge $q_{\alpha}$ of four 
-DNA molecules. 
+DNA molecules, obtained from the full molecular calculation.
 
 \begin{table}[H]
 \begin{center}
@@ -629,46 +710,6 @@ C$_{4.95}$H$_{1.95}$N$_{6.13}$O$_{2.13}$ \\
 \caption{Effective charge $q_{\alpha}$ and new stoichiometric formula 
 defined by Eq.~(\ref{eq:newstoi}) for four DNA molecules.}
 \label{tab:newstoi}
-\end{center}
-\end{table}
-
-\begin{figure}[t!]
-\centering
-\includegraphics[width=\textwidth]{figuras/levelsDNA.eps}
-\caption{Theoretical molecular binding energies for adenine, cytosine, 
-guanine, thymine and uracil compared to those of atomic constituents.}
-\label{fig:bindener}
-\end{figure}
-
-The molecular binding energies of the outer electrons for adenine, 
-cytosine, guanine and thymine are shown in Fig.~\ref{fig:bindener}. 
-On the left side of the figure, we show the atomic Hartree--Fock energies 
-of the constituent elements, which can give an idea of how the molecular 
-levels distribute. A dashed line around $-0.8$~a.u. is drawn to separate 
-in two the band levels of the outer electrons. The electrons in the molecular 
-targets corresponding to the $2s$ of N and C in the atomic case are 
-placed in a secondary gap. The lower levels of the secondary gap 
-correspond to the oxygen. The number of electrons in the valence 
-shell for all O would seem to be equal to 4, as previously setted by the 
-scaling rule Eq.~(\ref{eq:scalingCDW}). The N case is not as 
-straightfoward; the electrons that would correspond to the $2s$ are 
-located just below the line. The $\nu_{\alpha }^{\text{CDW}}$ value 
-given for N would suggest that a significant amount of electron density 
-from the secondary gap is shared with the valence band.
-
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{llllll}
-\hline
- $E_{\text{av}}$ & Adenine & Cytosine & Guanine & Thymine & Uracil \\
-\hline
- Molecular & -7.1955 & -6.9058 & -7.4725 & -7.5304 & -7.6224 \\
- Toburen   & -8.4236 & -8.6743 & -8.7275 & -8.7947 & -9.0022 \\
- Our work  & -7.9027 & -7.8639 & -7.9420 & -7.8066 & -7.8839 \\
-\hline
-\end{tabular}
-\caption{.}
-\label{tab:gravener}
 \end{center}
 \end{table}
 
@@ -743,6 +784,10 @@ J. E. Miraglia, Ionization of He, Ne, Ar, Kr, and Xe
 by proton impact: Single differential distributions. 
 Phys. Rev. A \textbf{79}, 022708 (2009).
 
+\bibitem{salvat1995}
+Salvat, F., Fernández-Varea, J.M., Williamson, W.
+Comput. Phys. Commun. \textbf{90}, 151--168 (1995)
+
 \bibitem{mendez2016} 
 A.M.P. Mendez, D.M. Mitnik, and J.E. Miraglia.
 Depurated inversion method for orbital-specific exchange potentials. 
@@ -779,7 +824,8 @@ Radiat Environ. Biophys \textbf{42}, 201 (2003).
 
 \bibitem{tan2018}
 H. Q. Tan, Z. Mi, and A. A. Bettiol, 
-Simple and universal model for electron-impact ionization of complex biomolecules, 
+Simple and universal model for electron-impact ionization of complex 
+biomolecules, 
 Phys. Rev. E \text{97}, 032403 (2018)
 
 \bibitem{itoh2013} 

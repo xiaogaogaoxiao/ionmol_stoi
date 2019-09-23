@@ -1,0 +1,15 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{2}{}
+\contentsline {section}{\numberline {II}Theory: Ionization of Atoms}{4}{}
+\contentsline {subsection}{\numberline {A}Emitted electron energies}{5}{}
+\contentsline {subsection}{\numberline {B}Emitted electron angles}{7}{}
+\contentsline {section}{\numberline {III}Ionization of Molecules}{8}{}
+\contentsline {subsection}{\numberline {A}The stoichiometric model}{8}{}
+\contentsline {subsection}{\numberline {B}Scaling rule}{11}{}
+\contentsline {subsubsection}{\numberline {1}Toburen rule}{11}{}
+\contentsline {subsubsection}{\numberline {2}New scaling}{11}{}
+\contentsline {subsection}{\numberline {C}Molecular structure of targets}{14}{}
+\contentsline {section}{\numberline {IV}Conclusions}{17}{}
+\contentsline {section}{\numberline {}References}{18}{}
