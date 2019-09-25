@@ -17,14 +17,16 @@
 \title{Ionization of biological molecules by multicharged ions by using 
 the stoichiometric model}
 
-\author{A. M. P. Mendez, C. C. Montanari, J. E. Miraglia}
-%\author{author}
-%\author{author}
-\address{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio (CONICET-UBA).
- \\ Buenos Aires, Argentina.}
+\author{author}
+\address{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio 
+(CONICET-UBA).
+Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
+\author{author}
+\affiliation{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio (CONICET-UBA).
+Casilla de correo 67, sucursal 28 (C1428EGA) Buenos Aires, Argentina.}
+\affiliation{Fac. de Ciencias Exactas y Naturales, Universidad de Buenos Aires}
 
 \date{\today}% It is always \today, today,
-\pacs{34.50Gb, 34.80Gs, 34.80Dp}
 
 \begin{abstract}
 In the present work, we investigate the ionization of molecules of 
@@ -60,8 +62,8 @@ of the composite atoms.  The difference introduced by the new stoichiometric
 formula is less than $3\%$, which indicates the reliability and robustness 
 of the SSM to deal with this type of molecules. 
 The results of the extensive ion--target examination included in the 
-present study allow us to assert that the SSM and the CDW--based scaling 
-will be useful tools in this area.
+present study allow us to assert that the SSM and the new scaling may
+be handy in the area.
 \end{abstract}
 
 %\keywords{Suggested keywords}
@@ -782,11 +784,11 @@ the range error expected for this model.
 \section{Conclusions}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this work, we have encouraged the calculation of ionization cross 
+In this work we have encouraged the calculation of ionization cross 
 sections of seventeen biological molecules containing H, C, N, O, P and 
 S by impact of antiprotons, H$^{+}$, He$^{2+}$, Be$^{4+}$, C$^{6+}$, 
 and O$^{8+}$. 
-To that end, we have employed the full CDW method and the 
+To that end we have employed the full CDW method and the 
 simple stoichiometric model. 
 The mean energy and angle of the emitted electrons, of importance in 
 post--collisional radiation damage,  has also been calculated, showing 
@@ -803,7 +805,7 @@ with the the scarse available experiments. We explore the rule of
 Toburen which scales
 all the molecular ionization cross section normalizing with certain 
 number of
-weakly bound or valence electrons. We found that the ionization cross 
+weakly bound or valence electrons. We found that ionization cross 
 sections scales much better when normalizing with the number of active 
 electrons in the collision obtained from the CDW results for atoms. 
 This new scaling was tested with very good results for the six 
@@ -812,16 +814,16 @@ the experimental data reinforce this results. Moreover, we also test
 the scaling by including experimental data of ionization of H$_2$, 
 water, methane and ammonia by proton impact showing good agreement at
 intermediate to high energies.
-
 Finally, we performed full molecular calculations for the DNA basis. 
 By inspecting the molecular binding energy from quantum mechanical
 structure calculations, we were able to understand the number of 
 electrons proposed in our new CDW-based scaling. We attempt to improve 
 the stoichiometric model by using the Mulliken charge to get fractional
-rather than integer proportions. We found no substantial correction,
-which indicates that the SSM works quite well.
+rather than integer proportions. It is interesting to remark that no 
+substantial correction was found, which indicates that the SSM works
+quite well.
 
-In conclusion, the present results reinforce the 
+In conclusion, the results found in the present work reinforce the 
 reliability of the SSM to deal with complex molecules in the intermediate
 to high energy range. Moreover, the simple stoichiometric model and the 
 CDW cross sections in ~\cite{miraglia2019} opens the possibility to 
@@ -859,38 +861,36 @@ Phys. Rev. A \textbf{79}, 022708 (2009).
 \bibitem{toburen1975} 
 W. E. Wilson and L. H. Toburen. Electron emission from
 proton --hydrocarbon-molecule collisions at 0.3--2.0 MeV. 
-Phys. Rev. A \textbf{11}, 1303 (1975).
+Phys. Rev. A 11, 1303 (1975).
 
 \bibitem{toburen1976} 
 D. J. Lynch, L. H. Toburen, and W. E. Wilson. Electron
 emission from methane, ammonia, monomethylamine, and dimethylamine by 0.25
 to 2.0 MeV protons. 
-J. Chem. Phys. \textbf{64}, 2616 (1976).
+J. Chem. Phys. 64, 2616 (1976).
 
 \bibitem{gamess}
 M. W. Schmidt, K. K. Baldridge, J. A. Boatz, S. T. Elbert, M. S. Gordon, 
 J. H. Jensen, S. Koseki, N. Matsunaga, K. A. Nguyen, S. J. Su, T. L. Windus, 
 M. Dupuis, J. A. Montgomery 
-J. Comput. Chem. \textbf{14}, 1347-1363 (1993)
+J. Comput. Chem. 14, 1347-1363 (1993)
 
 
 \bibitem{salvat1995}
-Salvat, F., Fern\'andez-Varea, J.M., Williamson, W.
+Salvat, F., Fernández-Varea, J.M., Williamson, W.
 Comput. Phys. Commun. \textbf{90}, 151--168 (1995)
 
 \bibitem{mendez2016} 
 A.M.P. Mendez, D.M. Mitnik, and J.E. Miraglia.
 Depurated inversion method for orbital-specific exchange potentials. 
-Int. J. Quantum Chem. \textbf{24} ,116 (2016).
+Int. J. Quantum Chem. 24 ,116 (2016).
 
 \bibitem{mendez2018} 
-A.M.P. Mendez, D.M. Mitnik, and J.E. Miraglia. 
-Local Effective Hartree--Fock Potentials Obtained by the Depurated 
-Inversion Method,
-Adv. Quant. Chem. \textbf{76}, 117--132 (2018).
+A.M.P. Mendez, D.M. Mitnik, and J.E. Miraglia. Local Effective 
+Hartree--Fock Potentials Obtained by the Depurated Inversion Method,
+76. (2018).
 
 \bibitem{montanari2017} 
-C. C. Montanari, J. E. Miraglia,
 Ionization probabilities of Ne, Ar, Kr, and Xe by
 proton impact for different initial states and impact energies. 
 Nucl. Instr. Meth. Phys. Res. B 407 (2017) 236-243.
@@ -898,7 +898,7 @@ Nucl. Instr. Meth. Phys. Res. B 407 (2017) 236-243.
 \bibitem{miraglia2019} 
 J. E. Miraglia. Shell-to-shell ionization cross
 sections of antiprotons, H$^{+}$, He$^{+2},$ Be$^{+4},$ C$^{+6}$ and 
-O$^{+8}$ on H, C, N, O, P, and S atoms (to be published).
+O$^{+8}$ on H, C, N, O, P, and S atoms To be published Archive 2019.
 
 
 \bibitem{surdutovic2018} 
@@ -998,7 +998,7 @@ J. Chem. Phys. \textbf{151}, 064304 (2019).
 
 \bibitem{fuss2009}
 M. Fuss, A. Muñoz, J. C. Oller, F. Blanco, D. Almeida, P. Limão-Vieira, 
-T. P. D. Do, M. J. Brunger, G. Garc\'{i}a,
+T. P. D. Do, M. J. Brunger, G. García,
 Electron-scattering cross sections for collisions with tetrahydrofuran 
 from 50 to 5000 eV
 Phys. Rev. A \textbf{80}, 052709 (2009).
