@@ -1,7 +1,7 @@
 %\documentclass[pra,showpacs,twocolumn]{revtex4}
 %\documentclass[pra,showpacs]{revtex4}
 %\documentclass[preprint,showpacs]{revtex4}
-\documentclass[10pt]{iopart}
+\documentclass[10pt,showpacs,twocolumn]{revtex4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -27,36 +27,37 @@ the stoichiometric model}
 %\date{\today}% It is always \today, today,
 
 \begin{abstract}
-In the present work, we investigate the ionization of molecules of 
-biological interest by the impact of multicharged ions in the 
-intermediate to high energy range. We performed full non--perturbative 
-distorted--wave calculations (CDW) for thirty--six collisional systems. 
-Six atomic targets compose these systems: H, C, N, O, F and S --which 
-are the constituents of most of the DNA and biological molecules-- and 
-six charged projectiles (antiprotons, H, He, B, C, and O). On account 
-of the radiation damage caused by secondary electrons, we also inspect 
-the energy and angular distributions of the emitted electrons from the 
-atomic targets. We examine seventeen molecules: DNA and RNA bases, 
-DNA backbone, pyrimidines, tetrahydrofuran (THF), and several 
-C$_n$H$_n$ compounds. We show that the simple stoichiometric model 
-(SSM), which approximates the molecular ionization cross sections as a 
-linear combination of the atomic ones, gives reasonably good results 
-for complex molecules. We also inspect the extensively used Toburen 
-scaling of the total ionization cross sections of molecules with the 
-number of weakly bound electrons. Based on the present atomic CDW 
+In the present work, we investigate the ionization of molecules of
+biological interest by the impact of multicharged ions in the
+intermediate to high energy range. We performed full non--perturbative
+distorted--wave calculations (CDW) for thirty--six collisional systems
+composed by six atomic targets: H, C, N, O, F and S --which
+are the constituents of most of the DNA and biological molecules--, and
+six charged projectiles (antiprotons, H, He, B, C, and O). On account
+of the radiation damage caused by secondary electrons, we inspect
+the energy and angular distributions of the emitted electrons.
+We examine seventeen molecules: DNA and RNA bases,
+DNA backbone, pyrimidines, tetrahydrofuran (THF), and several
+C$_n$H$_n$ compounds. We show that the simple stoichiometric model
+(SSM), which approximates the molecular ionization cross sections as a
+linear combination of the atomic ones, gives reasonably good results
+for complex molecules. We inspect the extensively used Toburen
+scaling of the total ionization cross sections of molecules with the
+number of weakly bound electrons. Based on the present atomic CDW
 results, we propose new active electron numbers, which
-improves significantly scaling for all the targets 
-and ions studied here in the intermediate to the high energy region. 
-Furthermore, the new scaling describes well the available experimental 
-data for proton impact, including small molecules such as H$_2$, water, 
-methane, and ammonia. For completeness, we perform full molecular 
-calculations for five nucleobases and test a modified stoichiometric 
-formula based on the Mulliken charge of the composite atoms. The 
-difference introduced by the new stoichiometric formula is less than 
-$3\%$, which indicates the reliability and robustness of the SSM to 
-deal with this type of molecules. The results of the extensive 
-ion--target examination included in the present study allow us to 
-assert that the SSM and the CDW--based scaling will be useful tools in 
+improves significantly scaling for all the targets
+and ions studied here.
+The new scaling describes well the available experimental
+data for proton impact, including small molecules such as H$_2$, water,
+methane, and ammonia.
+We perform full molecular
+calculations for five nucleobases and test a modified stoichiometric
+formula based on the Mulliken charge of the composite atoms. The
+difference introduced by the new stoichiometric formula is less than
+$3\%$, which indicates the reliability of the SSM to
+deal with this type of molecules. The results of the extensive
+ion--target examination included in the present study allow us to
+assert that the SSM and the CDW--based scaling will be useful tools in
 this area.
 \end{abstract}
 
@@ -64,10 +65,7 @@ this area.
 \pacs{34.50Gb, 34.80Gs, 34.80Dp}
 
 \maketitle
-\ioptwocol
-
-%\tableofcontents
-%\pacs{79.20.Rf, 68.49.Bc, 34.20.Cf,34.50.-s,34.35.+a}
+%\ioptwocol
 
 \section{Introduction}
 
@@ -182,11 +180,9 @@ fixed electron angles, and around 45 electron energies depending on the
 projectile impact energy. 
 Further details of the calculation are given in Ref.~\cite{montanari2017}. 
 
-
 \begin{figure*}[t!]
 \centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/Fig1.eps}
-\includegraphics[width=0.8\textwidth]{figuras/atomicscaling.eps}
+\includegraphics[width=0.8\textwidth]{atomicscaling.eps}
 \caption{Reduced CDW total ionization cross section of six atomic 
 targets. The curves are labeled with the charge state corresponding to 
 the six multicharged projectiles.}
@@ -246,8 +242,7 @@ sub--shell contributions of the element $\alpha$.
 
 \begin{figure*}[t!]
 \centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig5.eps}
-\includegraphics[width=0.8\textwidth]{figuras/ener_mean.eps}
+\includegraphics[width=0.8\textwidth]{ener_mean.eps}
 \caption{Mean emitted energy distribution for ionization by the impact 
 of multicharged ions, given by Eq.~(\ref{40}). Dashed lines for $\bar{p}$,
 solid lines for ion charges $+1$, $2+$, $4+$, $6+$ and $8+$,
@@ -269,9 +264,7 @@ angular momenta. Regardless, for $v>10$ a.u., the first Born
 approximation holds.
 
 In Fig.~\ref{fig:emittedener}, we estimate $\overline{E}_{\alpha}$ of
-the emitted electron in the 
-%0.5--2.7 a.u. energy range, or equivalently from 15 to 70 eV,
-10--70 eV energy range,
+the emitted electron in the 10--70 eV energy range,
 for all the targets. Our results agree with the 
 experimental findings~\cite{surdutovic2018}. As can be noted in the 
 figure, the mean energy value is surprisingly sensitive to the 
@@ -289,6 +282,14 @@ universal value for all ions, as can be seen in Fig.~\ref{fig:emittedener}.
 \label{subsec:meanang}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{figure*}[t!]
+\centering
+\includegraphics[width=0.8\textwidth]{ang_mean.eps}
+\caption{Mean emitted angle distribution for ionization by impact of
+multicharged ions.}
+\label{fig:emittedang}
+\end{figure*} 
+
 As mentioned before, secondary electrons contribute to the total damage. 
 Then, not only the ejection energy is essential but also the angle 
 of emission. Once again, we can consider the single differential cross 
@@ -301,14 +302,6 @@ and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
 \int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega}
 \end{equation}
 
-\begin{figure*}[t!]
-\centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig6.eps}
-\includegraphics[width=0.8\textwidth]{figuras/ang_mean.eps}
-\caption{Mean emitted angle distribution for ionization by impact of
-multicharged ions.}
-\label{fig:emittedang}
-\end{figure*} 
 
 The mean emitted electron angles $\overline{\theta}_{\alpha}$ for the 
 six atoms and six ions of interest are shown in Fig.~\ref{fig:emittedang}.
@@ -405,16 +398,6 @@ above our findings for all the molecular targets, it is worth stating
 that our results agree very well with other electron impact theoretical 
 predictions~\cite{mozejko2003,tan2018}. 
 
-\begin{figure*}[t!]
-\centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig2.eps}
-\includegraphics[width=0.8\textwidth]{figuras/adn1.eps}
-\caption{Reduced CDW ionization cross section by the impact of 
-multicharged ions. Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} 
-for proton impact and $\square$~\cite{rahman2016} for electron impact 
-with equivelocity conversion.}
-\label{fig:crossDNA_1}
-\end{figure*} 
 
 Our results for uracil, DNA backbone, pyrimidine, and THF are displayed 
 in Fig.~\ref{fig:crossDNA_2}. For uracil, the agreement with the 
@@ -443,15 +426,22 @@ data.
 
 \begin{figure*}[t!]
 \centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig3.eps}
-\includegraphics[width=0.8\textwidth]{figuras/adn2.eps}
+\includegraphics[width=0.8\textwidth]{adn1.eps}
+\caption{Reduced CDW ionization cross section by the impact of 
+multicharged ions. Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} 
+for proton impact and $\square$~\cite{rahman2016} for electron impact 
+with equivelocity conversion.}
+\label{fig:crossDNA_1}
+\end{figure*} 
+
+\begin{figure*}[t!]
+\centering
+\includegraphics[width=0.8\textwidth]{adn2.eps}
 \caption{Reduced CDW ionization cross section by the impact of 
 multicharged ions. Experiments: proton impact on 
 $\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014} and $\meddiamond$
 THF~\cite{wang2016}. Impact of $\ominus$ C$^{4+}$, 
-%$\boxminus$ C$^{6+}$, O$^{6+}$, F$^{6+}$, and
-%$\triangle\mkern-14mu-$ O$^{8+}$, F$^{8+}$ on
 $\oplus$ C$^{6+}$, O$^{6+}$, F$^{6+}$, and
 $\otimes$ O$^{8+}$, F$^{8+}$ on 
 uracil~\cite{agnihotri2012,agnihotri2013}. 
@@ -504,8 +494,7 @@ found in Ref.~\cite{itoh2013} for proton impact on uracil and adenine.
 
 \begin{figure*}[t!]
 \centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig4.eps}
-\includegraphics[width=0.8\textwidth]{figuras/molscaling85.eps}
+\includegraphics[width=0.8\textwidth]{molscaling85.eps}
 \caption{Scaled ionization cross section per weakly bound electron using
 (a)~the Toburen numbers $\nu_{\alpha}^T$, and (b) our proposed numbers
 $\nu_{\alpha}^{\text{CDW}}$. Experiments: proton impact on 
@@ -561,11 +550,7 @@ different ions in H, C, N, O, P, and S targets, given as follows,
 \end{equation}
 
 The new scaled cross sections $\sigma_{e}'$ are plotted in 
-Fig.~\ref{fig:newscaling}b. 
-%A much better sharp band is observed in all the cases; particularly, 
-%for $Z=1$ and $Z=2$, in the range of energies $0.5-8$~MeV/amu, and 
-%$2.5-8$~MeV/amu for $Z>2$. 
-The experimental data for ionization of 
+Fig.~\ref{fig:newscaling}b. The experimental data for ionization of 
 adenine~\cite{iriki2011}, uracil~\cite{itoh2013}, 
 pyrimidine~\cite{wolff2014}, and THF~\cite{wang2016} by proton impact in
 Fig.~\ref{fig:newscaling}b seems to corroborate the new scaling. 
@@ -597,8 +582,7 @@ interest.}
 
 \begin{figure*}[t!]
 \centering
-%\includegraphics[width=0.75\textwidth]{figuras/Fig_finales/fig_recta.eps}
-\includegraphics[width=0.8\textwidth]{figuras/scale_ne.eps}
+\includegraphics[width=0.785\textwidth]{scale_ne.eps}
 \caption{Ionization cross sections by the impact of protons at 0.5, 1,
 and 2 MeV in terms of the number of active electrons given by Table~\ref{nn}.
 Experiments: 
@@ -647,7 +631,7 @@ were performed implementing the restricted Hartree--Fock method and the
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.8\textwidth]{figuras/levelsDNA.eps}
+\includegraphics[width=0.8\textwidth]{levelsDNA.eps}
 \caption{Theoretical molecular binding energies for adenine, cytosine, 
 guanine, thymine, and uracil compared to those of atomic constituents.}
 \label{fig:bindener}
@@ -658,39 +642,6 @@ cytosine, guanine, thymine, and uracil are shown in Fig.~\ref{fig:bindener}.
 The binding energy of the highest molecular orbital (HOMO) agrees with 
 the experimental values~\cite{Hush,Verkin,Dougherty} within 
 2\% for all the DNA bases considered.
-%We can compute the center of gravity of these molecular energy levels as 
-%an average weighted by the electronic occupation number. The results 
-%obtained from the full molecular calculation are given in the first row
-%of Table~\ref{tab:gravener}. Similarly, we can compute the barycenter
-%of the energy levels defined by the Toburen and the CDW--based rules, 
-%which are also given in Table~\ref{tab:gravener}. The average energy 
-%values obtained from the Toburen rule are around 20\% of the full 
-%molecular ones. Surprisingly, the new scaling rule gives a significant 
-%improvement in the average energy values, reducing the relative errors
-%to about~7\%. This improvement would indicate that the new 
-%scaling is more appropriate.
-% \begin{table*}[t]
-% \begin{center}
-% \begin{tabular}{|c|ccccc|}
-% \hline
-%  \multirow{2}{*}{$E_{\text{av}}$ (eV)} & Adenine & Cytosine & Guanine & 
-% Thymine & Uracil \\
-%  & C$_5$H$_5$N$_5$ & C$_4$H$_5$N$_3$O & 
-%    C$_5$H$_5$N$_5$O & C$_5$H$_6$N$_2$O$_2$ & C$_4$H$_4$N$_2$O$_2$ \\
-% %$E_{\text{av}}$ (eV) & Adenine & Cytosine & Guanine & Thymine & Uracil \\
-% \hline
-% {\sc gamess}  & $-14.62$ & $-14.37$ & $-15.41$ & $-14.83$ & $-15.61$ \\
-%  Toburen rule & $-16.85$ & $-17.35$ & $-17.46$ & $-17.59$ & $-18.00$ \\
-%  CDW--based scaling & $-15.81$ & $-15.73$ & $-15.88$ & $-15.61$ & $-15.77$ \\
-% %                 17%         25%         17%         17%         18%         
-% %                 10%         13%         6%          4%          3%
-% \hline
-% \end{tabular}
-% \caption{Center of gravity of the molecular energy levels of five 
-% nucleobases.}
-% \label{tab:gravener}
-% \end{center}
-% \end{table*}
 On the left side of Fig.~\ref{fig:bindener}, we show 
 the atomic Hartree--Fock energies of the constituent elements, which 
 gives an insight into the distribution of the weakly bound electrons
@@ -708,9 +659,9 @@ The N case is not as straightforward; the $\nu_{N=4}^{\text{CDW}}$
 would suggest that one out of the two $2s$ electrons contribute to the 
 molecular scheme.
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{A modified stoichiometric model}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The SSM considers the molecule to be assembled by isolated neutral atoms, 
 which is definitively unrealistic. A first improvement can be suggested 
@@ -832,18 +783,10 @@ describe a wide range of molecules containing H, C, N, O, P, and S, by
 the impact of multicharged ions.
 
 
-% The main objective of this article was to provide the tools to estimate 
-% any inelastic parameter parameter --such as emission angle, emitted mean
-% energy and cross section-- by the impact of any multicharged projectiles 
-% on any molecule containing H, C, N, O, P and S, with the help of the
-% stoichimetrical model. Our goal was quite ambitious, considering the
-% simplicity of our proposal. However, the present results show the 
-% validity of the simple stoichiometric model to estimate the ionization 
-% magnitude with an acceptable level of uncertainty.  
-
 \bigskip
+%\section*{References}
 
-\begin{thebibliography}{99}
+\begin{thebibliography}{}
 
 \bibitem{fainstein1988}
 Fainstein P.D., Ponce V. H. and Rivarola R. D. 
@@ -945,8 +888,6 @@ A. Itoh, Y. Iriki, M. Imai, C. Champion, and R. D. Rivarola,
 Cross sections for ionization of uracil by MeV-energy-proton impact, 
 Phys. Rev. A \textbf{88}, 052711 (2013).
 
-%\bibitem{} in energy and angles~,
-
 \bibitem{agnihotri2012}
 A. N. Agnihotri, S. Kasthurirangan, S. Nandi, A.
 Kumar, M. E. Galassi, R. D. Rivarola, O. Foj\'{o}n, C. Champion, J. Hanssen,
@@ -1025,25 +966,22 @@ H J Luedde {\it et al.} 2019
 J. Phys. B: At. Mol. Opt. Phys. in press 
 https://doi.org/10.1088/1361-6455/ab3a63
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \bibitem{Hush}
 Hush, N.S.; Cheung, A.S., 
 Ionization potentials and donor properties of nucleic acid bases and 
 related compounds, 
-Chem. Phys. Lett., 1975, 34, 11. 
+Chem. Phys. Lett., \textbf{34}, 11 (1975).
 
 \bibitem{Verkin}
 Verkin, B.I.; Sukodub, L.F.; Yanson, I.K., 
 Ionization potentials of nitrogenous bases of of nucleic acids, 
-Dokl. Akad. Nauk SSSR, 1976, 228, 1452. 
+Dokl. Akad. Nauk SSSR, \textbf{228}, 1452 (1976).
 
 \bibitem{Dougherty}
 Dougherty, D.; Younathan, E.S.; Voll, R.; Abdulnur, S.; McGlynn, S.P., 
 Photoelectron spectroscopy of some biological molecules, 
-J. Electron Spectrosc. Relat. Phenom., 1978, 13, 379. 
+J. Electron Spectrosc. Relat. Phenom., \textbf{13}, 379 (1978).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibitem{lee2003} 
 Jung-Goo Lee, Ho Young Jeong, and Hosull Lee, Charges of
 Large Molecules Using Reassociation of Fragments. 

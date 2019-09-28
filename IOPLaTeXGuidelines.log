@@ -1,0 +1,42 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  27 SEP 2019 19:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**IOPLaTeXGuidelines.tex
+(./IOPLaTeXGuidelines.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 5 languages loaded.
+
+! LaTeX Error: File `iopart.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: C
+
+! LaTeX Error: File `C.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: X
+
+ )
+(\end occurred when \ifx on line 43 was incomplete)
+(\end occurred when \ifx on line 43 was incomplete)
+(\end occurred when \ifx on line 43 was incomplete) 
+Here is how much of TeX's memory you used:
+ 11 strings out of 494966
+ 231 string characters out of 6179559
+ 46084 words of memory out of 5000000
+ 3326 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 11i,0n,7p,115b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
