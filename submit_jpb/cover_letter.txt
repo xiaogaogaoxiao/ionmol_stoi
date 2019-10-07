@@ -1,0 +1,30 @@
+Dear Editor
+
+I am sending you our manuscript entitled "Ionization of biological 
+molecules by multicharged ions using the stoichiometric model" by 
+Mendez et al. to be considered for publication in the Journal of Physics B.
+
+In our work, we investigate the ionization of several molecules of biological 
+interest by the impact of multicharged ions in the intermediate to 
+high energy range. The molecular ionization total cross sections were 
+obtained with full non-perturbative distorted-wave atomic (CDW) calculations 
+of thirty-six ion-target systems and a simple stoichiometric model (SSM). 
+Our results for ionization of seventeen complex molecules by impact of
+proton, antiproton, H^2+, Be^4+, C^6+ and O^8+, gives good agreement 
+with available experimental data. 
+
+We also study the widely known Toburen scaling of the total ionization
+cross section with the number of weakly bound electrons, and we propose 
+a new set of active electron numbers based on the atomic CDW results. 
+The results of the extensive ion-target examination included in the 
+present study allow us to assert that the SSM and the CDW-based scaling 
+will be useful tools in this area.
+
+We confirm that this manuscript has not been published elsewhere and its
+not under consideration by another journal. All authors have approved 
+the manuscript and agree with its submission to the Journal of Physics B
+
+Please let me know of your consideration at your earliest convenience.
+
+Best regards,
+Alejandra Mendez
