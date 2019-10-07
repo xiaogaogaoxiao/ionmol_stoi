@@ -1,30 +1,26 @@
-Dear Editor
+October 7, 2019
+Editor-in-Chief Dr. Marc Vrakking 
+Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy, 
+Berlin, Germany
 
-I am sending you our manuscript entitled "Ionization of biological 
-molecules by multicharged ions using the stoichiometric model" by 
-Mendez et al. to be considered for publication in the Journal of Physics B.
+Dear Dr. Vrakking,
 
-In our work, we investigate the ionization of several molecules of biological 
-interest by the impact of multicharged ions in the intermediate to 
-high energy range. The molecular ionization total cross sections were 
-obtained with full non-perturbative distorted-wave atomic (CDW) calculations 
-of thirty-six ion-target systems and a simple stoichiometric model (SSM). 
-Our results for ionization of seventeen complex molecules by impact of
-proton, antiproton, H^2+, Be^4+, C^6+ and O^8+, gives good agreement 
-with available experimental data. 
+I am submitting a manuscript entitled "Ionization of biological molecules by multicharged ions using the stoichiometric model" by Mendez et al. to be considered for publication in the Journal of Physics B.
 
-We also study the widely known Toburen scaling of the total ionization
-cross section with the number of weakly bound electrons, and we propose 
-a new set of active electron numbers based on the atomic CDW results. 
-The results of the extensive ion-target examination included in the 
-present study allow us to assert that the SSM and the CDW-based scaling 
-will be useful tools in this area.
+In our work, we investigate the ionization of several molecules of biological interest by the impact of multicharged ions in the intermediate to high energy range. The damage caused by the impact of multicharged heavy projectiles on biological targets has become a field of interest due to its recent implementation in ion-beam cancer therapy. On account of the radiation damage caused by secondary electrons, we also calculate the energy and angular distributions of the emitted electrons from the atomic targets.
 
-We confirm that this manuscript has not been published elsewhere and its
-not under consideration by another journal. All authors have approved 
-the manuscript and agree with its submission to the Journal of Physics B
+We obtain the molecular ionization total cross sections employing full non-perturbative distorted-wave atomic (CDW) calculations of thirty-six ion-target systems and a stoichiometric model. Our results for ionization of seventeen complex molecules by the impact of six multicharged projectiles give good agreement with available experimental data. Furthermore, based on the atomic CDW results, we propose a new rule to obtain a scaled ionization cross section with the number of weakly bound electrons. The results of the extensive ion-target examination included in the present study allow us to assert that the stoichiometric model and the CDW-based scaling will be useful tools in this area. 
+
+We are aware of a recently accepted work in JPB by Kirchner and collaborators, which deals with the total ionization of biological molecules by proton impact using an independent-atom-model pixel counting method. The agreement of the present results with this independent method for proton impact reinforces our findings. However, our work is a more extensive study considering more ions, targets, and collisional processes.
+
+We confirm that this manuscript has not been published elsewhere, and it is not under consideration by another journal. All authors have approved the manuscript and agree with its submission to the Journal of Physics B. 
 
 Please let me know of your consideration at your earliest convenience.
 
 Best regards,
+
 Alejandra Mendez
+Instituto de Astronomía y Física del Espacio (CONICET-UBA)
+Int. Güiraldes S/N, Ciudad Autónoma de Buenos Aires, Argentina
+Tel: +54 9 387 4584651
+E-mail: alemendez@iafe.uba.ar
