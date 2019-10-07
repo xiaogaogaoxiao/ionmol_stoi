@@ -1,42 +1,96 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  27 SEP 2019 19:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  7 OCT 2019 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NewMonti25.tex
-(./NewMonti25.tex
+**ionmol_stoi.tex
+(./ionmol_stoi.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 5 languages loaded.
-(./iopart.cls
-Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
-(./iopart10.clo
-File: iopart10.clo 1997/01/13 v1.0 IOP Book file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@jnl=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\indentedwidth=\skip43
-\mathindent=\dimen102
-\c@eqnval=\count87
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+
+Class revtex4 Warning: No Society specified, using generic APS style.
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks14
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -44,71 +98,60 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen103
+\@emptytoks=\toks17
+\ex@=\dimen102
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen104
+\pmbraise@=\dimen103
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count93
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count94
+\leftroot@=\count95
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count96
+\DOTSCASE@=\count97
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen105
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen104
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
-\dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
-\tag@help=\toks16
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
-\andhelp@=\toks17
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks18
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks19
-
-
-! LaTeX Error: Command \equation* already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2664 }
-        
-? 
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip11
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks20
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -130,24 +173,24 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count100
+\Gread@gobject=\count105
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen114
+\bigstrutjot=\dimen113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count101
-\float@exts=\toks21
-\float@box=\box28
-\@float@everytoks=\toks22
-\@floatcapt=\box29
+\c@float@type=\count106
+\float@exts=\toks23
+\float@box=\box36
+\@float@everytoks=\toks24
+\@floatcapt=\box37
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
 Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
@@ -307,8 +350,8 @@ LaTeX Info: Redefining \surd on input line 1843.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
-) (./NewMonti25.aux)
-\openout1 = `NewMonti25.aux'.
+) (./ionmol_stoi.aux)
+\openout1 = `ionmol_stoi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -324,25 +367,27 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 17.
+Class revtex4 Info: Patching LaTeX tabular. on input line 17.
+Class revtex4 Info: cite was not loaded (OK!) on input line 17.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen115
-\scratchbox=\box30
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen116
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count107
+\scratchdimen=\dimen114
+\scratchbox=\box38
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen115
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -402,39 +447,16 @@ erthousand on input line 17.
 LaTeX Info: Redefining \ohm on input line 17.
 Package gensymb Info: Using \textohm for \ohm on input line 17.
 Package gensymb Info: Using \textmu for \micro on input line 17.
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1515) in paragraph at lines 98--114
-\OT1/cmr/m/n/10 their behavior requires further investigation. In
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 137--145
-\OT1/cmr/m/n/10 molecule as neutral, which is not correct. In
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 137--145
-\OT1/cmr/m/n/10 Then, we modified the SSM to account for the
- []
-
-[2
-
-]
-Underfull \hbox (badness 1215) in paragraph at lines 173--184
-\OT1/cmr/m/n/10 calculation performed does not display prior--post
- []
-
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <figuras/atomicscaling.eps>
 (epstopdf)                    date: 2019-09-26 17:03:01
 (epstopdf)                    size: 296577 bytes
@@ -444,24 +466,19 @@ Package epstopdf Info: Source file: <figuras/atomicscaling.eps>
 (epstopdf)                    size: 25942 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/atomicscaling-eps-
 converted-to.pdf figuras/atomicscaling.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/atomicscaling-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figuras/atomicscaling-eps-converted-to.pdf, id=22, 1109.14375pt x 633.36626pt>
+<figuras/atomicscaling-eps-converted-to.pdf, id=17, 1109.14375pt x 633.36626pt>
 File: figuras/atomicscaling-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/atomicscaling-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/atomicscaling-eps-converted-to.pdf used on inp
-ut line 189.
-(pdftex.def)             Requested size: 390.25948pt x 222.85089pt.
-
-Underfull \hbox (badness 2253) in paragraph at lines 196--215
-[]\OT1/cmr/m/n/10 We display our total CDW ionization cross
- []
-
+ut line 181.
+(pdftex.def)             Requested size: 408.00156pt x 232.98883pt.
 Package epstopdf Info: Source file: <figuras/ener_mean.eps>
 (epstopdf)                    date: 2019-09-26 17:04:06
 (epstopdf)                    size: 309620 bytes
@@ -470,19 +487,20 @@ Package epstopdf Info: Source file: <figuras/ener_mean.eps>
 (epstopdf)                    size: 34296 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/ener_mean-eps-conv
 erted-to.pdf figuras/ener_mean.eps>
-(epstopdf)             \includegraphics on input line 250.
+(epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/ener_mean-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/ener_mean-eps-converted-to.pdf, id=23, 1095.09125pt x 633.36626pt>
+<figuras/ener_mean-eps-converted-to.pdf, id=18, 1095.09125pt x 633.36626pt>
 File: figuras/ener_mean-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ener_mean-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/ener_mean-eps-converted-to.pdf used on input l
-ine 250.
-(pdftex.def)             Requested size: 390.25948pt x 225.71155pt.
+ine 241.
+(pdftex.def)             Requested size: 408.00156pt x 235.97513pt.
+ [2]
 Package epstopdf Info: Source file: <figuras/ang_mean.eps>
 (epstopdf)                    date: 2019-09-26 17:05:54
 (epstopdf)                    size: 300282 bytes
@@ -491,49 +509,24 @@ Package epstopdf Info: Source file: <figuras/ang_mean.eps>
 (epstopdf)                    size: 28203 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/ang_mean-eps-conve
 rted-to.pdf figuras/ang_mean.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/ang_mean-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/ang_mean-eps-converted-to.pdf, id=24, 1108.14pt x 633.36626pt>
+<figuras/ang_mean-eps-converted-to.pdf, id=32, 1108.14pt x 633.36626pt>
 File: figuras/ang_mean-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ang_mean-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/ang_mean-eps-converted-to.pdf used on input li
-ne 307.
-(pdftex.def)             Requested size: 390.25948pt x 223.05385pt.
+ne 283.
+(pdftex.def)             Requested size: 408.00156pt x 233.19179pt.
+ [3 <./figuras/atomicscaling-eps-converted-to.pdf> <./figuras/ener_mean-eps-con
+verted-to.pdf>] [4 <./figuras/ang_mean-eps-converted-to.pdf>]
 
-Underfull \hbox (badness 1924) in paragraph at lines 319--337
-[]\OT1/cmr/m/n/10 It is a general belief [[]] that the angular
- []
-
-[3]
-Underfull \hbox (badness 2932) in paragraph at lines 338--343
-[]\OT1/cmr/m/n/10 Furthermore, Fig. 3[] provides an illustrative
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 338--343
-\OT1/cmr/m/n/10 description of the behavior of antiprotons: the
- []
-
-[4 <./figuras/atomicscaling-eps-converted-to.pdf> <./figuras/ener_mean-eps-conv
-erted-to.pdf>]
-Overfull \hbox (1.73009pt too wide) in paragraph at lines 373--374
-[][]| 
- []
-
-
-Overfull \hbox (2.14676pt too wide) in paragraph at lines 378--379
-[][]| 
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 393--407
-\OT1/cmr/m/n/10 300 eV. In this region, the proton and electron
- []
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 410.
 
 Package epstopdf Info: Source file: <figuras/adn1.eps>
 (epstopdf)                    date: 2019-09-27 18:38:21
@@ -543,35 +536,19 @@ Package epstopdf Info: Source file: <figuras/adn1.eps>
 (epstopdf)                    size: 23320 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/adn1-eps-converted
 -to.pdf figuras/adn1.eps>
-(epstopdf)             \includegraphics on input line 411.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/adn1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/adn1-eps-converted-to.pdf, id=64, 1109.14375pt x 633.36626pt>
+<figuras/adn1-eps-converted-to.pdf, id=72, 1109.14375pt x 633.36626pt>
 File: figuras/adn1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/adn1-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/adn1-eps-converted-to.pdf used on input line 4
-11.
-(pdftex.def)             Requested size: 390.25948pt x 222.85089pt.
-
-Underfull \hbox (badness 1688) in paragraph at lines 419--431
-\OT1/cmr/m/n/10 and THF are displayed in Fig. 5[]. For uracil,
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 419--431
-\OT1/cmr/m/n/10 which may indicate a possible misstep of the
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 432--443
-\OT1/cmr/m/n/10 500keV. Unexpectedly, the proton impact cross
- []
-
-[5 <./figuras/ang_mean-eps-converted-to.pdf>]
+25.
+(pdftex.def)             Requested size: 408.00156pt x 232.98883pt.
 Package epstopdf Info: Source file: <figuras/adn2.eps>
 (epstopdf)                    date: 2019-09-27 18:38:24
 (epstopdf)                    size: 304477 bytes
@@ -580,19 +557,24 @@ Package epstopdf Info: Source file: <figuras/adn2.eps>
 (epstopdf)                    size: 34771 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/adn2-eps-converted
 -to.pdf figuras/adn2.eps>
-(epstopdf)             \includegraphics on input line 447.
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/adn2-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/adn2-eps-converted-to.pdf, id=76, 1109.14375pt x 633.36626pt>
+<figuras/adn2-eps-converted-to.pdf, id=73, 1109.14375pt x 633.36626pt>
 File: figuras/adn2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/adn2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/adn2-eps-converted-to.pdf used on input line 4
-47.
-(pdftex.def)             Requested size: 390.25948pt x 222.85089pt.
+35.
+(pdftex.def)             Requested size: 408.00156pt x 232.98883pt.
+
+Underfull \hbox (badness 1259) in paragraph at lines 457--465
+\OT1/cmr/m/n/10 straight-for-ward phe-nomeno-log-i-cal model for elec-tron
+ []
+
 Package epstopdf Info: Source file: <figuras/molscaling85.eps>
 (epstopdf)                    date: 2019-09-27 19:15:26
 (epstopdf)                    size: 359774 bytes
@@ -602,55 +584,20 @@ Package epstopdf Info: Source file: <figuras/molscaling85.eps>
 (epstopdf)                    size: 49362 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/molscaling85-eps-c
 onverted-to.pdf figuras/molscaling85.eps>
-(epstopdf)             \includegraphics on input line 508.
+(epstopdf)             \includegraphics on input line 493.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/molscaling85-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/molscaling85-eps-converted-to.pdf, id=77, 1109.14375pt x 630.355pt>
+<figuras/molscaling85-eps-converted-to.pdf, id=74, 1109.14375pt x 630.355pt>
 File: figuras/molscaling85-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/molscaling85-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/molscaling85-eps-converted-to.pdf used on inpu
-t line 508.
-(pdftex.def)             Requested size: 390.25948pt x 221.79138pt.
-
-Underfull \hbox (badness 1173) in paragraph at lines 532--542
- \OT1/cmr/m/it/10 3.2.2. CDW--based scaling[] \OT1/cmr/m/n/10 The departure of 
-our
- []
-
-[6 <./figuras/adn1-eps-converted-to.pdf>]
-Overfull \hbox (4.46004pt too wide) in paragraph at lines 583--583
-[]\OT1/cmr/m/n/10 Molecule| 
- []
-
-
-Overfull \hbox (0.53793pt too wide) in paragraph at lines 583--583
-[]$\OML/cmm/m/it/10 n[]$| 
- []
-
-
-Overfull \hbox (0.53793pt too wide) in paragraph at lines 583--583
-[]$\OML/cmm/m/it/10 n[]$| 
- []
-
-
-Overfull \hbox (1.60086pt too wide) in paragraph at lines 586--586
-[]\OT1/cmr/m/n/10 C$[]$H$[]$N$[]$O$[]$| 
- []
-
-
-Overfull \hbox (1.60086pt too wide) in paragraph at lines 589--589
-[]\OT1/cmr/m/n/10 C$[]$H$[]$N$[]$O$[]$| 
- []
-
-
-Overfull \hbox (0.70227pt too wide) in paragraph at lines 589--590
-[]\OT1/cmr/m/n/10 54.5| 
- []
-
+t line 493.
+(pdftex.def)             Requested size: 408.00156pt x 231.88112pt.
+ [5]
 Package epstopdf Info: Source file: <figuras/scale_ne.eps>
 (epstopdf)                    date: 2019-09-27 19:10:26
 (epstopdf)                    size: 235118 bytes
@@ -659,30 +606,25 @@ Package epstopdf Info: Source file: <figuras/scale_ne.eps>
 (epstopdf)                    size: 15896 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/scale_ne-eps-conve
 rted-to.pdf figuras/scale_ne.eps>
-(epstopdf)             \includegraphics on input line 601.
+(epstopdf)             \includegraphics on input line 581.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/scale_ne-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/scale_ne-eps-converted-to.pdf, id=94, 1089.06876pt x 569.12625pt>
+<figuras/scale_ne-eps-converted-to.pdf, id=79, 1089.06876pt x 569.12625pt>
 File: figuras/scale_ne-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/scale_ne-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/scale_ne-eps-converted-to.pdf used on input li
-ne 601.
-(pdftex.def)             Requested size: 390.25948pt x 203.93872pt.
- [7 <./figuras/adn2-eps-converted-to.pdf> <./figuras/molscaling85-eps-converted
--to.pdf>]
-Underfull \hbox (badness 2564) in paragraph at lines 630--636
-\OT1/cmr/m/n/10 using an independent--atom--model pixel counting
- []
+ne 581.
+(pdftex.def)             Requested size: 400.35187pt x 209.21pt.
+ [6 <./figuras/adn1-eps-converted-to.pdf> <./figuras/adn2-eps-converted-to.pdf>
+] [7 <./figuras/molscaling85-eps-converted-to.pdf> <./figuras/scale_ne-eps-conv
+erted-to.pdf>]
 
-
-Underfull \hbox (badness 1365) in paragraph at lines 642--647
-\OT1/cmr/m/n/10 by employing the \OT1/cmr/m/sc/10 gamess \OT1/cmr/m/n/10 code. 
-The geometry
- []
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 627.
 
 Package epstopdf Info: Source file: <figuras/levelsDNA.eps>
 (epstopdf)                    date: 2019-09-27 15:29:28
@@ -692,173 +634,89 @@ Package epstopdf Info: Source file: <figuras/levelsDNA.eps>
 (epstopdf)                    size: 10896 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/levelsDNA-eps-conv
 erted-to.pdf figuras/levelsDNA.eps>
-(epstopdf)             \includegraphics on input line 650.
+(epstopdf)             \includegraphics on input line 630.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./figuras/levelsDNA-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/levelsDNA-eps-converted-to.pdf, id=119, 1114.1625pt x 564.1075pt>
+<figuras/levelsDNA-eps-converted-to.pdf, id=129, 1114.1625pt x 564.1075pt>
 File: figuras/levelsDNA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/levelsDNA-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/levelsDNA-eps-converted-to.pdf used on input l
-ine 650.
-(pdftex.def)             Requested size: 390.25948pt x 197.5869pt.
- [8 <./figuras/scale_ne-eps-converted-to.pdf>]
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 751--751
-[]\OT1/cmr/m/n/10 +0.32| 
+ine 630.
+(pdftex.def)             Requested size: 408.00156pt x 206.57321pt.
+ [8] [9 <./figuras/levelsDNA-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 851--855
+ []\OT1/cmr/m/n/9 P. de Vera1, I. Abril, R. Garcia-Molina and
  []
 
 
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 751--751
-[]\OT1/cmr/m/n/10 +0.23| 
+Underfull \hbox (badness 10000) in paragraph at lines 851--855
+ \OT1/cmr/m/n/9 A.V.Solov'yov, Ion-iza-tion of biomolec-u-lar tar-gets
  []
 
 
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 754--754
-[]\OT1/cmr/m/n/10 +0.28| 
+Underfull \hbox (badness 1087) in paragraph at lines 929--934
+ \OT1/cmr/m/n/9 Fragmentation--ion pro-duc-tion mech-a-nisms J. Chem.
+ []
+
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ± in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no £ in font cmr9!
+
+Underfull \hbox (badness 1394) in paragraph at lines 936--941
+ \OT1/cmr/m/n/9 P. Limo-Vieira, T. P. D. Do, M. J. Brunger, G.
  []
 
 
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 754--754
-[]\OT1/cmr/m/n/10 +0.21| 
- []
+Class revtex4 Warning: Command \address is obsolete;
+Use \affiliation instead.
 
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 757--757
-[]\OT1/cmr/m/n/10 +0.46| 
- []
-
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 757--757
-[]\OT1/cmr/m/n/10 +0.20| 
- []
-
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 760--760
-[]\OT1/cmr/m/n/10 +0.20| 
- []
-
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 760--760
-[]\OT1/cmr/m/n/10 +0.19| 
- []
-
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 763--763
-[]\OT1/cmr/m/n/10 +0.31| 
- []
-
-
-Overfull \hbox (1.16302pt too wide) in paragraph at lines 763--763
-[]\OT1/cmr/m/n/10 +0.22| 
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 774--785
-[]\OT1/cmr/m/n/10 By implementing Eq. (10[]), it is possible to
- []
-
-[9 <./figuras/levelsDNA-eps-converted-to.pdf>]
-Underfull \hbox (badness 3849) in paragraph at lines 881--883
-[]\OT1/cmr/m/n/8 Salvat, F., Fern^^Sandez-Varea, J.M., Williamson, W.
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 890--894
-\OT1/cmr/m/n/8 Effective Hartree--Fock Potentials Obtained by the
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 907--910
-\OT1/cmr/m/n/8 with ions. E. Surdutovich and A. V. Solov'yov,
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 938--942
-[]\OT1/cmr/m/n/8 H. Q. Tan, Z. Mi, and A. A. Bettiol, Simple and
- []
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 959--964
-\OT1/cmr/m/n/8 C Champion,, H Lekadir, J Hanssen, P FWeck,
- []
-
-
-Underfull \hbox (badness 1742) in paragraph at lines 959--964
-\OT1/cmr/m/n/8 M E Galassi, R D Rivarola, O Fojon and L C
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 959--964
-\OT1/cmr/m/n/8 Tribedi, Absolute total ionization cross sections of
- []
-
-
-Underfull \hbox (badness 3128) in paragraph at lines 992--997
-\OT1/cmr/m/n/8 and dissociation cross sections of tetrahydrofuran:
- []
-
-[10]
-Missing character: There is no Ã in font cmr8!
-Missing character: There is no ± in font cmr8!
-Missing character: There is no Ã in font cmr8!
-Missing character: There is no £ in font cmr8!
-
-Underfull \hbox (badness 1314) in paragraph at lines 999--1004
-\OT1/cmr/m/n/8 P. Limo-Vieira, T. P. D. Do, M. J. Brunger, G.
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 1042--1045
-\OT1/cmr/m/n/8 S.; McGlynn, S.P., Photoelectron spectroscopy of
- []
-
-[11
-
-] (./NewMonti25.aux) ) 
+[10] (./ionmol_stoi.aux) ) 
 Here is how much of TeX's memory you used:
- 4594 strings out of 494966
- 59771 string characters out of 6179559
- 113881 words of memory out of 5000000
- 7710 multiletter control sequences out of 15000+600000
- 23162 words of font info for 80 fonts, out of 8000000 for 9000
+ 5956 strings out of 494966
+ 79629 string characters out of 6179559
+ 161824 words of memory out of 5000000
+ 9056 multiletter control sequences out of 15000+600000
+ 23444 words of font info for 81 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,11n,26p,243b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/M
-nSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.
-enc} </home/ale/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk>{/usr/sha
-re/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}</usr/share/texlive/texmf-dist/fonts
-/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/mnsymbol/MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mn
-symbol/MnSymbol6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol
-/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSym
-bol8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on NewMonti25.pdf (11 pages, 519021 bytes).
+ 38i,10n,27p,1016b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymb
+ol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymb
+olD.enc} </home/ale/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk>{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/te
+xlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/tex
+mf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}</usr/share/texlive/texmf-dist/f
+onts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/mnsymbol/MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
+mbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/M
+nSymbol9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on ionmol_stoi.pdf (10 pages, 511667 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
