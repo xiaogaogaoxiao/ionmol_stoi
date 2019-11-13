@@ -44,7 +44,7 @@ combination of the atomic ones, gives reasonably good results for
 complex molecules. We also inspect the extensively used Toburen scaling 
 of the total ionization cross sections of molecules with the number of 
 weakly bound electrons. Based on the atomic CDW results, we 
-propose new active electron numbers, which improves significantly 
+propose new active electron numbers, which leads to a more universal 
 scaling for all the targets and ions studied here in the intermediate 
 to the high energy region. The new scaling describes well the available 
 experimental data for proton impact, including small molecules. We 
@@ -146,7 +146,7 @@ In the present study, we consider six atoms, $\alpha=$ H, C, N, O, P,
 and S, and six projectiles, antiprotons $\bar{p}$, H$^{+}$, He$^{2+}$, 
 Be$^{4+}$, C$^{6+}$, and O$^{8+}$. 
 Most of the organic molecules are composed of these atoms. Some 
-particular molecules also include halogen atoms such as fluor and 
+particular molecules also include halogen atoms such as fluorine and 
 bromine; ionization cross sections of these elements have been 
 previously published~\cite{miraglia2008}.
 
@@ -240,9 +240,9 @@ sub--shell contributions of the element $\alpha$.
 \centering
 \includegraphics[width=0.8\textwidth]{figuras/ener_mean.eps}
 \caption{Mean emitted energy distribution for ionization by the impact 
-of multicharged ions, given by Eq.~(\ref{40}). Dashed lines for $\bar{p}$,
-solid lines for ion charges $+1$, $2+$, $4+$, $6+$ and $8+$,
-as indicated.}
+of multicharged ions, given by Eq.~(\ref{40}). 
+Solid lines for ion charges $+1$, $2+$, $4+$, $6+$ and $8+$, as indicated.
+Dashed lines for $\bar{p}$ and dotted line for Born with $Z=1$.}
 \label{fig:emittedener}
 \end{figure*} 
 
@@ -282,7 +282,7 @@ universal value for all ions, as can be seen in Fig.~\ref{fig:emittedener}.
 \centering
 \includegraphics[width=0.8\textwidth]{figuras/ang_mean.eps}
 \caption{Mean emitted angle distribution for ionization by impact of
-multicharged ions.}
+multicharged ions. Curves as in Fig.~\ref{fig:emittedener}.}
 \label{fig:emittedang}
 \end{figure*} 
 
@@ -292,11 +292,13 @@ of emission. Once again, we can consider the single differential cross
 section in terms of the ejected electron solid angle $\Omega$, 
 $d\sigma_{\alpha,nl}/d\Omega$, to be expressed as a distribution function, 
 and the mean angle $\overline{\theta}_{\alpha}$ can be defined as
-\begin{equation}
-\overline{\theta}_{\alpha}=\frac{\langle\theta_{\alpha}\rangle}
+\begin{eqnarray}
+\overline{\theta}_{\alpha}&=&\frac{\langle\theta_{\alpha}\rangle}
 {\langle 1\rangle}=\frac{1}{\sigma_{\alpha}}\sum\limits_{nl}
-\int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega}
-\end{equation}
+\int d\Omega\,\theta\,\frac{d\sigma_{\alpha,nl}}{d\Omega} \\
+\langle 1\rangle &=&\sigma_{\alpha}=\sum\limits_{nl}\int d\Omega\,
+\frac{d\sigma_{\alpha,nl}}{d\Omega}\,, 
+\end{eqnarray}
 
 
 The mean emitted electron angles $\overline{\theta}_{\alpha}$ for the 
@@ -493,7 +495,9 @@ found in Ref.~\cite{itoh2013} for proton impact on uracil and adenine.
 \includegraphics[width=0.8\textwidth]{figuras/molscaling85.eps}
 \caption{Scaled ionization cross section per weakly bound electron using
 (a)~the Toburen numbers $\nu_{\alpha}^T$, and (b) our proposed numbers
-$\nu_{\alpha}^{\text{CDW}}$. Experiments: proton impact on 
+$\nu_{\alpha}^{\text{CDW}}$ for molecules listed in Table~\ref{tab:families}. 
+For each band, the molecules are ordered from the smallest (top curve) to the
+largest (bottom curve). Experiments: proton impact on 
 \mbox{\Large$\circ$} adenine~\cite{iriki2011}, 
 $\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014} and $\meddiamond$ 
@@ -558,20 +562,21 @@ for higher projectile charge states.
 
 \begin{table}[t]
 \begin{center}
-\begin{tabular}{|p{0.07\textwidth}p{0.02\textwidth}|
-p{0.095\textwidth}p{0.02\textwidth}|p{0.095\textwidth}p{0.035\textwidth}|}
+\begin{tabular}{|p{0.07\textwidth}p{0.02\textwidth}p{0.02\textwidth}|
+p{0.095\textwidth}p{0.02\textwidth}p{0.02\textwidth}|
+p{0.095\textwidth}p{0.035\textwidth}p{0.02\textwidth}|}
 \hline
- Molecule & $n_e'$ &Molecule          & $n_e'$ & Molecule             & $n_e'$\\
+ Molecule & $n_e'$ & $n_e$ & Molecule          & $n_e'$ & $n_e$ & Molecule             & $n_e'$ & $n_e$ \\
 \hline
- H$_2$    & 2  & C$_2$H$_7$N         & 19    & C$_4$H$_5$N$_3$O     & 37   \\
- H$_2$O   & 6  & C$_4$H$_8$O         & 28    & C$_5$H$_6$N$_2$O$_2$ & 42   \\
- NH$_3$   & 7  & C$_4$H$_4$N$_2$     & 28    & C$_5$H$_5$N$_5$      & 45   \\
- CH$_4$   & 8  & C$_6$H$_6$          & 30    & C$_5$H$_5$N$_5$O     & 49   \\
- CH$_5$N  & 13 & C$_4$H$_4$N$_2$O$_2$& 36    & C$_5$H$_{10}$O$_5$P  & 54.5 \\
+ H$_2$    & 2 & 2   & C$_2$H$_7$N         & 19 & 20 & C$_4$H$_5$N$_3$O     & 37 & 42 \\
+ H$_2$O   & 6 & 8   & C$_4$H$_8$O         & 28 & 30 & C$_5$H$_6$N$_2$O$_2$ & 42 & 48 \\
+ NH$_3$   & 7 & 8   & C$_4$H$_4$N$_2$     & 28 & 30 & C$_5$H$_5$N$_5$      & 45 & 50 \\
+ CH$_4$   & 8 & 8   & C$_6$H$_6$          & 30 & 30 & C$_5$H$_5$N$_5$O     & 49 & 56 \\
+ CH$_5$N  & 13 & 14 & C$_4$H$_4$N$_2$O$_2$& 36 & 40 & C$_5$H$_{10}$O$_5$P  & 54.5 & 65 \\
  \hline
 \end{tabular}
-\caption{New scaling numbers for some molecular targets of biological 
-interest.}
+\caption{New scaling numbers, $n_e'$, and Toburen numbers, $n_e$,
+for some molecular targets of biological interest.}
 \label{nn}
 \end{center}
 \end{table}
@@ -585,7 +590,7 @@ Experiments:
 \mbox{\Large$\circ$}~adenine~\cite{iriki2011}, 
 $\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014}, 
-$\blacktriangle$ C2H$_7$N, CH$_5$N, methane and ammonia~\cite{lynch1976},
+$\blacktriangle$ C$_2$H$_7$N, CH$_5$N, methane and ammonia~\cite{lynch1976},
 \mbox{\scriptsize$\bigstar$} ammonia and H$_2$~\cite{rudd1985}, and 
 \mbox{\Large$\bullet$} water~\cite{luna2007}.}
 \label{fig:recta}
@@ -699,16 +704,16 @@ Adenine & +0.32 & +0.23 & --0.55 &       &
 C$_{4.92}$H$_{4.77}$N$_{5.14}$ \\ 
 \hline
 Cytosine & +0.28 & +0.21 & --0.56 & --0.53 & 
-C$_{3.93}$H$_{2.79}$N$_{5.14}$O$_{1.13}$ \\ 
+C$_{3.93}$H$_{4.79}$N$_{3.14}$O$_{1.13}$ \\ 
 \hline
 Guanine & +0.46 & +0.20 & --0.58 & --0.36 & 
 C$_{4.89}$H$_{4.80}$N$_{5.15}$O$_{1.09}$ \\ 
 \hline
 Thymine & +0.20 & +0.19 & --0.54 & --0.52 & 
-C$_{4.95}$H$_{1.81}$N$_{6.13}$O$_{2.13}$ \\ 
+C$_{4.95}$H$_{5.81}$N$_{2.13}$O$_{2.13}$ \\ 
 \hline
 Uracil & +0.31 & +0.22 & --0.59 & --0.47 & 
-C$_{3.92}$H$_{1.78}$N$_{4.15}$O$_{2.12}$ \\ 
+C$_{3.92}$H$_{3.78}$N$_{2.15}$O$_{2.12}$ \\ 
 \hline
 \end{tabular}
 \caption{Average effective Mulliken charge per atom $q_{\alpha}$, and 
