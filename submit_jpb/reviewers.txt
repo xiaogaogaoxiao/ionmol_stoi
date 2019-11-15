@@ -1,0 +1,52 @@
+REFEREE REPORT(S):
+Referee: 1
+
+COMMENTS TO THE AUTHOR(S)
+This is a well written manuscript describing a detailed theoretical investigation of ionization of biologically interesting molecules.
+Calcuations, based on a new method of scaling of atomic target cross sections, are presented for a large number of molecules and for a
+wide range of impact energies.  The one weakness of these calculations is that they are only for fully stripped ion impact, which makes
+them far less relevant for energies in the Bragg peak region where the radiation damage is most important.  Nevertheless, the new scaling
+and insights, most importantly the cross section scaling as a function of the number of active electrons, should make this study highly relevant.
+I strongly support publication of this work after the authors have considered/addressed the following comments.
+
+abstract: lines 17,18   Here, and elsewhere (page 2: 1st column lines 1-6 for one example), it is stated that the new proposed scaling significantly improves the scaling for all the targets and ions studied here in the
+intermediate to the high energy region.  Looking at figure 6, I agree there is an improvement.  But, it is on the order of a factor of 2 or less which translates into
+cross section differences of less than 20%.  So perhaps changing "significantly improves" to "leads to a more universal scaling" or something would be more appropriate and
+less contraversial.
+
+page 2, 1st column, line 26:  please replace "fluor" with "fluorine"
+
+page 3, lines 49-51 1st column:  I am confused by the statement "the mean energy value is surprisingly sensitive to the projectile charge Z, which can duplicate the proton results in the intermediate region"
+which seems to be contradictory.  Also, at the end of section A since the point of the secondary electron discussion is with respect to
+radiation damage, perhaps adding a couple sentences relating the relative, or absolute, mean energies to damage might be useful.  For the same reasons, at the end of section B it
+might be useful to relate the mean ejection angles with the radial distribution of radiation damage.
+
+page 4, line 31, equation 4:  Is the denominator in equation 4 the same as in equation 3?  I would expect an integration over solid angle, not energy.
+
+Figures 2 and 3:  the dotted line is not defined
+
+Figure 6:  In the caption it should be noted that the various curves within each "band" are for the molecules listed in table I.  In doing so, it might be useful, if possible,
+to note if there is any order in the curves, i.e., from smallest to largest molecule.  Also, for a better comparison, would it be possible to insert the Toburen based results as bands
+behind the CDW based results?  Or, after reading further, perhaps this could be accomplished by adding the Toburen values to Table II.
+
+Figure 7:  I find this figure to be very interesting.  Something the authors may wish to consider is adding a similar figure based on the Toburen scaling.  This may illustrate, and
+possibly emphasize, which scaling is more appropriate and/or where data are needed.
+
+As a final comment, perhaps inappropriate in a review, regarding the Z squared cross section scaling used throughout this manuscript the authors may be unaware 
+of a seminal paper by Bohr and Lindhard (K. Dan. Vidensk. Selsk. Mat. Fys. Medd. 28, 1 (1954) where a different scaling was pointed out to be appropriate for the strong perturbation regime.  
+For this region, i.e., near and below the cross section maxima, rather than scaling the cross section by Z squared and plotted versus E/M, both the the cross 
+section and the energy (E/M) are divided by Z.   As shown in the book "Electron Emission in Heavy Ion-Atom Collisions" by Stolterfoht et al. this improves the overall scaling down to lower energies. 
+The authors may wish to investigate this especially for figures 5 and 7.
+
+Referee: 2
+
+COMMENTS TO THE AUTHOR(S)
+ The manuscript deals with the use of a simple stoichiometric model (SSM) combined with the Continuum Distorted Wave (CDW) approximation to describe single electron ionization total cross sections of biological molecules interacting with different bare ions. This consists in using the Bragg’s additivity rule where the molecules are described as an addition of their atomic compounds. A similar study was done by Galassi et al. (Phys. Rev. A 62 022701) but using a Continuum Distorted Wave-Eikonal Initial State (CDW-EIS) approximation and where only the impact of proton beams on small molecules was considered. In that work, double differential and total cross sections were reported. A fundamental difference is that in the present case precise numerical atomic bound and continuum wave functions were used. 
+The authors claim that “the calculation performed does not display post-prior discrepancies at all”. It is true for ionization of each one of the atoms composing the molecule, into the SSM model. However, we should remain in mind that in a more complete description molecular orbital and continuum wave functions should be considered. 
+The validity of the approximation here employed is supported by comparing theoretical total cross sections with existing experimental data. 
+The importance of the projectile charge on the mean emitted energy and angle distributions is reported. Total cross sections are shown for numerous projectiles and biological molecular targets, comparing them with existing scarce experimental data. 
+A new hypothetical scaling rule is proposed based on the number of “active” electrons contributing to the total cross sections. The validity of this rule on total cross sections seems to be supported by experimental results for the case of proton impact. 
+To test the adequacy of the SSM approximation the GAMES code was employed to compare molecular orbital energies corresponding to nucleobases with the ones corresponding to their atomic constituents. 
+The manuscript analyze the possibility of using the SSM (Bragg’s rule) approximation to describe ionization total cross sections of molecular biological targets. Reported results are promissory and the manuscript deserve publication in J. Phys. B. The sensitivity of SSS should be tested in the future for multiple differential cross sections. I recommend to include the paper of Galassi et al. in an improved version of the manuscript.
+
+Letter reference: DSMo01
