@@ -83,8 +83,18 @@ vicinities of the Bragg peak --at energies of hundreds of keV/amu--,
 precisely where the Born approximation starts to fail. 
 Another theoretical issue arises due to the targets themselves; we are 
 dealing with complex molecules, and the description of such targets 
-represents a hard task for {\it ab initio} calculations. The objective 
-of this article is to deal with these two aspects; first, we perform 
+represents a hard task for {\it ab initio} calculations. 
+
+Different approaches have been proposed to deal with the ionization of 
+molecular targets within the independent atom model. For example, 
+Galassi \textit{et al.} \cite{galassi2000} obtains molecular cross 
+sections by combining CDW-EIS atomic ones based on the population of 
+the molecular orbitals. Much more recently, L\"udde \textit{et al.} 
+\cite{ludde2016,ludde2018} 
+propose a combination of atomic cross sections with geometrical screening
+corrections.
+
+The objective of this article is to deal with two aspects; first, we perform 
 more appropriate calculations on the primary damage mechanism, which can 
 replace the Born results. Second, we inspect and test a stoichiometric 
 model to describe the ionization of molecular targets.
@@ -150,11 +160,11 @@ particular molecules also include halogen atoms such as fluorine and
 bromine; ionization cross sections of these elements have been 
 previously published~\cite{miraglia2008}.
 
-The total ionization cross sections of these atoms were calculated using 
-the CDW. The initial bound and final continuum radial wave 
-functions were obtained by using the {\sc radialf} code, developed by 
-Salvat and co--workers~\cite{salvat1995}, and a Hartree--Fock potential 
-obtained from the Depurated Inversion Method~\cite{mendez2016,mendez2018}. 
+The total ionization cross sections of these atoms $\sigma_{\alpha}$
+were calculated using the CDW. The initial bound and final continuum 
+radial wave functions were obtained by using the {\sc radialf} code, 
+developed by Salvat and co--workers~\cite{salvat1995}, and a Hartree--Fock 
+potential obtained from the Depurated Inversion Method~\cite{mendez2016,mendez2018}. 
 We used a few thousand pivot points to solve the Schr\"{o}dinger 
 equation, depending on the number of oscillations of the continuum 
 state. The radial integration was performed using the cubic spline 
@@ -179,7 +189,8 @@ Further details of the calculation are given in Ref.~\cite{montanari2017}.
 \begin{figure*}[t!]
 \centering
 \includegraphics[width=0.8\textwidth]{figuras/atomicscaling.eps}
-\caption{Reduced CDW total ionization cross section of six atomic 
+\caption{Reduced CDW total ionization cross section $\sigma_{\alpha}/Z^2$ 
+of six atomic 
 targets. The curves are labeled with the charge state corresponding to 
 the six multicharged projectiles.}
 \label{fig:atomscaling}
@@ -242,7 +253,7 @@ sub--shell contributions of the element $\alpha$.
 \caption{Mean emitted energy distribution for ionization by the impact 
 of multicharged ions, given by Eq.~(\ref{40}). 
 Solid lines for ion charges $+1$, $2+$, $4+$, $6+$ and $8+$, as indicated.
-Dashed lines for $\bar{p}$ and dotted line for Born with $Z=1$.}
+Dashed lines for $\bar{p}$ and dotted line for the Born approximation with $Z=1$.}
 \label{fig:emittedener}
 \end{figure*} 
 
@@ -316,11 +327,13 @@ $\overline{\theta}_{\alpha}\sim 70\degree$~\cite{surdutovic2018}, and
 it is quite correct in the range of validity of the first Born 
 approximation for any target. However, when a distorted wave approximation 
 is used, $\overline{\theta}_{\alpha}$ decreases substantially with $Z$ 
-in the intermediate energy region. This effect is evident in 
-Fig.~\ref{fig:emittedang};
-for example, at 0.3 MeV/amu --where the Bragg peak for C$^{6+}$ impact 
-occurs-- the CDW $\overline{\theta}_{\alpha}$ is half of the first Born 
-value. This correction closes the damage to the forward direction.
+in the intermediate energy region, as shown in Fig.~\ref{fig:emittedang}.
+
+To illustrate these effects, consider the impact of C$^{6+}$ impact on oxygen.
+At an impact energy of 500~keV, the first Born approximation predicts
+emitted electrons with mean energies of 46.7 eV and mean angles of 78\degree, 
+while the CDW gives 62.5 eV and 60\degree. 
+These results imply depper penetration closer to the direction of the ion.
 We can attribute this forward direction correction to the capture to 
 the continuum effect; the higher the charge $Z$, the smaller 
 $\overline{\theta}$ will be. Of course, this effect only holds at 
@@ -381,8 +394,9 @@ families.}
 \end{center}
 \end{table}
 
-In Fig.~\ref{fig:crossDNA_1}, we report the total ionization cross 
-sections by the impact of multicharged ions for adenine, cytosine, 
+In Fig.~\ref{fig:crossDNA_1}, we report the reduced total ionization cross 
+sections $\sigma_M/Z^2$ by the impact of multicharged ions for adenine,
+cytosine, 
 guanine, and thymine, by combining the SSM and CDW results in 
 Eq.~\ref{eq:sumion}. For adenine, the agreement with the experimental 
 data available for proton impact~\cite{iriki2011} is excellent. To the 
@@ -396,8 +410,16 @@ above our findings for all the molecular targets, it is worth stating
 that our results agree very well with other electron impact theoretical 
 predictions~\cite{mozejko2003,tan2018}. 
 
+At intermediate impact energies, the $Z^2$ rule no longer holds and other 
+scalings can be considered in this region. 
+In Fig.~\ref{fig:Zcaled_crossDNA_1}, we plotted the reduced ionization 
+cross section $\sigma_M/Z$ as a function of the reduced ion impact energy
+$E/Z$ as suggested by~\cite{janev1980,dubois2013}.
+This scaling may be a good alternative to deal with highly charged
+ions at intermediate energies in a coherent way.
 
-Our results for uracil, DNA backbone, pyrimidine, and THF are displayed 
+The reduced total ionization cross sections $\sigma_M/Z^2$ for uracil, 
+DNA backbone, pyrimidine, and THF are displayed 
 in Fig.~\ref{fig:crossDNA_2}. For uracil, the agreement with the 
 experimental proton impact measurements by 
 Itoh~{\it et al.}~\cite{itoh2013} is good.
@@ -425,18 +447,30 @@ data.
 \begin{figure*}[t!]
 \centering
 \includegraphics[width=0.8\textwidth]{figuras/adn1.eps}
-\caption{Reduced CDW ionization cross section by the impact of 
-multicharged ions. Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} 
+\caption{Reduced CDW ionization cross section $\sigma_{M}/Z^2$ as a function 
+of ion impact energy. Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} 
 for proton impact and $\square$~\cite{rahman2016} for electron impact 
 with equivelocity conversion.}
 \label{fig:crossDNA_1}
 \end{figure*} 
 
+
+\begin{figure*}[t!]
+\centering
+\includegraphics[width=0.8\textwidth]{figuras/Zscaling_adn1.eps}
+\caption{Reduced CDW ionization cross section $\sigma_{M}/Z$ as a function 
+of reduced ion impact energy $E/Z$. 
+Experiments: \mbox{\Large$\circ$}~\cite{iriki2011} 
+for proton impact and $\square$~\cite{rahman2016} for electron impact 
+with equivelocity conversion.}
+\label{fig:Zcaled_crossDNA_1}
+\end{figure*} 
+
 \begin{figure*}[t!]
 \centering
 \includegraphics[width=0.8\textwidth]{figuras/adn2.eps}
-\caption{Reduced CDW ionization cross section by the impact of 
-multicharged ions. Experiments: proton impact on 
+\caption{Reduced CDW ionization cross section $\sigma_{M}/Z^2$ as a function 
+of ion impact energy. Experiments: proton impact on 
 $\triangle$ uracil~\cite{itoh2013}, 
 $\bigtriangledown$ pyrimidine~\cite{wolff2014} and $\meddiamond$
 THF~\cite{wang2016}. Impact of $\ominus$ C$^{4+}$, 
@@ -575,7 +609,7 @@ p{0.095\textwidth}p{0.035\textwidth}p{0.02\textwidth}|}
  CH$_5$N  & 13 & 14 & C$_4$H$_4$N$_2$O$_2$& 36 & 40 & C$_5$H$_{10}$O$_5$P  & 54.5 & 65 \\
  \hline
 \end{tabular}
-\caption{New scaling numbers, $n_e'$, and Toburen numbers, $n_e$,
+\caption{New scaling numbers $n_e'$, and Toburen numbers $n_e$,
 for some molecular targets of biological interest.}
 \label{nn}
 \end{center}
@@ -605,12 +639,16 @@ of molecules as a function of the number of active electrons from
 Table~\ref{nn}. Our findings are displayed in Fig.~\ref{fig:recta} for 
 impact energies 0.5, 1, and 2 MeV. As can be noted, the computed CDW 
 ionization cross sections for all the molecules show a linear 
-dependence with the number of electrons from Table~\ref{nn}. We obtain 
-similar results, even for $E=10$~MeV. The comparison with the 
+dependence with the number of electrons $n_e'$ from Table~\ref{nn}.
+We obtain similar results, even for $E=10$~MeV. An 
+equivalent plot using the Toburen numbers $n_e$ of Table~\ref{nn} does not 
+exhibit the straight lines obtained with the present scaling. The 
+comparison with the 
 experimental data available shows overall good agreement, for the 
 smallest molecules, H$_2$, H$_2$O, and CH$_4$, up to the most complex 
 ones, like adenine. For electron impact data, the experimental data was 
 interpolated between close neighbors.
+
 
 While finishing the present work, we became aware of an accepted manuscript by 
 Luedde~{\it et al.}~\cite{luedde2019} on total ionization of biological
@@ -789,6 +827,18 @@ the impact of multicharged ions.
 
 \begin{thebibliography}{}
 
+\bibitem{galassi2000}
+M. E. Galasssi, R. D. Rivarola, M. Beuve, G. H. Olivera and P. D. Fainstein, 
+Phys. Rev. A \textbf{62}, 022701 (2000).
+
+\bibitem{ludde2016}
+H. J. L\"udde, A. Achenbach, T. Kalkbrenner, H.-C. Jankowiak and T. Kirchner,
+Eur. Phys. J. D \textbf{70}, 82 (2016).
+
+\bibitem{ludde2018}
+H. J. L\"udde, M. Horbatsch and T. Kirchner,
+Eur. Phys. J. B \textbf{91}, 99 (2018).
+
 \bibitem{fainstein1988}
 Fainstein P.D., Ponce V. H. and Rivarola R. D. 
 J. Phys. B: At. Mol. Opt. Phys. \textbf{21} 287 (1988).
@@ -883,6 +933,14 @@ H. Q. Tan, Z. Mi, and A. A. Bettiol,
 Simple and universal model for electron-impact ionization of complex 
 biomolecules, 
 Phys. Rev. E \textbf{97}, 032403 (2018)
+
+\bibitem{janev1980}
+R. K. Janev and L. P. Presnyakov 
+J. Phys. B \textbf{13}, 4233 (1980).
+
+\bibitem{dubois2013}
+R. D. DuBois, E. C. Montenegro and G. M. Sigaud,
+AIP Conference Proceeding \textbf{1525}, 679 (2013).
 
 \bibitem{itoh2013} 
 A. Itoh, Y. Iriki, M. Imai, C. Champion, and R. D. Rivarola, 
