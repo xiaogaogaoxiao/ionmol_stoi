@@ -1,0 +1,27 @@
+\documentclass[a4paper,10pt]{letter}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+% If you want headings on subsequent pages,
+% remove the ``%'' on the next line:
+\pagestyle{headings}
+\date{}% It is always \today, today,
+
+\begin{letter}{}
+
+\opening{}
+
+\begin{center}
+Justification for Accelerated Publication in Environmental Research Letters
+\end{center}
+
+
+\signature{A.M.P. Mendez}
+
+\closing{Best regards,}
+
+%enclosure listing
+%\encl{}
+
+\end{letter}
+\end{document}

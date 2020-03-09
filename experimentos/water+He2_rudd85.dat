@@ -1,0 +1,11 @@
+# He in H20 -- Rudd 1985
+# Units 
+# Energy: MeV/u
+# Cross section: 10^(-16) cm2
+E	H2O
+0.05	14
+0.075	15
+0.1	16
+0.15	14
+0.2	13
+0.3	12

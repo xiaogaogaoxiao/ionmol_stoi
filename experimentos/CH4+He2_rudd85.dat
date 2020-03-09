@@ -1,0 +1,10 @@
+# He2 in CH4 -- Rudd 83
+# Units 
+# Energy: MeV/u
+# Cross section: 10^(-16) cm2
+E	TCS	
+0.075	22
+0.1	22
+0.15	19
+0.2	17
+0.3	14

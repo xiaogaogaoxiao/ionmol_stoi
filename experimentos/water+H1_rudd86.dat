@@ -1,0 +1,10 @@
+# H+ in H2O -- Rudd 1986
+# Units 
+# Energy: MeV/u
+# Cross section: 10^(-16) cm2
+E	TCS
+0.05	6
+0.07	6.4
+0.1	6.2
+0.15	5.5
+
