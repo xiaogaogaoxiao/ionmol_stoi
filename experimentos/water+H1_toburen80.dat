@@ -1,0 +1,7 @@
+# H+ in H2O -- Toburen 1980
+# Units 
+# Energy: MeV/u
+# Cross section: 10^(-15) cm2
+E	TCS
+0.30  0.257
+0.50  0.170

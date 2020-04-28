@@ -1,4 +1,7 @@
 \documentclass[10pt,showpacs,showkeys,twocolumn]{revtex4}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL zion_ale.tex   Fri Mar  6 15:30:17 2020
+%DIF ADD zscaling.tex   Fri Mar 13 13:55:17 2020
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \usepackage[T1]{fontspec}
 \usepackage{amssymb}
@@ -12,9 +15,27 @@
 \usepackage{comment}
 \usepackage{wasysym} 
 \usepackage{stmaryrd}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
-
 
 \title[Universal scaling for the ionization of biological molecules]{
 Universal scaling for the ionization of biological molecules by highly charged ions}
@@ -22,7 +43,8 @@ Universal scaling for the ionization of biological molecules by highly charged i
 \affiliation{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio 
 (CONICET--UBA), \\ Buenos Aires, Argentina.}
 
-\date{\today}% It is always \today, today,
+\date{\DIFdelbegin %DIFDELCMD < \today%%%
+\DIFdelend }% It is always \today, today,
 
 \begin{abstract}
 In the present work, we investigate scaling rules for the ionization cross sections of multicharged ions on molecules of biological interest. The cross sections are obtained from distorted--wave calculations for atomic targets combined with a stoichiometric model for the molecules proposed in [Mendez \textit{et al.} J. Phys B (2020)]. We examine ions with charges $Z$ from $+1$ to $+8$ in five nucleobases --adenine, cytosine, guanine, thymine, uracil--, tetrahydrofuran, pyrimidine, and also in water. We propose a scaling with the ion charge, which is valid in the intermediate to high energy range, i.e. 0.2-5 MeV/amu for oxygen impact. We extend our work to a universal scaling for any ion and molecule, merging the forty ion--molecule systems analyzed here into a single band. Furthermore, our model proved to be valid for other molecules too.  
@@ -82,9 +104,9 @@ $\medstar$~\cite{fuss2009} correspond to electron impact ionization with the equ
 \end{figure*} 
 
 % We consider our recent CDW-SSM results \cite{MendezJPB20} for eight targets (DNA and RNA nucleo-basis, tetrahydrofuran (THF) and pyrimidine) and five charged ions (H$^+$m He$^+2$, Be$^+4$, C$^+6$, and O$^+8$)eight targets (DNA and RNA nucleo-basis, tetrahydrofuran (THF) and pyrimidine) and five charged ions (H$^+$m He$^+2$, Be$^+4$, C$^+6$, and O$^+8$) as benchmark for the present scaling. 
+
  
- 
-Combining our recent CDW--SSM results~\cite{MendezJPB20} and Eq.~(\ref{Montenegro}), we propose here a $Z$-scaling and implement it for forty collisional systems. The ion--molecule systems are composed of eight targets: the DNA and RNA nucleobases --adenine, citosine, guanine, thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and water; and five charged ions: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. We considered these systems as a benchmark for the present scaling. 
+Combining our recent CDW--SSM results~\cite{MendezJPB20} and Eq.~(\ref{Montenegro}), we propose here a $Z$-scaling and implement it for forty collisional systems. The ion--molecule systems are composed of eight targets: the DNA and RNA nucleobases --adenine, \DIFdelbegin \DIFdel{citosine}\DIFdelend \DIFaddbegin \DIFadd{cytosine}\DIFaddend , guanine, thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and water; and five charged ions: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. We considered these systems as a benchmark for the present scaling. 
 
 
 %We found that $\sigma/Z^{\alpha}$ vs. $E^{2-\alpha}$, with $\alpha=1.2$ best fits the CDW-SSM scaled cross sections for all the ions. %$Z=+1$ to $+8$. , giving similar energy for the maximum of the cross sections. %, as displayed in  figure \ref{fig:zreduced}. 
@@ -191,7 +213,7 @@ We proved this statement by including in Fig.~\ref{fig:zalpha} the measurements 
 The good agreement shown in Fig.~\ref{fig:zalpha} summaries the main result of this work, and holds the validity of our universal scaling. Although the theoretical CDW--SSM results  %Present scaling rule 
 are valid for energies above the maximum of the cross sections, the scaling of the experimental data extends to lower impact energies%is more extensive
 , as can be noted in Fig. \ref{fig:zalpha}.
-The importance of scaling rules lay on their predictive capability. New measurements for other ions and molecules are expected to reinforce the present proposal. 
+The importance of scaling rules \DIFdelbegin \DIFdel{lay on }\DIFdelend \DIFaddbegin \DIFadd{lays in }\DIFaddend their predictive capability. New measurements for other ions and molecules are expected to reinforce the present proposal. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}

@@ -1,0 +1,10 @@
+# He in H20 -- Toburen 1980
+# Units 
+# Energy: MeV/u
+# Cross section: 10^(-15) cm2
+E	TCS
+0.075 1.23
+0.20  1.23
+0.30  0.90
+0.40  0.95
+0.50  0.77

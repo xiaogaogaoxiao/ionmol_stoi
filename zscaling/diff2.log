@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  6 MAR 2020 15:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2019.2.15)  13 MAR 2020 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**zion_ale.tex
-(./zion_ale.tex
+**diff2.tex
+(./diff2.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 5 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4.cls
@@ -368,44 +368,64 @@ Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-No file zion_ale.aux.
-\openout1 = `zion_ale.aux'.
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box38
+\UL@hyphenbox=\box39
+\UL@skip=\skip48
+\UL@hook=\toks25
+\UL@height=\dimen114
+\UL@pe=\count107
+\UL@pixel=\dimen115
+\ULC@box=\box40
+Package: ulem 2012/05/18
+\ULdepth=\dimen116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+) (./diff2.aux)
+\openout1 = `diff2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-Class revtex4 Info: Patching LaTeX tabular. on input line 16.
-Class revtex4 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 16.
+LaTeX Font Info:    ... okay on input line 38.
+Class revtex4 Info: Patching LaTeX tabular. on input line 38.
+Class revtex4 Info: cite was not loaded (OK!) on input line 38.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen114
-\scratchbox=\box38
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen115
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count108
+\scratchdimen=\dimen117
+\scratchbox=\box41
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen118
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -456,121 +476,42 @@ e
 ))
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 16.
-Package gensymb Info: Math companion symbols declared on input line 16.
-LaTeX Info: Redefining \degree on input line 16.
-LaTeX Info: Redefining \celsius on input line 16.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 38.
+Package gensymb Info: Math companion symbols declared on input line 38.
+LaTeX Info: Redefining \degree on input line 38.
+LaTeX Info: Redefining \celsius on input line 38.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 16.
-LaTeX Info: Redefining \ohm on input line 16.
-Package gensymb Info: Using \textohm for \ohm on input line 16.
-Package gensymb Info: Using \textmu for \micro on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+erthousand on input line 38.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \textohm for \ohm on input line 38.
+Package gensymb Info: Using \textmu for \micro on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 28.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 28.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-
-Package natbib Warning: Citation `PhysMed' on page 1 undefined on input line 39
-.
-
-
-Package natbib Warning: Citation `Mohamad2017' on page 1 undefined on input lin
-e 39.
-
-
-Package natbib Warning: Citation `Solov2009' on page 1 undefined on input line 
-39.
-
-
-Package natbib Warning: Citation `Denifl2011' on page 1 undefined on input line
- 39.
-
-
-Package natbib Warning: Citation `water' on page 1 undefined on input line 39.
-
-
-Package natbib Warning: Citation `ferrazdias' on page 1 undefined on input line
- 39.
-
-
-Package natbib Warning: Citation `vera_prl2013' on page 1 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 39.
-
-
-Package natbib Warning: Citation `Quinto20' on page 1 undefined on input line 3
-9.
-
-
-Package natbib Warning: Citation `ludde2019' on page 1 undefined on input line 
-39.
-
-
-Package natbib Warning: Citation `ludde2018' on page 1 undefined on input line 
-39.
-
-
-Package natbib Warning: Citation `ludde2016' on page 1 undefined on input line 
-39.
-
-
-Package natbib Warning: Citation `Champion2012' on page 1 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 41.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 43.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 43.
-
-
-Package natbib Warning: Citation `janev1980' on page 1 undefined on input line 
-46.
-
-
-Package natbib Warning: Citation `dubois13' on page 1 undefined on input line 4
-6.
-
-
-Package natbib Warning: Citation `montenegro_pra13' on page 1 undefined on inpu
-t line 46.
-
-
-Package natbib Warning: Citation `dubois13' on page 1 undefined on input line 5
-2.
-
 Package epstopdf Info: Source file: <zscale_alpha.eps>
-(epstopdf)                    date: 2020-03-06 14:39:20
-(epstopdf)                    size: 508810 bytes
+(epstopdf)                    date: 2020-03-06 15:43:01
+(epstopdf)                    size: 508807 bytes
 (epstopdf)             Output file: <zscale_alpha-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-03-06 14:39:24
-(epstopdf)                    size: 60930 bytes
+(epstopdf)                    date: 2020-03-06 15:43:08
+(epstopdf)                    size: 60903 bytes
 (epstopdf)             Command: <repstopdf --outfile=zscale_alpha-eps-converted
 -to.pdf zscale_alpha.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -580,271 +521,13 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 File: zscale_alpha-eps-converted-to.pdf Graphic file (type pdf)
 
 <use zscale_alpha-eps-converted-to.pdf>
-Package pdftex.def Info: zscale_alpha-eps-converted-to.pdf used on input line 5
-6.
+Package pdftex.def Info: zscale_alpha-eps-converted-to.pdf used on input line 7
+8.
 (pdftex.def)             Requested size: 356.99844pt x 356.99104pt.
 
-
-Package natbib Warning: Citation `iriki2011' on page 1 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `tribedi2019' on page 1 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `itoh2013' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `agnihotri2012' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `agnihotri2013' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `wolff2014' on page 1 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `wang2016' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `Luna2007' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `Rudd86' on page 1 undefined on input line 80.
-
-
-
-Package natbib Warning: Citation `Rudd85' on page 1 undefined on input line 80.
-
-
-
-Package natbib Warning: Citation `Luna_Li_water' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `DalCappello2009' on page 1 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 1 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `rahman2016' on page 1 undefined on input line
- 80.
-
-
-Package natbib Warning: Citation `bug2017' on page 1 undefined on input line 80
-.
-
-
-Package natbib Warning: Citation `wolf2019' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `fuss2009' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `iriki2011' on page 1 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `tribedi2019' on page 1 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `itoh2013' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `agnihotri2012' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `agnihotri2013' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `wolff2014' on page 1 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `wang2016' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `Luna2007' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `Rudd86' on page 1 undefined on input line 80.
-
-
-
-Package natbib Warning: Citation `Rudd85' on page 1 undefined on input line 80.
-
-
-
-Package natbib Warning: Citation `Luna_Li_water' on page 1 undefined on input l
-ine 80.
-
-
-Package natbib Warning: Citation `DalCappello2009' on page 1 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 1 undefined on input
- line 80.
-
-
-Package natbib Warning: Citation `rahman2016' on page 1 undefined on input line
- 80.
-
-
-Package natbib Warning: Citation `bug2017' on page 1 undefined on input line 80
-.
-
-
-Package natbib Warning: Citation `wolf2019' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `fuss2009' on page 1 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 87.
-
-
-LaTeX Warning: Reference `Montenegro' on page 1 undefined on input line 87.
-
-
-LaTeX Warning: Reference `Montenegro' on page 1 undefined on input line 91.
-
-
-LaTeX Warning: Reference `fig:zreduced' on page 1 undefined on input line 92.
-
-
-Package natbib Warning: Citation `itoh2013' on page 1 undefined on input line 9
-5.
-
-
-Package natbib Warning: Citation `iriki2011' on page 1 undefined on input line 
-95.
-
-
-Package natbib Warning: Citation `wolff2014' on page 1 undefined on input line 
-95.
-
-
-Package natbib Warning: Citation `wang2016' on page 1 undefined on input line 9
-5.
-
-
-Package natbib Warning: Citation `tribedi2019' on page 1 undefined on input lin
-e 95.
-
-
-Package natbib Warning: Citation `agnihotri2012' on page 1 undefined on input l
-ine 95.
-
-
-Package natbib Warning: Citation `agnihotri2013' on page 1 undefined on input l
-ine 95.
-
-
-Package natbib Warning: Citation `Luna2007' on page 1 undefined on input line 9
-5.
-
-
-Package natbib Warning: Citation `Rudd86' on page 1 undefined on input line 95.
-
-
-
-Package natbib Warning: Citation `Rudd85' on page 1 undefined on input line 95.
-
-
-
-Package natbib Warning: Citation `Luna_Li_water' on page 1 undefined on input l
-ine 95.
-
-
-Package natbib Warning: Citation `DalCappello2009' on page 1 undefined on input
- line 95.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 1 undefined on input
- line 95.
-
-
-Package natbib Warning: Citation `rahman2016' on page 1 undefined on input line
- 96.
-
-
-Package natbib Warning: Citation `bug2017' on page 1 undefined on input line 96
-.
-
-
-Package natbib Warning: Citation `wolf2019' on page 1 undefined on input line 9
-6.
-
-
-Package natbib Warning: Citation `fuss2009' on page 1 undefined on input line 9
-6.
-
-
-LaTeX Warning: Reference `fig:zreduced' on page 1 undefined on input line 96.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 1 undefined on input
- line 96.
-
-
-Package natbib Warning: Citation `agnihotri2012' on page 1 undefined on input l
-ine 96.
-
-
-Package natbib Warning: Citation `agnihotri2013' on page 1 undefined on input l
-ine 96.
-
-
-Package natbib Warning: Citation `itoh2013' on page 1 undefined on input line 9
-6.
-
-
-Package natbib Warning: Citation `sarkadi2016' on page 1 undefined on input lin
-e 96.
-
-
-Package natbib Warning: Citation `Luna_Li_water' on page 1 undefined on input l
-ine 98.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 115.
-
-
-LaTeX Warning: Reference `fig:zreduced' on page 1 undefined on input line 115.
-
-
-LaTeX Warning: Reference `nn' on page 1 undefined on input line 118.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 143.
-
-
-Package natbib Warning: Citation `MendezJPB20' on page 1 undefined on input lin
-e 143.
+Underfull \hbox (badness 1112) in paragraph at lines 109--110
+[]\OT1/cmr/m/n/10 Combining our re-cent CDW--SSM re-sults [[]] and
+ []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <zmol_alpha.eps>
@@ -855,7 +538,7 @@ Package epstopdf Info: Source file: <zmol_alpha.eps>
 (epstopdf)                    size: 69216 bytes
 (epstopdf)             Command: <repstopdf --outfile=zmol_alpha-eps-converted-t
 o.pdf zmol_alpha.eps>
-(epstopdf)             \includegraphics on input line 151.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -865,205 +548,22 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 File: zmol_alpha-eps-converted-to.pdf Graphic file (type pdf)
 
 <use zmol_alpha-eps-converted-to.pdf>
-Package pdftex.def Info: zmol_alpha-eps-converted-to.pdf used on input line 151
+Package pdftex.def Info: zmol_alpha-eps-converted-to.pdf used on input line 173
 .
 (pdftex.def)             Requested size: 356.99844pt x 312.36716pt.
-
-
-LaTeX Warning: Reference `u-scaling' on page 2 undefined on input line 171.
-
-
-Package natbib Warning: Citation `iriki2011' on page 2 undefined on input line 
-171.
-
-
-Package natbib Warning: Citation `itoh2013' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `wolff2014' on page 2 undefined on input line 
-171.
-
-
-Package natbib Warning: Citation `wang2016' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `tribedi2019' on page 2 undefined on input lin
-e 171.
-
-
-Package natbib Warning: Citation `Luna2007' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `Rudd86' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `Rudd85' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `DalCappello2009' on page 2 undefined on input
- line 171.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 2 undefined on input
- line 171.
-
-
-Package natbib Warning: Citation `Rudd85' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `Rudd1983' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `Luna2019' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `bug2017' on page 2 undefined on input line 17
-1.
-
-
-Package natbib Warning: Citation `wolf2019' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `fuss2009' on page 2 undefined on input line 1
-71.
-
-
-LaTeX Warning: Reference `u-scaling' on page 2 undefined on input line 171.
-
-
-Package natbib Warning: Citation `iriki2011' on page 2 undefined on input line 
-171.
-
-
-Package natbib Warning: Citation `itoh2013' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `wolff2014' on page 2 undefined on input line 
-171.
-
-
-Package natbib Warning: Citation `wang2016' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `tribedi2019' on page 2 undefined on input lin
-e 171.
-
-
-Package natbib Warning: Citation `Luna2007' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `Rudd86' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `Rudd85' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `DalCappello2009' on page 2 undefined on input
- line 171.
-
-
-Package natbib Warning: Citation `Tribedi_O_water' on page 2 undefined on input
- line 171.
-
-
-Package natbib Warning: Citation `Rudd85' on page 2 undefined on input line 171
-.
-
-
-Package natbib Warning: Citation `Rudd1983' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `Luna2019' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `bug2017' on page 2 undefined on input line 17
-1.
-
-
-Package natbib Warning: Citation `wolf2019' on page 2 undefined on input line 1
-71.
-
-
-Package natbib Warning: Citation `fuss2009' on page 2 undefined on input line 1
-71.
-
-
-LaTeX Warning: Reference `nn' on page 2 undefined on input line 182.
-
-
-LaTeX Warning: Reference `fig:zalpha' on page 2 undefined on input line 183.
-
-
-LaTeX Warning: Reference `u-scaling' on page 2 undefined on input line 183.
-
-
-LaTeX Warning: Reference `fig:zreduced' on page 2 undefined on input line 184.
-
-
-Package natbib Warning: Citation `agnihotri2012' on page 2 undefined on input l
-ine 185.
-
-
-Package natbib Warning: Citation `agnihotri2013' on page 2 undefined on input l
-ine 185.
-
-
-Package natbib Warning: Citation `Luna_Li_water' on page 2 undefined on input l
-ine 185.
-
-
-LaTeX Warning: Reference `fig:zalpha' on page 2 undefined on input line 189.
-
-
-Package natbib Warning: Citation `Rudd85' on page 2 undefined on input line 189
-.
-
-
-Package natbib Warning: Citation `Rudd1983' on page 2 undefined on input line 1
-89.
-
-
-Package natbib Warning: Citation `Luna2019' on page 2 undefined on input line 1
-89.
-
-
-LaTeX Warning: Reference `fig:zalpha' on page 2 undefined on input line 191.
-
-
-LaTeX Warning: Reference `fig:zalpha' on page 2 undefined on input line 193.
-
-[2 <./zscale_alpha-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `LastBibItem' on page 3 undefined on input line 204.
-
+ [2 <./zscale_alpha-eps-converted-to.pdf>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
 
-Underfull \hbox (badness 1275) in paragraph at lines 232--233
+Underfull \hbox (badness 1377) in paragraph at lines 254--255
  []\OT1/cmr/m/n/9 P. de Vera, R. Garcia-Molina,I. Abril, and A. V.
  []
 
 [3 <./zmol_alpha-eps-converted-to.pdf>]
-Underfull \hbox (badness 1043) in paragraph at lines 322--324
+Underfull \hbox (badness 1142) in paragraph at lines 344--346
  []\OT1/cmr/m/n/9 C. Dal Cap-pello, C. Cham-pion, O. Boudri-oua, H.
  []
 
@@ -1071,62 +571,43 @@ Missing character: There is no Ã in font cmr9!
 Missing character: There is no ± in font cmr9!
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no £ in font cmr9!
-
-Class revtex4 Warning: Endnote numbers changed: rerun LaTeX.
-
-
-Package natbib Warning: There were undefined citations.
-
-[4] (./zion_ale.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[4] (./diff2.aux) ) 
 Here is how much of TeX's memory you used:
- 6251 strings out of 494966
- 82264 string characters out of 6179559
- 150856 words of memory out of 5000000
- 9331 multiletter control sequences out of 15000+600000
- 25958 words of font info for 93 fonts, out of 8000000 for 9000
+ 6390 strings out of 494966
+ 83857 string characters out of 6179559
+ 153562 words of memory out of 5000000
+ 9459 multiletter control sequences out of 15000+600000
+ 25756 words of font info for 93 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,7n,30p,1717b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}</usr/share/texlive/texmf
--dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/mnsymbol/MnSymbol9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/stmaryrd/stmary9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/wasy/wasy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/wasy/wasy9.pfb>
-Output written on zion_ale.pdf (4 pages, 401512 bytes).
+ 38i,8n,27p,1709b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSy
+mbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}</usr/sh
+are/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/mnsymbol/MnSymbol9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/stmaryrd/stmary9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/wasy/wasy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/wasy/wasy9.pfb>
+Output written on diff2.pdf (4 pages, 395108 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
