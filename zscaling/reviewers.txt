@@ -1,0 +1,124 @@
+REFEREE REPORT(S):
+Referee: 1
+
+COMMENTS TO THE AUTHOR(S)
+The authors propose the universal scaling law of the ionization cross 
+sections by the impact of multiply charged atomic ions on the basis of 
+the experimental data reported in their very recent publication 
+[J. Phys. B, 53, 055201 (2020)]. Their conclusion of this newly 
+submitted paper is that they found the scaling law of Eq. (1) with the 
+alpha value of 1.2. However, as the authors mention in the introduction 
+part, the same scaling law with the alpha value of 4/3 = 1.333 was 
+reported in 2013 by DuBois et al. [Ref. 15].
+
+The authors should explain if the scaling with alpha = 4/3, which is 
+very close to their value of 1.2, could not explain the experimental 
+data they recorded. If the value of 1.2 is much better than 1.333, the 
+author should explain possible reason why alpha should be 1.2 on the 
+basis of the physical meaning of the parameter alpha.
+
+
+Referee: 2
+
+COMMENTS TO THE AUTHOR(S)
+The authors propose a scaling formula for cross sections for ionization 
+of complex molecules by multiply charged ions. Such cross sections are 
+required, e.g.,  for estimating radiation damage in biomolecules. A 
+routine ab-initio calculation of such cross sections by quantum methods 
+is byond reach of the state-of-the-arts methods. In this situation, it 
+is helpful to have semi-empirical scaling formulas for modeling purposes. 
+Thus, the paper is timely and serves a need. It is concise. However, 
+there are some language issues. The paper should eventually be published 
+as a JPB letter after the authors having adequately responded to my 
+detailed points below.
+
+1) page1, line 11: " ... from +1 to +8 colliding with five ..."
+
+2) page 1, line 14: " ... fourty ..."
+
+3) page 1, line 26: " ... continuum distorted-wave ..."
+
+4) page 1, line 42: "... first order approximation in experimental ..."
+
+5) page 1, line 53: I do not see how any value fo alpha keeps the Z^2/E 
+relationship? alpha = 1.2 results in Z^0.8/E.
+
+6) page 1, line 20, column 2: "... fourty ..."
+
+7) page 1, line 24,, column 2: " ... and five ion species: ..."
+
+8) Figure captions. Both caption should mention that all plots are for 
+alpha=1.2.
+
+9)   page 2, line 40, column 2: How broad is the "narrow band"? The 
+authors should supply some estimate for the uncertainty of the scaling 
+formula. I consider this very important.
+
+
+
+Referee: 3
+
+COMMENTS TO THE AUTHOR(S)
+Please see report attached.
+
+Letter reference: DSMa01
+
+This paper tries to obtain a scaling law for ionization of some 
+biological molecules by highly charged ions. As is well known, such 
+processes are quite relevant and important in medical physics. Since 
+the molecules considered are complex, formal theories of ionization are
+difficult to apply and scaling laws, if found applicable, greatly 
+simplify the process of obtaining reliable cross sections. In this 
+respect the present paper is quite significant. The authors have 
+proposed a scaling law and have applied it to several bio molecules and
+have tried to extend and justify the validity of the scaling law by 
+including results for N2, O2, CO, CO2 and CH4 to show they have the 
+same scaling behaviour. However, there are several aspects of the paper 
+which I either do not understand clearly, or have reservations. 
+
+1. The authors mention σ to be a function of E/Z. But the functional 
+form is nowhere mentioned in the paper. What is the functional 
+dependence on E/Z the authors consider in the work?
+
+2. I have reservations in calling the scaling law developed a universal 
+scaling law. Not only have the authors considered only 8 molecular 
+targets and five incident ions, the results, as the authors claim, are 
+applicable only around the maximum of the cross sections. Though this 
+may be reasonable for practical purposes, in my opinion, the results 
+are in too narrow range for calling it a universal scaling law. I would 
+recommend dropping the word universal everywhere in the paper.
+
+3. Figure 1 somehow needs to be improved or made larger, because it is 
+very difficult to gauge the deviation of the experimental points from 
+the curves. Is it possible to separate the figure in to two figures 
+(eg. top four Figure 1, bottom four Figure 2)?
+
+4. Figure captions need to be significantly improved as it is difficult 
+to read and correlate the legend descriptions with those in the figure. 
+For the caption in Figure 2, it is not clear what the CDW-SSM 
+theoretical results represent ? What is the target molecule considered?
+
+5. The language should be considerably improved as there are many 
+unusual statements.
+
+Some examples:
+(i) Page 1 Column 2, Lines 40-44: “However, the data of uracil by swift 
+C, O and F ions in [22, 23] are too low compared with our CDW–SSM 
+results, but also as compared with Itoh et al. data [17], and with the 
+CTMC calculations by Sarkadi [34]” Incidentally, the data of Ref. [34] 
+is not shown on the figure.
+
+(ii) Page 2 Line 56 : “In Fig. 2, we test the universal scaling of 
+Eq. (2) for all the theoretical and experimental values displayed in 
+Fig. 1.”
+
+6. There are many typographical errors. For example, Page 1, line 26 
+“continue” should be “continuum”. Page 1, Line 33 “present” should be 
+“follow”. There are also others. 
+
+The paper, though quite interesting and contains valuable results, 
+needs to be considerabley revised. I therefore recommend a major 
+revision.
+
+
+
