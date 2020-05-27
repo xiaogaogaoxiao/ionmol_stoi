@@ -38,20 +38,49 @@ multicharged ions}
 %\ioptwocol
 
 
-The ionization of biological molecules by multicharged ions has gained increasing interest due to medical and environmental reasons~\cite{PhysMed}, from medical treatments~\cite{Mohamad2017,Solov2009,Denifl2011} to contaminant recognition in biological materials~\cite{water,ferrazdias}. Many semiempirical \citep{vera_prl2013} and theoretical efforts are currently being undertaken~\cite{MendezJPB20,Quinto20,ludde2019,ludde2018,ludde2016,Champion2012} to get reliable values for the ionization cross sections of these molecules. 
+The ionization of biological molecules by multicharged ions has gained 
+increasing interest due to medical and environmental 
+reasons~\cite{PhysMed}, from medical treatments~\cite{Mohamad2017,
+Solov2009,Denifl2011} to contaminant recognition in biological 
+materials~\cite{water,ferrazdias}. Many semiempirical 
+\citep{vera_prl2013} and theoretical efforts are currently being 
+undertaken~\cite{MendezJPB20,Quinto20,ludde2019,ludde2018,ludde2016,
+Champion2012} to get reliable values for the ionization cross sections 
+of these molecules. 
 
-Recently, we combined the continue distorted--wave calculations (CDW) for atoms and the simple stoichiometric model (SSM), also known as the Bragg sum rule, to approximate the ionization cross sections of complex molecular targets by charged ions~\cite{MendezJPB20}. The CDW--SSM approximation showed reasonable results for over a hundred of ion--molecule systems. As expected, in the high energy range (i.e. above 5 MeV/amu) the ionization cross sections  present the $Z^2$ dependence predicted by the first Born approximation. However, at intermediate energies, the dependence with $Z$ is more complex, and non--perturvative models are mandatory.  
+Recently, we combined the continue distorted--wave calculations (CDW) 
+for atoms and the simple stoichiometric model (SSM), also known as the 
+Bragg sum rule, to approximate the ionization cross sections of complex 
+molecular targets by charged ions~\cite{MendezJPB20}. The CDW--SSM 
+approximation showed reasonable results for over a hundred of 
+ion--molecule systems. As expected, in the high energy range (i.e. 
+above 5 MeV/amu) the ionization cross sections  present the $Z^2$ 
+dependence predicted by the first Born approximation. However, at 
+intermediate energies, the dependence with $Z$ is more complex, and 
+non--perturvative models are mandatory.  
 
-The intention of this letter is to give a follow up of our previous work~\cite{MendezJPB20} by proposing a scaling with the ion charge $Z$ of the ionization cross sections of complex molecules, valid at intermediate energies. In general, scaling rules are used as first--order tests in experimental measurements and multipurpose codes. Based on ~\cite{MendezJPB20}, we propose a universal scaling for any ion--target system.
+The intention of this letter is to give a follow up of our previous 
+work~\cite{MendezJPB20} by proposing a scaling with the ion charge $Z$ 
+of the ionization cross sections of complex molecules, valid at 
+intermediate energies. In general, scaling rules are used as 
+first--order tests in experimental measurements and multipurpose codes. 
+Based on ~\cite{MendezJPB20}, we propose a universal scaling for any 
+ion--target system.
 
-At intermediate impact energies, 
-Janev and Presnyakov~\cite{janev1980} suggest $\sigma/Z$ versus $E/Z$ as the \textit{natural} reduced form of the ionization cross section $\sigma$ and the incident ion energy $E$. Much more recently, Montenegro and co--workers~\cite{dubois13,montenegro_pra13} proposed an alternative scaling by taking into account that  $\sigma$ is a function of $Z^2/E$. Their scaling, given by
+At intermediate impact energies, Janev and Presnyakov~\cite{janev1980} 
+suggest $\sigma/Z$ versus $E/Z$ as the \textit{natural} reduced form of 
+the ionization cross section $\sigma$ and the incident ion energy $E$. 
+Much more recently, Montenegro and co--workers~\cite{dubois13,
+montenegro_pra13} proposed an alternative scaling by taking into 
+account that  $\sigma$ is a function of $Z^2/E$. Their scaling, given 
+by
 \begin{equation}
     \sigma/Z^{\alpha}=f(E/Z^{2-\alpha}),
     \label{Montenegro}
 \end{equation}
 keeps the $Z^2/E$ relationship for any value of $\alpha$. 
-In Ref.~\cite{dubois13}, the authors propose $\alpha=4/3$ for ionization of He and H$_2$ by different charged ions. 
+In Ref.~\cite{dubois13}, the authors propose $\alpha=4/3$ for 
+ionization of He and H$_2$ by different charged ions. 
 
 \begin{figure*}[!t]%[h]
 \centering
@@ -83,26 +112,56 @@ $\medstar$~\cite{fuss2009} correspond to electron impact ionization with the equ
 \label{fig:zreduced}
 \end{figure*} 
  
-Combining our recent CDW--SSM results~\cite{MendezJPB20} and Eq.~(\ref{Montenegro}), we propose here a $Z$-scaling and implement it for forty collisional systems. The ion--molecule systems are composed of eight targets: the DNA and RNA nucleobases --adenine, cytosine, guanine, thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and water; and five charged ions: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. We considered these systems as a benchmark for the present scaling. 
+Combining our recent CDW--SSM results~\cite{MendezJPB20} and 
+Eq.~(\ref{Montenegro}), we propose here a $Z$-scaling and implement it 
+for forty collisional systems. The ion--molecule systems are composed 
+of eight targets: the DNA and RNA nucleobases --adenine, cytosine, 
+guanine, thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and 
+water; and five charged ions: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, 
+and O$^{+8}$. We considered these systems as a benchmark for the 
+present scaling. 
 
-We found that the parameter $\alpha$ from Eq.~(\ref{Montenegro}) that fits the CDW--SSM scaled cross sections for all the ions is $\alpha=1.2$. 
-The validity of the theoretical scaling with the ion charge is very clear in Fig.~\ref{fig:zreduced}, where the CDW-SSM curves lays one over the other.  Our theoretical results are valid for impact energies around and above the maximum of the cross sections, which means above 50 keV for impact of H$^+$  to 250 keV/amu for impact of O$^{+8}$. 
+We found that the parameter $\alpha$ from Eq.~(\ref{Montenegro}) that 
+fits the CDW--SSM scaled cross sections for all the ions is $\alpha=1.2$. 
+The validity of the theoretical scaling with the ion charge is very 
+clear in Fig.~\ref{fig:zreduced}, where the CDW-SSM curves lays one 
+over the other.  Our theoretical results are valid for impact energies 
+around and above the maximum of the cross sections, which means above 
+50 keV for impact of H$^+$  to 250 keV/amu for impact of O$^{+8}$. 
 
-The scaling was tested with the experimental data available by impact of different charged ions \cite{itoh2013,iriki2011,wolff2014,wang2016,tribedi2019,agnihotri2012,agnihotri2013,Luna2007,Rudd86,Rudd85,Luna_Li_water,DalCappello2009,Tribedi_O_water},
-and also by electron impact at sufficiently high velocity \cite{rahman2016,bug2017,wolf2019,fuss2009}. As can be noted, most of the data in Fig.~\ref{fig:zreduced} confirms the present scaling, even for O$^{+8}$ in water~\cite{Tribedi_O_water}. However, the data of uracil by swift C, O and F ions in \cite{agnihotri2012,agnihotri2013} are too low compared with our CDW--SSM results, but also as compared with Itoh \textit{et al.} data \cite{itoh2013}, and with the CTMC calculations by Sarkadi \cite{sarkadi2016}.
-The data for Li$^{+3}$ in water from Ref.~\cite{Luna_Li_water} also spreads out from the present theoretical curves for $E<600$ keV/amu.
+The scaling was tested with the experimental data available by impact 
+of different charged ions \cite{itoh2013,iriki2011,wolff2014,wang2016,
+tribedi2019,agnihotri2012,agnihotri2013,Luna2007,Rudd86,Rudd85,
+Luna_Li_water,DalCappello2009,Tribedi_O_water}, and also by electron 
+impact at sufficiently high velocity \cite{rahman2016,bug2017,wolf2019,
+fuss2009}. As can be noted, most of the data in Fig.~\ref{fig:zreduced} 
+confirms the present scaling, even for O$^{+8}$ in 
+water~\cite{Tribedi_O_water}. However, the data of uracil by swift C, 
+O and F ions in \cite{agnihotri2012,agnihotri2013} are too low compared 
+with our CDW--SSM results, but also as compared with Itoh 
+\textit{et al.} data \cite{itoh2013}, and with the CTMC calculations by 
+Sarkadi \cite{sarkadi2016}. The data for Li$^{+3}$ in water from 
+Ref.~\cite{Luna_Li_water} also spreads out from the present theoretical 
+curves for $E<600$ keV/amu.
 
-The good results obtained in the scaling with the ion charge challenged us to look for a more general scaling rule that could predict values for ionization cross sections of any ion in any molecule. 
-To that end, we resorted to the number of active electrons in each atom $n_e$ proposed in \cite{MendezJPB20}, and combined it with the $Z$-scaling displayed in Fig.~\ref{fig:zreduced}.
+The good results obtained in the scaling with the ion charge challenged 
+us to look for a more general scaling rule that could predict values 
+for ionization cross sections of any ion in any molecule. To that end, 
+we resorted to the number of active electrons in each atom $n_e$ 
+proposed in \cite{MendezJPB20}, and combined it with the $Z$-scaling 
+displayed in Fig.~\ref{fig:zreduced}.
 
-The CDW ionization cross sections $\sigma^{\mathrm{CDW}}$ of atomic H, C, N, O targets scale as $\sigma_e=\sigma^{\mathrm{CDW}}/n_e$ with $n_e$ being $1$ for H, $4$ for C, N, and O, i.e.
+The CDW ionization cross sections $\sigma^{\mathrm{CDW}}$ of atomic H, 
+C, N, O targets scale as $\sigma_e=\sigma^{\mathrm{CDW}}/n_e$ with 
+$n_e$ being $1$ for H, $4$ for C, N, and O, i.e.
 \begin{equation}
  \frac{\sigma_{\mathrm{H}}^{\mathrm{CDW}}}{1}\sim
  \frac{\sigma_{\mathrm{C}}^{\mathrm{CDW}}}{4}\sim
  \frac{\sigma_{\mathrm{N}}^{\mathrm{CDW}}}{4}\sim
  \frac{\sigma_{\mathrm{O}}^{\mathrm{CDW}}}{4}
 \end{equation}
-The SSM leads to the molecular numbers of active electrons included in Table \ref{nn}.
+The SSM leads to the molecular numbers of active electrons included in 
+Table \ref{nn}.
 
 \contourlength{0.03em}
 \contournumber{30}
@@ -119,7 +178,8 @@ The SSM leads to the molecular numbers of active electrons included in Table \re
  CH$_4$   & 8  & C$_4$H$_4$N$_2$O$_2$ \ \ \ \ &  36   & C$_5$H$_5$N$_5$O     \ \ \ \ & 49   \\ 
  \hline
 \end{tabular}
-\caption{Number of active electrons per target at intermediate to high energies obtained from the CDW calculations~\cite{MendezJPB20}.}
+\caption{Number of active electrons per target at intermediate to high 
+energies obtained from the CDW calculations~\cite{MendezJPB20}.}
 \label{nn}
 \end{center}
 \end{table}
@@ -127,7 +187,9 @@ The SSM leads to the molecular numbers of active electrons included in Table \re
 \begin{figure*}[!t]%[h]
 \centering
 \includegraphics[width=0.7\textwidth]{zmol_werror.eps}
-\caption{(Color online) Universal scaling with the ions charge $Z$ and the number of active electrons in the molecule $n_e$ given by Eq. (\ref{u-scaling}). Curves: present CDW-SSM theoretical results. 
+\caption{(Color online) Universal scaling with the ions charge $Z$ and 
+the number of active electrons in the molecule $n_e$ given by 
+Eq. (\ref{u-scaling}). Curves: present CDW-SSM theoretical results. 
 Symbols: experimental impact of H$^+$ on 
 \mbox{\LARGE$\color{red}\circ$} adenine~\cite{iriki2011}, 
 {\fontsize{11}{20}$\color{red}\pmb{\triangle}$} uracil~\cite{itoh2013}, 
@@ -161,14 +223,25 @@ and electron impact on $\rhd$~pyrimidine~\cite{bug2017}, and $\lhd$, $\medstar$~
 \label{fig:zalpha}
 \end{figure*} 
  
-The universal scaling we propose here is expressed as $\sigma_U$ as a function of $E/Z^{2-\alpha}$, with
+The universal scaling we propose here is expressed as $\sigma_U$ as a 
+function of $E/Z^{2-\alpha}$, with
  \begin{equation}
      \sigma_U=\frac{\sigma_e}{Z^{\alpha}}=\frac{\sigma/n_e}{Z^{\alpha}}\,,
      \label{u-scaling}
  \end{equation}
-$\sigma$ is the ionization cross section for the molecular target, $\alpha=1.2$ and $n_e$ is the number of active electrons per molecule given in Table \ref{nn}.
-In Fig.~\ref{fig:zalpha}, we test the universal scaling of Eq. (\ref{u-scaling}) for all the theoretical and experimental values displayed in Fig. \ref{fig:zreduced}. We also included a gray area representing the 30\% deviation of our theoretical curves. As can be noted, the universal scaling works very well. All the curves and data lays in a narrow band valid for any charged ion (scaled with Z) in any molecule (scaled with the number of active electrons). 
-We decided not to include in this figure the data for uracil from Refs.~\cite{agnihotri2012,agnihotri2013}, and for Li$^{+3}$ on water~\cite{Luna_Li_water}. The discussion about these experimental values exceeds the present work. %is open for future work.
+$\sigma$ is the ionization cross section for the molecular target, 
+$\alpha=1.2$ and $n_e$ is the number of active electrons per molecule 
+given in Table \ref{nn}. In Fig.~\ref{fig:zalpha}, we test the 
+universal scaling of Eq. (\ref{u-scaling}) for all the theoretical and 
+experimental values displayed in Fig. \ref{fig:zreduced}. We also 
+included a gray area representing the 30\% deviation of our theoretical 
+curves. As can be noted, the universal scaling works very well. All the 
+curves and data lays in a narrow band valid for any charged ion (scaled 
+with Z) in any molecule (scaled with the number of active electrons). 
+We decided not to include in this figure the data for uracil from 
+Refs.~\cite{agnihotri2012,agnihotri2013}, and for Li$^{+3}$ on 
+water~\cite{Luna_Li_water}. The discussion about these experimental 
+values exceeds the present work. %is open for future work.
 
 In principle, the \textit{universal} scaling should be valid for different ion--molecule combinations. 
 We proved this statement by including in Fig.~\ref{fig:zalpha} the measurements by Rudd \textit{et al.} \cite{Rudd85,Rudd1983} for H$^{+}$ and He$^{+2}$ in N$_2$, O$_2$, CH$_4$, CO and CO$_2$, and the recent values by Luna \textit{et al.} \cite{Luna2019} for H$^{+}$ in CH$_4$. 

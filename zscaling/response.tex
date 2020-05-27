@@ -1,0 +1,230 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0pt}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{graphicx}
+
+\setstcolor{blue}
+\def\reviewer#1{\vspace{0.35cm}\textsl{#1}}
+\def\reply#1{\vspace{0.1cm}\textcolor{blue}{#1}}
+
+\title{Response to referee reports \\ JPHYSB-106014}
+
+\begin{document}
+\maketitle
+
+\reply{We appreciate the comments and questions of the three referees. 
+They were taken into account, as explained in the replies to each 
+referee. In what follows, the referee reports are in black letters and 
+our answers and comments in blue. }
+
+\reply{\textbf{Summary of the modifications:} The manuscript was 
+changed from letter to regular manuscript by the editorial board. 
+Attending to this fact and the comments by the three referees 
+requesting further explanations, we decided to modify the manuscript by
+dividing the text into three sections: Introduction, Scaling rules (with
+subsections), and Conclusions. Additional specifications of the scaling 
+models are given in Section II-A, B, and C. Figure 2 was improved by 
+including a gray area of $\pm 30\%$ that covers most of the available 
+data. Also, experiments for H$^+$ and He$^{+2}$ in water (missing in 
+the previous version) were added to the figures (Refs. 25, 26, and 27), 
+extending the energy range where the present scaling agrees with the 
+experimental data. 
+% the agreement of the present scaling for H$^+$ in water above 40 keV 
+% and He$^{+2}$ in water up to 10 MeV/amu. 
+Following the suggestion by one of the referees, we changed the title 
+from ``Universal scaling for the ionization...'' to ``Scaling 
+rules for the ionization...''}.
+
+% ----------------------------------------------------------------------
+\section{Reply to report of the First Referee}
+% ----------------------------------------------------------------------
+
+\reviewer{The authors propose the universal scaling law of the 
+ionization cross sections by the impact of multiply charged atomic ions 
+on the basis of the experimental data reported in their very recent 
+publication [J. Phys. B, 53, 055201 (2020)]. Their conclusion of this 
+newly submitted paper is that they found the scaling law of Eq. (1) 
+with the alpha value of 1.2. However, as the authors mention in the 
+introduction part, the same scaling law with the alpha value of 
+4/3 = 1.333 was reported in 2013 by DuBois et al. [Ref. 15]. The 
+authors should explain if the scaling with alpha = 4/3, which is very 
+close to their value of 1.2, could not explain the experimental data 
+they recorded. If the value of 1.2 is much better than 1.333, the 
+author should explain possible reason why alpha should be 1.2 on the 
+basis of the physical meaning of the parameter alpha.}
+
+\vspace{0.2cm}
+
+\reply{The value of $\alpha=1.2$ was found numerically as the best
+convergence of the CDW-SSM cross sections of the forty collisional 
+systems over the broadest energy range. Our methodology does not rely 
+on the fitting of experimental data. The work considers the scaling of 
+our theoretical results, which is tested afterward with the 
+experimental data. We also noticed that all the maxima of the 
+theoretical cross sections scaled with $\alpha=1.2$ lay at the same 
+value of $E/Z^{2-\alpha}=E/Z^{0.8}$. In the present version of our 
+manuscript, we modified lines 59-61 to clarify our choice of $\alpha$.}
+
+\reply{About the  physical meaning of this parameter, the scaling by
+Janev et~al.~[14] uses $E/Z^1$ as abscissa based on the long-distance
+approximation for the ionization cross sections. Similarly, DuBois 
+et~al.~[15] propose $E/Z^{2/3}$. The 2/3 in Ref.~[15] was found by 
+trial and error. However, the dependence with $Z^{2/3}$ recalls the 
+Thomas Fermi model for a constant density of electrons around the ion. 
+% Also in [15], it is mentioned that $E/Z^{0.88}$ joins  the maximum of 
+% the cross sections of He and H$_2$. 
+In either case, both models are approximations, and our numerical 
+proposal of $\alpha$ is located between them.} 
+
+\vspace{0.2 cm}
+% ----------------------------------------------------------------------
+\section{Reply to report of the Second Referee}
+
+The authors propose a scaling formula for cross sections for ionization
+of complex molecules by multiply charged ions. Such cross sections are
+required, e.g., for estimating radiation damage in biomolecules. A
+routine ab-initio calculation of such cross sections by quantum methods
+is beyond reach of the state-of-the-arts methods. In this situation, 
+it is helpful to have semi-empirical scaling formulas for modeling
+purposes. Thus, the paper is timely and serves a need. It is concise.
+However, there are some language issues. The paper should eventually be
+published as a JPB letter after the authors having adequately responded
+to my detailed points below. 
+
+% ----------------------------------------------------------------------
+
+\vspace{0.2cm}
+
+\reply{The points 1)-4), 6) and 7) raised by the referee are language
+corrections. They were all considered and modified in the manuscript
+where appropriate.}
+
+%\reviewer{1) page1, line 11: `` ... from +1 to +8 colliding with five ...''}
+%\reviewer{2) page 1, line 14: `` ... fourty ...''}
+%\reviewer{3) page 1, line 26: `` ... continuum distorted-wave ...''}
+%\reviewer{4) page 1, line 42: ``... first order approximation in experimental ...''}
+%\reviewer{6) page 1, line 20, column 2: ``... fourty ...''}
+%\reviewer{7) page 1, line 24,, column 2: `` ... and five ion species: ...''}
+
+\reviewer{5) page 1, line 53: I do not see how any value for alpha keeps
+the $Z^2/E$ relationship? $\alpha = 1.2$ results in $Z^{0.8}/E$.}
+
+\reply{In first order approaches, the ionization cross section $\sigma$
+depends linearly with $Z^2/E$. This dependence is valid in the first Born 
+approximation, and at high impact energies, $\sigma/Z^{2}$ scales with
+$E$ for any charged ion. Within this approximation, $\sigma/Z^{\alpha}$
+will be a function of $Z^{2-\alpha}/E$ for any value of $\alpha$. At
+intermediate energy, the linear dependence with $Z^2/E$ no longer holds,
+so we numerically sought for the value of $\alpha$ that best merges
+the cross sections for different impinging charges.}
+
+\reviewer{8) Figure captions. Both caption should mention that all 
+plots are for alpha=1.2.}
+
+\reply{Done.}
+
+\reviewer{9) page 2, line 40, column 2: How broad is the ``narrow 
+band''? The authors should supply some estimate for the uncertainty of 
+the scaling formula. I consider this very important.}
+
+\reply{We estimated the uncertainty of the scaling formula to 20\% for 
+the theoretical curves of the different targets, and 30\% to incorporate 
+most of the available data. The gray area drawn in Fig.~2 accounts for 
+this uncertainty. We also included a sentence to refer to this subject 
+in lines 119-122.}
+
+\vspace{0.2 cm}
+% ----------------------------------------------------------------------
+\section{Reply to report of the Third Referee}
+% ----------------------------------------------------------------------
+
+This paper tries to obtain a scaling law for ionization of some 
+biological molecules by highly charged ions. As is well known, such
+processes are quite relevant and important in medical physics. Since 
+the molecules considered are complex, formal theories of ionization are
+difficult to apply and scaling laws, if found applicable, greatly 
+simplify the process of obtaining reliable cross sections. In this
+respect the present paper is quite significant. The authors have
+proposed a scaling law and have applied it to several bio molecules 
+and have tried to extend and justify the validity of the scaling law 
+by including results for N2, O2, CO, CO2 and CH4 to show they have the
+same scaling behaviour. However, there are several aspects of the paper
+which I either do not understand clearly, or have reservations.
+
+\reviewer{1. The authors mention $\sigma$ to be a function of $E/Z$. 
+But the functional form is nowhere mentioned in the paper. What is the
+functional dependence on $E/Z$ the authors consider in the work?}
+
+\reply{In different energy regions, the ionization cross section 
+follows different $Z/E$ laws. At high energies, it is a function of 
+$Z^2/E$, as predicted by the first Born approximation. The CDW 
+approximation has a more complex dependence with $Z/E$ but tends to the
+Born approximation at high energies, as shown in our previous work [8]. 
+The objective of this manuscript is precisely to deepen into the study 
+of the dependence of the ionization cross sections with $Z$ and $E$ in 
+the intermediate energy region. Janev and Presnyakov [14], in their 
+paper from 1980, suggest that $\sigma/Z$ is a linear function of $E/Z$ 
+at intermediate energies (around the maximum of the cross sections).} 
+
+\reply{In this version, we further explained the models and cross 
+section dependence with $E/Z$ (line 24 and the second paragraph of 
+Section II A).}
+
+\reviewer{2. I have reservations in calling the scaling law developed 
+a universal scaling law. Not only have the authors considered only 8
+molecular targets and five incident ions, the results, as the authors
+claim, are applicable only around the maximum of the cross sections. 
+Though this may be reasonable for practical purposes, in my opinion, 
+the results are in too narrow range for calling it a universal scaling
+law. I would recommend dropping the word universal everywhere in the
+paper.}
+
+\reply{We called our scaling ``universal'' in the sense that it can be
+implemented for any ion-target combination within the intermediate 
+energy range, i.e., $E/Z^{0.8} \simeq (0.04-5)$ MeV/amu. Nevertheless, 
+we followed the referee's recommendation and dropped the word 
+``universal'' from the title and the rest of the manuscript. Instead, 
+we emphasized the independent nature of the reduced scaling law for 
+different ions and molecular targets. We also remaked that even 
+the experimental data (in the energy range where our theoretical method
+starts to fail) follows the scaling proposed. In that sense, we changed
+the last sentence of the abstract, Section II C (lines 127-130, 136),
+and the Conclusions (lines 140-154, 157-160).}
+
+\reviewer{3. Figure 1 somehow needs to be improved or made larger,
+because it is very difficult to gauge the deviation of the experimental
+points from the curves. Is it possible to separate the figure in to two
+figures (eg. top four Figure 1, bottom four Figure 2)?}
+
+\reply{Separating Fig.~1 would complicate the ratio of the figure; 
+instead, we considered convenient to make the figure larger to utilize 
+the space better. We have also reduced the scale of the y-axis of the 
+subplots to improve the visualization of the data.}
+
+\reviewer{4. Figure captions need to be significantly improved as it is
+difficult to read and correlate the legend descriptions with those in
+the figure. For the caption in Figure 2, it is not clear what the
+CDW-SSM theoretical results represent ? What is the target molecule
+considered?}
+
+\reply{We believe the confusion about Fig.~2 is originated from 
+inconsistencies in the text. Figure~2 shows a scaling that is 
+independent of the ion charge of the projectile and the molecular 
+target. All the figures have the same CDW-SSM results as inputs. We 
+improved the explanation about our calculations by adding the last 
+paragraph of Section II B (and Eq. (2)), and the first sentence of 
+Section II. C. The notation of Eq. (3) was slightly changed to underline 
+that the starting point is the CDW-SSM cross sections for molecules.}
+
+%\reviewer{5. The language should be considerably improved as there are many unusual statements.}
+
+%\reviewer{6. There are many typographical errors.}
+
+\vspace{0.5cm}
+\reply{Regarding points 5) and 6), we revised our manuscript and we 
+believe it has been considerably improved.}
+
+\end{document}

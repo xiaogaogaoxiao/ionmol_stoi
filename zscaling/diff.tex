@@ -1,7 +1,7 @@
 %DIF 1c1
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL submitted/zscaling.tex   Tue May  5 13:18:46 2020
-%DIF ADD zscaling.tex             Mon May  4 22:16:10 2020
+%DIF DEL submitted/zscaling.tex   Tue May 12 11:12:55 2020
+%DIF ADD zscaling.tex             Thu May 14 15:46:53 2020
 %DIF < \documentclass[10pt,showpacs,showkeys,twocolumn]{revtex4}
 %DIF -------
 \documentclass[10pt,showpacs,showkeys,twocolumn]{revtex4-1} %DIF > 
@@ -94,10 +94,11 @@
 
 \begin{document}
 
-\DIFdelbegin %DIFDELCMD < \title[Universal scaling for the ionization of biological molecules]{%%%
-\DIFdelend \DIFaddbegin \title[General scaling rule for the ionization of biological molecules]{\DIFaddend 
-\DIFdelbegin \DIFdel{Universal }\DIFdelend \DIFaddbegin \DIFadd{General }\DIFaddend scaling \DIFaddbegin \DIFadd{rule }\DIFaddend for the ionization of biological molecules \DIFaddbegin \\ \DIFaddend by 
-highly charged ions}
+\DIFdelbegin %DIFDELCMD < \title[Universal scaling for the ionization of biological molecules]{
+%DIFDELCMD < %%%
+\DIFdel{Universal scaling }\DIFdelend \DIFaddbegin \title[Scaling rules for the ionization of biological
+molecules]{\DIFadd{Scaling rules }\DIFaddend for the ionization of biological
+molecules by highly charged ions}
 \author{A. M. P. Mendez, C. C. Montanari, J. E. Miraglia}
 \DIFdelbegin %DIFDELCMD < \affiliation{Instituto de Astronom\'{\i}a y F\'{\i}sica del Espacio 
 %DIFDELCMD < (CONICET--UBA), \\ Buenos Aires, Argentina.}
@@ -110,19 +111,23 @@ highly charged ions}
 \DIFdelend }% It is always \today, today,
 
 \begin{abstract}
-In the present work, we investigate scaling rules for the ionization 
-cross sections of multicharged ions on molecules of biological interest. 
-The cross sections are obtained \DIFdelbegin \DIFdel{from distorted--wave calculations for atomic targets combined with a stoichiometric model for the molecules proposed }\DIFdelend \DIFaddbegin \DIFadd{using a methodology presented }\DIFaddend in 
-[Mendez \textit{et al.} J. Phys B (2020)]\DIFaddbegin \DIFadd{, which considers distorted-wave 
-calculations for atomic targets combined with a molecular stoichiometric 
-model}\DIFaddend . We examine ions with \DIFaddbegin \DIFadd{nuclear }\DIFaddend charges $Z$ from $+1$ to $+8$ 
-\DIFdelbegin \DIFdel{in }\DIFdelend \DIFaddbegin \DIFadd{impacting on }\DIFaddend five nucleobases --adenine, cytosine, guanine, thymine, 
-uracil--, tetrahydrofuran, pyrimidine, and \DIFdelbegin \DIFdel{also in }\DIFdelend water. We propose a scaling 
-with the ion charge, which is valid in the intermediate to high energy 
-range, i.e.\DIFaddbegin \DIFadd{, }\DIFaddend 0.2-5 MeV/amu for oxygen impact. We extend our work to a 
-universal scaling for any ion and molecule, merging the forty 
-\DIFdelbegin \DIFdel{ion--molecule }\DIFdelend \DIFaddbegin \DIFadd{ion-molecule }\DIFaddend systems analyzed here into a single band. Furthermore, our 
-model proved to be valid for other molecules too.  
+\DIFdelbegin \DIFdel{In the present work, we }\DIFdelend \DIFaddbegin \DIFadd{We }\DIFaddend investigate scaling rules for the ionization cross sections of
+multicharged ions on molecules of biological interest. The cross 
+sections are obtained \DIFdelbegin \DIFdel{from distorted--wave calculations for atomic targets combined with a stoichiometric model for the molecules proposed }\DIFdelend \DIFaddbegin \DIFadd{using a methodology presented }\DIFaddend in [Mendez 
+\textit{et al.} J. Phys B (2020)]\DIFaddbegin \DIFadd{, which considers distorted-wave 
+calculations for atomic targets combined with a molecular 
+stoichiometric model}\DIFaddend . We examine ions with \DIFaddbegin \DIFadd{nuclear }\DIFaddend charges $Z$ from 
+$+1$ to $+8$ \DIFdelbegin \DIFdel{in }\DIFdelend \DIFaddbegin \DIFadd{impacting on }\DIFaddend five nucleobases --adenine, cytosine, 
+guanine, thymine, uracil--, tetrahydrofuran, pyrimidine, and \DIFdelbegin \DIFdel{also in }\DIFdelend water. 
+We propose a scaling with the ion charge \DIFdelbegin \DIFdel{, which is }\DIFdelend valid in the intermediate to 
+high energy range, i.e.\DIFaddbegin \DIFadd{, }\DIFaddend 0.2-5 MeV/amu for oxygen impact. \DIFdelbegin \DIFdel{We extend our work to a universal scaling for any ion and molecule, 
+merging the forty ion--molecule }\DIFdelend \DIFaddbegin \DIFadd{Furthermore, 
+we introduce a modified scaling rule, which takes into account the 
+number of active electrons per molecule. This scaling rule is 
+independent of the ion charge and the nature of the molecular target, 
+and it allows us to merge the forty ion-molecule }\DIFaddend systems analyzed here 
+into a single band. \DIFdelbegin \DIFdel{Furthermore, our model proved to be valid for other molecules too}\DIFdelend \DIFaddbegin \DIFadd{We confirm the generality of our independent 
+scaling law with several collisional systems}\DIFaddend . 
 \end{abstract}
 
 \keywords{ionization, scaling, molecules, charged-ions, DNA, 
@@ -132,72 +137,196 @@ multicharged ions}
 \maketitle
 %\ioptwocol
 \DIFaddbegin \linenumbers
+
+\section{\DIFadd{Introduction}}
 \DIFaddend 
 
-The ionization of biological molecules by multicharged ions has gained 
-increasing interest due to medical and environmental 
-\DIFdelbegin \DIFdel{reasons}\DIFdelend \DIFaddbegin \DIFadd{implementations}\DIFaddend ~\cite{PhysMed}, \DIFdelbegin \DIFdel{from }\DIFdelend \DIFaddbegin \DIFadd{which includes }\DIFaddend medical 
-treatments~\cite{Mohamad2017,Solov2009,Denifl2011} \DIFdelbegin \DIFdel{to }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend contaminant 
+The \DIFaddbegin \DIFadd{interest in the }\DIFaddend ionization of biological molecules by 
+multicharged ions has \DIFdelbegin \DIFdel{gained 
+increasing interest }\DIFdelend \DIFaddbegin \DIFadd{increased }\DIFaddend due to medical and environmental
+\DIFdelbegin \DIFdel{reasons}\DIFdelend \DIFaddbegin \DIFadd{implementations}\DIFaddend ~\cite{PhysMed}, \DIFdelbegin \DIFdel{from }\DIFdelend \DIFaddbegin \DIFadd{including }\DIFaddend medical 
+treatments~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{Mohamad2017,
+Solov2009,Denifl2011} }\hspace{0pt}%DIFAUXCMD
+to }\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Mohamad2017,Solov2009,Denifl2011} }\hspace{0pt}%DIFAUXCMD
+and }\DIFaddend contaminant 
 recognition in biological materials~\cite{water,ferrazdias}. 
 Many semiempirical \citep{vera_prl2013} and theoretical efforts are 
 currently being undertaken~\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
-\cite{MendezJPB20,Quinto20,ludde2019,ludde2018,ludde2016,Champion2012} }\hspace{0pt}%DIFAUXCMD
+\cite{MendezJPB20,Quinto20,ludde2019,ludde2018,ludde2016,
+Champion2012} }\hspace{0pt}%DIFAUXCMD
 }\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\cite{MendezJPB20,Quinto20,ludde2019,ludde2018,
-ludde2016,Champion2012} }\hspace{0pt}%DIFAUXCMD
-}\DIFaddend to get reliable values for the ionization cross 
-sections of these \DIFdelbegin \DIFdel{molecules}\DIFdelend \DIFaddbegin \DIFadd{molecular systems}\DIFaddend . 
+\cite{MendezJPB20,Quinto20,ludde2019,
+ludde2018,ludde2016,Champion2012} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend to get reliable values for the 
+ionization cross sections of these \DIFdelbegin \DIFdel{molecules}\DIFdelend \DIFaddbegin \DIFadd{molecular systems}\DIFaddend . 
 
 \DIFdelbegin \DIFdel{Recently}\DIFdelend \DIFaddbegin \DIFadd{In recent work~\mbox{%DIFAUXCMD
 \cite{MendezJPB20}}\hspace{0pt}%DIFAUXCMD
 }\DIFaddend , we combined the \DIFdelbegin \DIFdel{continue distorted--wave }\DIFdelend \DIFaddbegin \DIFadd{continuum 
 distorted-wave }\DIFaddend calculations (CDW) for atoms and the simple 
-stoichiometric model (SSM), also known as the Bragg sum rule, to 
+stoichiometric model (SSM)
+\DIFdelbegin \DIFdel{, also known as the 
+Bragg sum rule, }\DIFdelend %DIF >  , also known as the Bragg sum rule, 
+to 
 approximate the ionization cross sections of complex molecular targets 
-by charged ions\DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
+by \DIFdelbegin \DIFdel{charged ions~\mbox{%DIFAUXCMD
 \cite{MendezJPB20}}\hspace{0pt}%DIFAUXCMD
-. The CDW--SSM approximation showed reasonable }\DIFdelend \DIFaddbegin \DIFadd{. The CDW-SSM approximation showed consistent }\DIFaddend results 
-for over a hundred of \DIFdelbegin \DIFdel{ion--molecule }\DIFdelend \DIFaddbegin \DIFadd{ion-molecule }\DIFaddend systems. As expected, in the high 
-energy range (i.e.\DIFaddbegin \DIFadd{, }\DIFaddend above 5 MeV/amu)\DIFaddbegin \DIFadd{, }\DIFaddend the ionization cross sections \DIFdelbegin \DIFdel{present }\DIFdelend \DIFaddbegin \DIFadd{of
+. The CDW--SSM 
+approximation showed 
+reasonable }\DIFdelend \DIFaddbegin \DIFadd{the impact of charged ions. The molecular ionization cross 
+section~$\sigma_M$ was expressed as a linear combination of atomic 
+CDW calculations $\sigma_A$, 
+weighted with the number of atoms for each specie $n_A$, i.e, 
+$\sigma_M=\sum_A n_A \sigma_A$. The CDW-SSM approximation showed 
+consistent }\DIFaddend results for over a hundred of \DIFdelbegin \DIFdel{ion--molecule }\DIFdelend \DIFaddbegin \DIFadd{biologically relevant 
+ion-molecule }\DIFaddend systems. As expected, in the high energy range (i.e.\DIFaddbegin \DIFadd{, 
+}\DIFaddend above 5 MeV/amu)\DIFaddbegin \DIFadd{, }\DIFaddend the ionization cross sections \DIFdelbegin \DIFdel{present }\DIFdelend \DIFaddbegin \DIFadd{of 
 the molecular systems follow }\DIFaddend the $Z^2$ dependence predicted by the 
-first Born approximation. However, at intermediate energies, the 
-dependence with $Z$ is \DIFdelbegin \DIFdel{more complex, and non--perturvative }\DIFdelend \DIFaddbegin \DIFadd{not straightforward since non-perturbative 
-}\DIFaddend models are mandatory.
+first Born approximation. However, at intermediate 
+energies, the dependence with $Z$ is \DIFdelbegin \DIFdel{more complex, and 
+non--perturvative }\DIFdelend \DIFaddbegin \DIFadd{not straightforward since 
+non-perturbative }\DIFaddend models are mandatory.
 
-\DIFdelbegin \DIFdel{The intention of this letter is }\DIFdelend \DIFaddbegin \DIFadd{This letter intends }\DIFaddend to give a follow up of our previous work \DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
+\DIFdelbegin \DIFdel{The intention of this letter is to give a follow up }\DIFdelend \DIFaddbegin \DIFadd{This contribution constitutes a follow-up }\DIFaddend of our previous work\DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
 \cite{MendezJPB20} }\hspace{0pt}%DIFAUXCMD
-}\DIFdelend by 
-proposing a scaling \DIFdelbegin \DIFdel{with the ion charge $Z$ of }\DIFdelend \DIFaddbegin \DIFadd{rule for }\DIFaddend the ionization cross sections of complex 
-molecules \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{with the ion charge $Z$, which is }\DIFaddend valid at intermediate 
-energies. In general, scaling rules are used as \DIFdelbegin \DIFdel{first--order tests }\DIFdelend \DIFaddbegin \DIFadd{first-order 
+by proposing a scaling }\DIFdelend \DIFaddbegin \DIFadd{. We 
+introduce here a two-folded scaling rule for the ionization cross 
+sections of complex molecules by charged ions. Our approach considers 
+the dependence of the cross section }\DIFaddend with the ion charge $Z$ 
+\DIFaddbegin \DIFadd{and incorporates the scaling }\DIFaddend of the ionization \DIFdelbegin \DIFdel{cross sections of 
+complex molecules, valid at 
+intermediate energies. In general, scaling rules are used as 
+first--order tests }\DIFdelend \DIFaddbegin \DIFadd{with the number of 
+active electron $n_e$ of the molecular targets. Scaling rules are in 
+generally very useful since they can be used as first-order 
 approximations }\DIFaddend in experimental measurements and multipurpose codes. 
 \DIFdelbegin \DIFdel{Based on ~\mbox{%DIFAUXCMD
 \cite{MendezJPB20}}\hspace{0pt}%DIFAUXCMD
-, we propose a universal scaling for any ion--target system}\DIFdelend \DIFaddbegin \DIFadd{Furthermore, we explore the generality of our scaling rule by inspecting 
-various other ion-target systems}\DIFaddend .
+, we propose a universal scaling for any 
+ion--target system. 
+}\DIFdelend 
 
-\DIFdelbegin \DIFdel{At intermediate impact energies, 
-}\DIFdelend \DIFaddbegin \DIFadd{We have found in the literature two scaling rules applicable at 
-intermediate impact energy range. The scaling rule suggested by }\DIFaddend Janev 
-and Presnyakov~\cite{janev1980} \DIFdelbegin \DIFdel{suggest }\DIFdelend \DIFaddbegin \DIFadd{depends linearly with ion charge $Z$,
-considering }\DIFaddend $\sigma/Z$ versus $E/Z$ \DIFdelbegin \DIFdel{as }\DIFdelend \DIFaddbegin \DIFadd{to be }\DIFaddend the \textit{natural} reduced 
+\DIFdelbegin \DIFdel{At intermediate impact energies, }\DIFdelend \DIFaddbegin \section{\DIFadd{Scaling rules}}
+
+\subsection{\DIFadd{Scale with the ion charge}}
+\label{sec:zscaling}
+
+\DIFadd{In the development of our scaling rule, we examine forty collisional 
+systems. The target-ion systems are composed of eight targets: 
+the DNA and RNA nucleobases --adenine, cytosine, guanine, thymine, 
+uracil--, tetrahydrofuran (THF), pyrimidine, and water; and five ion 
+species: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
+We consider these systems as a benchmark for the present rule. 
+%DIF >  Furthermore, we explore the generality of our scaling by 
+%DIF >  inspecting various other ion-molecule systems.
+}
+
+
+\begin{figure*}[!htb]
+\centering
+\includegraphics[width=0.85\textwidth]{zscale_alpha.eps}
+\caption{\DIFaddFL{(Color online) Scaled ionization cross section $\sigma/Z^{\alpha}$ 
+as a function of ion impact energy $E/Z^{2-\alpha}$ with $\alpha=1.2$. 
+Colors are associated with the incident ion labeled on top of the figure. 
+Curves: present CDW-SSM theoretical results. Symbols: experimental 
+impact of \mbox{\LARGE$\color{red}\circ$} H$^+$~\mbox{%DIFAUXCMD
+\cite{iriki2011} }\hspace{0pt}%DIFAUXCMD
+and
+}{\fontsize{11}{20}\DIFaddFL{$\color{Purple}\pmb{\lozenge}$}} \DIFaddFL{C$^{+6}$ 
+\mbox{%DIFAUXCMD
+\cite{tribedi2019} }\hspace{0pt}%DIFAUXCMD
+on adenine;
+H$^+$ on }{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangle}$}} \DIFaddFL{uracil~\mbox{%DIFAUXCMD
+\cite{itoh2013}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\DIFaddFL{$\color{NavyBlue}\pmb{\ominus}$}} \DIFaddFL{C$^{+4}$, 
+}{\fontsize{11}{20}\DIFaddFL{$\color{Purple}\pmb{\oplus}$}} \DIFaddFL{C$^{+6}$, O$^{+6}$, F$^{+6}$, and 
+}{\fontsize{11}{20}\DIFaddFL{$\color{BurntOrange}\pmb{\otimes}$}} \DIFaddFL{O$^{+8}$, 
+F$^{+8}$ on uracil~\mbox{%DIFAUXCMD
+\cite{agnihotri2012,agnihotri2013}}\hspace{0pt}%DIFAUXCMD
+;
+H$^+$ on }{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangledown}$}} 
+\DIFaddFL{pyrimidine~\mbox{%DIFAUXCMD
+\cite{wolff2014}}\hspace{0pt}%DIFAUXCMD
+, and 
+}{\fontsize{10}{20}\DIFaddFL{$\color{red}\pmb{\meddiamond}$}} \DIFaddFL{THF~\mbox{%DIFAUXCMD
+\cite{wang2016}}\hspace{0pt}%DIFAUXCMD
+;
+%DIF >  water
+\mbox{\fontsize{11}{20}$\color{red}\pmb{\odot}$}~\mbox{%DIFAUXCMD
+\cite{Luna2007}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\color{red}\DIFaddFL{$\pmb{\logof}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{Rudd86}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\color{red}\DIFaddFL{$\pmb{\varowedge}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{pRudd85}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\color{red}\DIFaddFL{$\pmb{\varoslash}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{toburen80} }\hspace{0pt}%DIFAUXCMD
+H$^+$,
+}{\fontsize{11}{20}\color{ForestGreen}\DIFaddFL{$\pmb{\varolessthan}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{Ohsawa05}}\hspace{0pt}%DIFAUXCMD
+,
+}{\fontsize{11}{20}\color{ForestGreen}\DIFaddFL{$\pmb{\varogreaterthan}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{Rudd85}}\hspace{0pt}%DIFAUXCMD
+,
+}{\fontsize{11}{20}\color{ForestGreen}\DIFaddFL{$\pmb{\varoslash}$}}\DIFaddFL{~\mbox{%DIFAUXCMD
+\cite{toburen80} }\hspace{0pt}%DIFAUXCMD
+He$^{+2}$,
+}{\fontsize{11}{20}\color{Purple}\DIFaddFL{$\pmb{\ovee}$}}\DIFaddFL{~C$^{+6}$ \mbox{%DIFAUXCMD
+\cite{DalCappello2009,Bhattacharjee17}}\hspace{0pt}%DIFAUXCMD
+, and 
+}{\fontsize{11}{20}\color{BurntOrange}\DIFaddFL{$\pmb{\obslash}$}}
+\DIFaddFL{O$^{+8}$ \mbox{%DIFAUXCMD
+\cite{Tribedi_O_water} }\hspace{0pt}%DIFAUXCMD
+on water.
+Markers~$\square$~\mbox{%DIFAUXCMD
+\cite{rahman2016}}\hspace{0pt}%DIFAUXCMD
+, 
+$\rhd$~\mbox{%DIFAUXCMD
+\cite{bug2017}}\hspace{0pt}%DIFAUXCMD
+, 
+$\lhd$~\mbox{%DIFAUXCMD
+\cite{wolf2019}}\hspace{0pt}%DIFAUXCMD
+, and 
+$\medstar$~\mbox{%DIFAUXCMD
+\cite{fuss2009} }\hspace{0pt}%DIFAUXCMD
+correspond to electron impact ionization with 
+the equi-velocity conversion.}}
+\label{fig:zreduced}
+\end{figure*} 
+
+\DIFadd{We found two types of $Z$-scaling laws in the literature applicable 
+to the intermediate impact energy range. The rule suggested by }\DIFaddend Janev 
+and Presnyakov~\cite{janev1980} \DIFdelbegin \DIFdel{suggest }\DIFdelend \DIFaddbegin \DIFadd{depends linearly with ion charge $Z$, 
+considering }\DIFaddend $\sigma/Z$ versus $E/Z$ \DIFdelbegin \DIFdel{as }\DIFdelend \DIFaddbegin \DIFadd{to be }\DIFaddend the \textit{natural} reduced  
 form of the ionization cross section $\sigma$ and the incident ion 
 energy $E$. \DIFdelbegin \DIFdel{Much more }\DIFdelend \DIFaddbegin \DIFadd{More }\DIFaddend recently, Montenegro and \DIFdelbegin \DIFdel{co--workers~\mbox{%DIFAUXCMD
-\cite{dubois13,montenegro_pra13} }\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{co-workers~\mbox{%DIFAUXCMD
 \cite{dubois13,
 montenegro_pra13} }\hspace{0pt}%DIFAUXCMD
-}\DIFaddend proposed an alternative scaling by taking into account 
-that \DIFdelbegin \DIFdel{$\sigma$ }\DIFdelend \DIFaddbegin \DIFadd{the cross section }\DIFaddend is a function of $Z^2/E$. Their scaling, given by 
+proposed }\DIFdelend \DIFaddbegin \DIFadd{co-workers~\mbox{%DIFAUXCMD
+\cite{dubois13,
+montenegro_pra13} }\hspace{0pt}%DIFAUXCMD
+suggested }\DIFaddend an alternative scaling by taking into 
+account that \DIFdelbegin \DIFdel{$\sigma$ }\DIFdelend \DIFaddbegin \DIFadd{the cross section }\DIFaddend is a function of $Z^2/E$ \DIFaddbegin \DIFadd{at high 
+energies}\DIFaddend . Their scaling, given by 
 \begin{equation}
-    \sigma/Z^{\alpha}=f(E/Z^{2-\alpha}),
-    \label{Montenegro}
-\end{equation}
-keeps the $Z^2/E$ relationship for any value of \DIFaddbegin \DIFadd{the parameter }\DIFaddend $\alpha$. 
-In Ref.~\cite{dubois13}, the authors propose $\alpha=4/3$ for ionization 
-of He and H$_2$ by \DIFdelbegin \DIFdel{different }\DIFdelend \DIFaddbegin \DIFadd{differently }\DIFaddend charged ions. 
+ \sigma/Z^{\alpha}=f(E/Z^{2-\alpha}),
+\DIFdelbegin %DIFDELCMD < \label{Montenegro}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \label{eq:Montenegro}
+\DIFaddend \end{equation}
+keeps the $Z^2/E$ relationship for any value of \DIFaddbegin \DIFadd{the parameter 
+}\DIFaddend $\alpha$. \DIFdelbegin \DIFdel{In Ref.~\mbox{%DIFAUXCMD
+\cite{dubois13}}\hspace{0pt}%DIFAUXCMD
+, the authors propose }\DIFdelend \DIFaddbegin \DIFadd{The authors proposed }\DIFaddend $\alpha=4/3$ for \DIFaddbegin \DIFadd{the }\DIFaddend ionization of He and 
+H$_2$ by \DIFdelbegin \DIFdel{different charged ions. 
+}%DIFDELCMD < 
 
-\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]%%%
+%DIFDELCMD < \begin{figure*}[!t]%%%
 %DIF < [h]
 %DIFDELCMD < \centering
 %DIFDELCMD < \includegraphics[width=0.7\textwidth]{zscale_alpha.eps}
@@ -302,80 +431,336 @@ correspond to electron impact ionization with the equi-velocity conversion.}}
 %DIFDELCMD <  
 
 %DIFDELCMD < %%%
-\DIFdelend Combining our recent \DIFdelbegin \DIFdel{CDW--SSM }\DIFdelend \DIFaddbegin \DIFadd{CDW-SSM }\DIFaddend results~\cite{MendezJPB20} and 
+\DIFdel{Combining our recent CDW--SSM results~\mbox{%DIFAUXCMD
+\cite{MendezJPB20} }\hspace{0pt}%DIFAUXCMD
+and 
 Eq.~(\ref{Montenegro}), we propose here a $Z$-scaling and implement it 
-for forty collisional systems. The \DIFdelbegin \DIFdel{ion--molecule }\DIFdelend \DIFaddbegin \DIFadd{ion-molecule }\DIFaddend systems are composed of 
-eight targets: the DNA and RNA nucleobases --adenine, cytosine, guanine, 
-thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and water; and 
-five \DIFdelbegin \DIFdel{charged ions}\DIFdelend \DIFaddbegin \DIFadd{ion species}\DIFaddend : H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. 
-We considered these systems as a benchmark for the present scaling. 
+for forty collisional systems. 
+ The ion--molecule systems are composed 
+of eight targets: the DNA and RNA nucleobases --adenine, cytosine, 
+guanine, thymine, uracil--, tetrahydrofuran (THF), pyrimidine, and 
+water; and five charged ions: H$^+$, He$^{+2}$, Be$^{+4}$, C$^{+6}$, and O$^{+8}$. We considered these systems as a benchmark for the 
+present scaling. 
+}\DIFdelend \DIFaddbegin \DIFadd{differently charged ions~\mbox{%DIFAUXCMD
+\cite{dubois13}}\hspace{0pt}%DIFAUXCMD
+. 
+ }\DIFaddend 
 
-We found that the parameter $\alpha$ from Eq.~(\ref{Montenegro}) that 
-fits the \DIFdelbegin \DIFdel{CDW--SSM }\DIFdelend \DIFaddbegin \DIFadd{CDW-SSM }\DIFaddend scaled cross sections for all the ions is $\alpha=1.2$. 
-The validity of the theoretical scaling with the ion charge is \DIFdelbegin \DIFdel{very clear }\DIFdelend \DIFaddbegin \DIFadd{evident
-}\DIFaddend in Fig.~\ref{fig:zreduced}, where the CDW-SSM curves \DIFdelbegin \DIFdel{lays }\DIFdelend \DIFaddbegin \DIFadd{lay }\DIFaddend one over the 
-other. Our theoretical results are valid for impact energies around and 
-above the maximum of the cross sections, which \DIFdelbegin \DIFdel{means above }\DIFdelend \DIFaddbegin \DIFadd{corresponds to an impact
-energy range from }\DIFaddend 50 keV for \DIFdelbegin \DIFdel{impact of }\DIFdelend H$^+$ to 250 keV/amu for \DIFdelbegin \DIFdel{impact of }\DIFdelend O$^{+8}$. 
-
-The scaling was tested with the experimental data available \DIFdelbegin \DIFdel{by impact of different charged ions \mbox{%DIFAUXCMD
-\cite{itoh2013,iriki2011,wolff2014,wang2016,tribedi2019,agnihotri2012,agnihotri2013,Luna2007,Rudd86,Rudd85,Luna_Li_water,DalCappello2009,Tribedi_O_water}}\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{for 
-ionization by the impact of differently charged ions \mbox{%DIFAUXCMD
-\cite{itoh2013,
-iriki2011,wolff2014,wang2016,tribedi2019,agnihotri2012,agnihotri2013,
-Luna2007,Rudd86,Rudd85,Luna_Li_water,DalCappello2009,Tribedi_O_water}}\hspace{0pt}%DIFAUXCMD
-}\DIFaddend , 
-and also by electron impact at sufficiently high velocity 
-\cite{rahman2016,bug2017,wolf2019,fuss2009}. As can be noted, most of 
-the data in Fig.~\ref{fig:zreduced} \DIFdelbegin \DIFdel{confirms }\DIFdelend \DIFaddbegin \DIFadd{confirm }\DIFaddend the present scaling, even 
-for O$^{+8}$ in water~\cite{Tribedi_O_water}. However, the data of 
-uracil by swift C, O\DIFaddbegin \DIFadd{, }\DIFaddend and F ions in \cite{agnihotri2012,agnihotri2013} 
-are too low compared with our \DIFdelbegin \DIFdel{CDW--SSM }\DIFdelend \DIFaddbegin \DIFadd{CDW-SSM }\DIFaddend results, but also as compared 
-with Itoh \textit{et al.} data \cite{itoh2013}, and with the CTMC 
-calculations by Sarkadi\DIFaddbegin \DIFadd{~}\DIFaddend \cite{sarkadi2016}. The data for Li$^{+3}$ in 
-water from Ref.~\cite{Luna_Li_water} also spreads out from the present 
-theoretical curves for $E<600$ keV/amu.
-
-The good results obtained in the scaling with the ion charge challenged 
-us to look for a more general scaling rule that could predict values 
-for ionization cross sections of any ion in any molecule. To that end, 
-we resorted to the number of active electrons in each atom $n_e$ 
-proposed in \cite{MendezJPB20}, and combined it with the $Z$-scaling 
-displayed in Fig.~\ref{fig:zreduced}.
+\DIFdelbegin \DIFdel{We }\DIFdelend \DIFaddbegin \DIFadd{Following the work of Montenegro and collaborators, we }\DIFaddend found that the 
+parameter \DIFdelbegin \DIFdel{$\alpha$ from Eq.~(\ref{Montenegro}) that fits the CDW--SSM scaled cross sections for all the ions }\DIFdelend \DIFaddbegin \DIFadd{that best converges the CDW-SSM cross sections of the forty 
+collisional systems over the broadest energy range }\DIFaddend is $\alpha=1.2$. 
+The validity of \DIFdelbegin \DIFdel{the theoretical scaling with the ion charge is very 
+clear }\DIFdelend \DIFaddbegin \DIFadd{this particular scaling is evident }\DIFaddend in 
+Fig.~\ref{fig:zreduced}, where \DIFaddbegin \DIFadd{--for each target-- }\DIFaddend the CDW-SSM curves
+\DIFdelbegin \DIFdel{lays }\DIFdelend \DIFaddbegin \DIFadd{corresponding to different ions lay }\DIFaddend one over the other. 
+\DIFdelbegin \DIFdel{Our }\DIFdelend \DIFaddbegin \DIFadd{It is worth noting that our }\DIFaddend theoretical results are valid for impact
+energies \DIFdelbegin \DIFdel{around and }\DIFdelend above the maximum of the cross sections, which \DIFdelbegin \DIFdel{means above 
+}\DIFdelend \DIFaddbegin \DIFadd{corresponds to 
+an impact energy range from }\DIFaddend 50 keV for \DIFdelbegin \DIFdel{impact of }\DIFdelend H$^+$ to 250 keV/amu for 
+\DIFdelbegin \DIFdel{impact of }\DIFdelend O$^{+8}$.
 
 
-\DIFaddbegin \begin{figure*}[!htb]
-\centering
-\includegraphics[width=0.9\textwidth]{zscale_alpha.eps}
-\caption{\DIFaddFL{(Color online) Scaled ionization cross section $\sigma/Z^{\alpha}$ 
-as a function of ion impact energy $E/Z^{2-\alpha}$ with $\alpha=1.2$. 
-Colors are associated with the incident ion labeled on top of the figure. 
-Curves: present CDW-SSM theoretical results. Symbols: experimental 
-impact of \mbox{\LARGE$\color{red}\circ$} H$^+$~\mbox{%DIFAUXCMD
-\cite{iriki2011} }\hspace{0pt}%DIFAUXCMD
-and
-}{\fontsize{11}{20}\DIFaddFL{$\color{Purple}\pmb{\lozenge}$}} \DIFaddFL{C$^{+6}$ 
-\mbox{%DIFAUXCMD
-\cite{tribedi2019} }\hspace{0pt}%DIFAUXCMD
-on adenine;
-H$^+$ on }{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangle}$}} \DIFaddFL{uracil~\mbox{%DIFAUXCMD
+\DIFdelbegin \DIFdel{The scaling was tested with }\DIFdelend \DIFaddbegin \DIFadd{We also examined }\DIFaddend the experimental data available \DIFdelbegin \DIFdel{by impact 
+of different charged ions \mbox{%DIFAUXCMD
+\cite{itoh2013,iriki2011,wolff2014,wang2016,
+tribedi2019,agnihotri2012,agnihotri2013,Luna2007,Rudd86,Rudd85,
+Luna_Li_water,DalCappello2009,Tribedi_O_water}}\hspace{0pt}%DIFAUXCMD
+, and also by electron 
+impact at sufficiently high velocity \mbox{%DIFAUXCMD
+\cite{rahman2016,bug2017,wolf2019,
+fuss2009}}\hspace{0pt}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{for the forty 
+ion-target systems~\mbox{%DIFAUXCMD
+\cite{itoh2013,iriki2011,wolff2014,wang2016,
+tribedi2019,agnihotri2012,agnihotri2013,Luna2007,Rudd86,Rudd85,pRudd85,
+toburen80,Ohsawa05,Bhattacharjee17,Luna_Li_water,DalCappello2009,
+Tribedi_O_water} }\hspace{0pt}%DIFAUXCMD
+with the $Z^\alpha$-scaling rule}\DIFaddend . As can be noted, 
+most of the data in Fig.~\ref{fig:zreduced} \DIFdelbegin \DIFdel{confirms }\DIFdelend \DIFaddbegin \DIFadd{confirm }\DIFaddend the present 
+scaling, even for O$^{+8}$ in water~\cite{Tribedi_O_water}. 
+\DIFdelbegin \DIFdel{However, the }\DIFdelend \DIFaddbegin \DIFadd{Only two data sets are off our predictions: the ionization }\DIFaddend data of 
+uracil by swift C, O\DIFaddbegin \DIFadd{, }\DIFaddend and F ions \DIFdelbegin \DIFdel{in }\DIFdelend \DIFaddbegin \DIFadd{from 
+Refs.~}\DIFaddend \cite{agnihotri2012,agnihotri2013} are too low 
+compared with our \DIFdelbegin \DIFdel{CDW--SSM results, but also as compared with Itoh 
+}\textit{\DIFdel{et al.}} %DIFAUXCMD
+\DIFdel{data \mbox{%DIFAUXCMD
+\cite{itoh2013}}\hspace{0pt}%DIFAUXCMD
+, and with the CTMC calculations by 
+Sarkadi \mbox{%DIFAUXCMD
+\cite{sarkadi2016}}\hspace{0pt}%DIFAUXCMD
+. The }\DIFdelend \DIFaddbegin \DIFadd{CDW-SSM results, and the }\DIFaddend data for Li$^{+3}$ in water 
+from Ref.~\cite{Luna_Li_water} \DIFdelbegin \DIFdel{also spreads }\DIFdelend \DIFaddbegin \DIFadd{spread }\DIFaddend out from the present theoretical 
+curves for $E<600$\DIFaddbegin \DIFadd{~}\DIFaddend keV/amu. 
+\DIFaddbegin \DIFadd{For targets with none or little experimental data, we included 
+electron impact ionization results~\mbox{%DIFAUXCMD
+\cite{rahman2016,bug2017,wolf2019,
+fuss2009} }\hspace{0pt}%DIFAUXCMD
+at high velocity with the corresponding equivelocity 
+conversion.
+}
+
+\subsection{\DIFadd{Scale with the molecular target}}
+\DIFaddend 
+
+The good results obtained in the scaling with the ion charge 
+\DIFdelbegin \DIFdel{challenged 
+us to look for a more general scaling rule }\DIFdelend \DIFaddbegin \DIFadd{encouraged us to further investigate a scaling law }\DIFaddend that could 
+predict values for ionization cross sections of any ion in any 
+molecule. To \DIFdelbegin \DIFdel{that }\DIFdelend \DIFaddbegin \DIFadd{this }\DIFaddend end, we \DIFdelbegin \DIFdel{resorted to }\DIFdelend \DIFaddbegin \DIFadd{considered }\DIFaddend the number of active electrons 
+in each \DIFdelbegin \DIFdel{atom }\DIFdelend \DIFaddbegin \DIFadd{molecule }\DIFaddend $n_e$ proposed in \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{MendezJPB20}}\hspace{0pt}%DIFAUXCMD
+, }\DIFdelend \DIFaddbegin \DIFadd{Ref.~\mbox{%DIFAUXCMD
+\cite{MendezJPB20} }\hspace{0pt}%DIFAUXCMD
+}\DIFaddend and combined 
+it with the \DIFdelbegin \DIFdel{$Z$}\DIFdelend \DIFaddbegin \DIFadd{$Z^\alpha$}\DIFaddend -scaling \DIFdelbegin \DIFdel{displayed in Fig.~\ref{fig:zreduced}}\DIFdelend \DIFaddbegin \DIFadd{from Section~\ref{sec:zscaling}}\DIFaddend .
+
+\DIFdelbegin \DIFdel{The CDW ionization cross sections $\sigma^{\mathrm{CDW}}$ of atomic }\DIFdelend \DIFaddbegin \DIFadd{In our previous work, we noticed that the CDW atomic ionization cross 
+section $\sigma_A$ of }\DIFaddend H, C, N, O targets scale \DIFdelbegin \DIFdel{as $\sigma_e=\sigma^{\mathrm{CDW}}/n_e$ with $n_e$ being }\DIFdelend \DIFaddbegin \DIFadd{with the number of
+active electron per atom $\nu_A$, %DIF >  as $\sigma_e=\sigma_A/\nu_A$, 
+where $\nu_A$ is }\DIFaddend $1$ for H \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend $4$ for C, N, and O\DIFdelbegin \DIFdel{, i. e.
+}\begin{displaymath}
+ \DIFdel{\frac{\sigma_{\mathrm{H}}^{\mathrm{CDW}}}{1}\sim
+ \frac{\sigma_{\mathrm{C}}^{\mathrm{CDW}}}{4}\sim
+ \frac{\sigma_{\mathrm{N}}^{\mathrm{CDW}}}{4}\sim
+ \frac{\sigma_{\mathrm{O}}^{\mathrm{CDW}}}{4}
+}\end{displaymath}
+%DIFAUXCMD
+\DIFdel{The SSMleads to the molecular numbers }\DIFdelend \DIFaddbegin \DIFadd{. %DIF > , i.e.,
+%DIF >  \begin{equation}
+%DIF >   \frac{\sigma_{\mathrm{H}}^{\mathrm{CDW}}}{1}\sim
+%DIF >   \frac{\sigma_{\mathrm{C}}^{\mathrm{CDW}}}{4}\sim
+%DIF >   \frac{\sigma_{\mathrm{N}}^{\mathrm{CDW}}}{4}\sim
+%DIF >   \frac{\sigma_{\mathrm{O}}^{\mathrm{CDW}}}{4}\,.
+%DIF >  \end{equation}
+%DIF >  \begin{equation}
+%DIF >   \frac{\sigma_{\mathrm{H}}}{1}\sim
+%DIF >   \frac{\sigma_{\mathrm{C}}}{4}\sim
+%DIF >   \frac{\sigma_{\mathrm{N}}}{4}\sim
+%DIF >   \frac{\sigma_{\mathrm{O}}}{4}\,.
+%DIF >  \end{equation}
+By considering the SSM, we define the number }\DIFaddend of active electrons \DIFdelbegin \DIFdel{included in Table\ref{nn}}\DIFdelend \DIFaddbegin \DIFadd{per
+molecule $n_e=\sum_A n_A \nu_A$, which are given in Table~\ref{nn} for the
+molecular targets considered throughtout this work. The scaling 
+with the molecular number of active electrons (see Fig.~6 of 
+Ref.~\mbox{%DIFAUXCMD
+\cite{MendezJPB20}}\hspace{0pt}%DIFAUXCMD
+) gave excellent results and proved to be 
+a good scaling}\DIFaddend .
+
+\DIFdelbegin %DIFDELCMD < \contourlength{0.03em}
+%DIFDELCMD < \contournumber{30}
+%DIFDELCMD < %%%
+\DIFdelend %DIF >  \contourlength{0.03em}
+%DIF >  \contournumber{30}
+
+\DIFdelbegin %DIFDELCMD < \begin{table}[H]
+%DIFDELCMD < %%%
+\DIFdelendFL \DIFaddbeginFL \begin{table}[t]
+\DIFaddendFL \begin{center}
+\begin{tabular}{|ll|ll|ll|}
+\hline
+ Molecule & $n_e$ & Molecule          & $n_e$ & Molecule          & $n_e$ \\
+\hline
+ H$_2$O   & 6  & CO$_2$               \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 12 & C$_4$H$_5$N$_3$O     \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 37   \\ 
+ N$_2$    & 8  & C$_4$H$_8$O          \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 28 & C$_5$H$_6$N$_2$O$_2$ \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 42   \\ 
+ O$_2$    & 8  & C$_4$H$_4$N$_2$      \DIFdelbeginFL \DIFdelFL{\ \ \ \  }\DIFdelendFL & 28 & C$_5$H$_5$N$_5$      \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 45   \\ 
+ CH$_4$   & 8  & C$_4$H$_4$N$_2$O$_2$ \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 36 & C$_5$H$_5$N$_5$O     \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 49   \\ 
+ \hline
+\end{tabular}
+\caption{Number of active electrons per target at intermediate to high 
+energies obtained from the CDW calculations~\cite{MendezJPB20}.}
+\label{nn}
+\end{center}
+\end{table}
+
+\DIFdelbegin %DIFDELCMD < \begin{figure*}[!t]%%%
+%DIF < [h]
+%DIFDELCMD < \centering
+%DIFDELCMD < \includegraphics[width=0.7\textwidth]{zmol_werror.eps}
+%DIFDELCMD < %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{(Color online) Universal scaling with the ions charge $Z$ and 
+the number of active electrons in the molecule $n_e$ given by 
+Eq. (\ref{u-scaling}). Curves: present CDW-SSM theoretical results. 
+Symbols: experimental impact of H$^+$ on 
+\mbox{\LARGE$\color{red}\circ$} adenine~\mbox{%DIFAUXCMD
+\cite{iriki2011}}\hspace{0pt}%DIFAUXCMD
+, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{$\color{red}\pmb{\triangle}$}%DIFDELCMD < } %%%
+\DIFdelFL{uracil~\mbox{%DIFAUXCMD
 \cite{itoh2013}}\hspace{0pt}%DIFAUXCMD
 , 
-}{\fontsize{11}{20}\DIFaddFL{$\color{NavyBlue}\pmb{\ominus}$}} \DIFaddFL{C$^{+4}$, 
-}{\fontsize{11}{20}\DIFaddFL{$\color{Purple}\pmb{\oplus}$}} \DIFaddFL{C$^{+6}$, O$^{+6}$, F$^{+6}$, and 
-}{\fontsize{11}{20}\DIFaddFL{$\color{BurntOrange}\pmb{\otimes}$}} \DIFaddFL{O$^{+8}$, 
-F$^{+8}$ on uracil~\mbox{%DIFAUXCMD
-\cite{agnihotri2012,agnihotri2013}}\hspace{0pt}%DIFAUXCMD
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{$\color{red}\pmb{\triangledown}$}%DIFDELCMD < } %%%
+\DIFdelFL{pyrimidine~\mbox{%DIFAUXCMD
+\cite{wolff2014} }\hspace{0pt}%DIFAUXCMD
+and 
+}%DIFDELCMD < {\fontsize{10}{20}%%%
+\DIFdelFL{$\color{red}\pmb{\meddiamond}$}%DIFDELCMD < } %%%
+\DIFdelFL{THF~\mbox{%DIFAUXCMD
+\cite{wang2016}}\hspace{0pt}%DIFAUXCMD
 ;
-H$^+$ on }{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangledown}$}} 
-\DIFaddFL{pyrimidine~\mbox{%DIFAUXCMD
-\cite{wolff2014}}\hspace{0pt}%DIFAUXCMD
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{$\color{Purple}\pmb{\lozenge}$}%DIFDELCMD < } %%%
+\DIFdelFL{C$^{+6}$ on adenine \mbox{%DIFAUXCMD
+\cite{tribedi2019}}\hspace{0pt}%DIFAUXCMD
+;
+\mbox{\fontsize{11}{20}$\color{red}\pmb{\odot}$}~\mbox{%DIFAUXCMD
+\cite{Luna2007}}\hspace{0pt}%DIFAUXCMD
+, 
+}%DIFDELCMD < {\fontsize{11}{20}\color{red}%%%
+\DIFdelFL{$\pmb{\logof}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{Rudd86}}\hspace{0pt}%DIFAUXCMD
+, 
+}%DIFDELCMD < {\fontsize{11}{20}\color{red}%%%
+\DIFdelFL{$\pmb{\varowedge}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{pRudd85}}\hspace{0pt}%DIFAUXCMD
+, 
+}%DIFDELCMD < {\fontsize{11}{20}\color{red}%%%
+\DIFdelFL{$\pmb{\varoslash}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{toburen80} }\hspace{0pt}%DIFAUXCMD
+H$^+$,
+}%DIFDELCMD < {\fontsize{11}{20}\color{ForestGreen}%%%
+\DIFdelFL{$\pmb{\varolessthan}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{Ohsawa05}}\hspace{0pt}%DIFAUXCMD
+,
+}%DIFDELCMD < {\fontsize{11}{20}\color{ForestGreen}%%%
+\DIFdelFL{$\pmb{\varogreaterthan}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{Rudd85}}\hspace{0pt}%DIFAUXCMD
+,
+}%DIFDELCMD < {\fontsize{11}{20}\color{ForestGreen}%%%
+\DIFdelFL{$\pmb{\varoslash}$}%DIFDELCMD < }%%%
+\DIFdelFL{~\mbox{%DIFAUXCMD
+\cite{toburen80} }\hspace{0pt}%DIFAUXCMD
+He$^{+2}$,
+}%DIFDELCMD < {\fontsize{11}{20}\color{Purple}%%%
+\DIFdelFL{$\pmb{\ovee}$}%DIFDELCMD < }%%%
+\DIFdelFL{~C$^{+6}$ \mbox{%DIFAUXCMD
+\cite{DalCappello2009,Bhattacharjee17}}\hspace{0pt}%DIFAUXCMD
 , and 
+}%DIFDELCMD < {\fontsize{11}{20}\color{BurntOrange}%%%
+\DIFdelFL{$\pmb{\obslash}$}%DIFDELCMD < }
+%DIFDELCMD < %%%
+\DIFdelFL{O$^{+8}$ \mbox{%DIFAUXCMD
+\cite{Tribedi_O_water} }\hspace{0pt}%DIFAUXCMD
+on water.
+H$^{+}$ impact on 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\boxast}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~N$_2$, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\boxbox}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~O$_2$, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\boxbar}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CO, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\boxbslash}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CO$_2$, and
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\boxdot}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CH$_4$; 
+and He$^{+2}$ impact on 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{ForestGreen}\pmb{\boxast}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~N$_2$,
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{ForestGreen}\pmb{\boxbox}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~O$_2$, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{ForestGreen}\pmb{\boxbar}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CO, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{ForestGreen}\pmb{\boxbslash}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CO$_2$, and
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{ForestGreen}\pmb{\boxdot}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~CH$_4$~\mbox{%DIFAUXCMD
+\cite{Rudd85,Rudd1983}}\hspace{0pt}%DIFAUXCMD
+, 
+}%DIFDELCMD < {\fontsize{11}{20}%%%
+\DIFdelFL{${\color{red}\pmb{\varowedge}}$}%DIFDELCMD < }%%%
+\DIFdelFL{~H$^{+}$ on CH$_4$~\mbox{%DIFAUXCMD
+\cite{Luna2019}}\hspace{0pt}%DIFAUXCMD
+; 
+and electron impact on $\rhd$~pyrimidine~\mbox{%DIFAUXCMD
+\cite{bug2017}}\hspace{0pt}%DIFAUXCMD
+, and $\lhd$, $\medstar$~\mbox{%DIFAUXCMD
+\cite{wolf2019,fuss2009} }\hspace{0pt}%DIFAUXCMD
+THF.}}
+%DIFAUXCMD
+%DIFDELCMD < \label{fig:zalpha}
+%DIFDELCMD < \end{figure*} 
+%DIFDELCMD <  %%%
+\DIFdelend \DIFaddbegin \subsection{\DIFadd{Scale with the ion charge and }\\ \DIFadd{the molecular target}}
+\DIFaddend 
+
+\DIFdelbegin \DIFdel{The universal scalingwe propose here }\DIFdelend \DIFaddbegin \DIFadd{By incorporating the $Z^\alpha$ reduction and the molecular number 
+of active electron scaling, we introduce the scaled and reduced
+ionization cross section of molecules $\tilde{\sigma}$, which }\DIFaddend is 
+expressed as \DIFdelbegin \DIFdel{$\sigma_U$ as }\DIFdelend a function of $E/Z^{2-\alpha}$, \DIFdelbegin \DIFdel{with
+ }\DIFdelend \DIFaddbegin \DIFadd{and it is given by
+}\DIFaddend \begin{equation}
+ \DIFdelbegin \DIFdel{\sigma_U}\DIFdelend \DIFaddbegin \tilde{\sigma}\DIFaddend =\frac{\sigma_e}{Z^{\alpha}}=\DIFdelbegin \DIFdel{\frac{\sigma/n_e}{Z^{\alpha}}}\DIFdelend \DIFaddbegin \DIFadd{\frac{\sigma_M/n_e}{Z^{\alpha}}}\DIFaddend \,,
+\DIFdelbegin %DIFDELCMD < \label{u-scaling}
+%DIFDELCMD <  %%%
+\DIFdelend \DIFaddbegin \label{eq:u-scaling}
+\DIFaddend \end{equation}
+\DIFdelbegin \DIFdel{$\sigma$ }\DIFdelend \DIFaddbegin \DIFadd{where $\sigma_M$ }\DIFaddend is the ionization cross section for the molecular target, 
+\DIFdelbegin \DIFdel{$\alpha=1.2$ and }\DIFdelend $n_e$ is the number of active electrons per molecule given in 
+Table\DIFdelbegin \DIFdel{\ref{nn}. In }\DIFdelend \DIFaddbegin \DIFadd{~\ref{nn} and the parameter is $\alpha=1.2$.
+}\DIFaddend Fig.~\ref{fig:zalpha} \DIFdelbegin \DIFdel{, we test the 
+universal scaling of Eq. (\ref{u-scaling}) for all the }\DIFdelend \DIFaddbegin \DIFadd{shows the reduced-scaled }\DIFaddend theoretical and 
+experimental \DIFdelbegin \DIFdel{values displayed in Fig.\ref{fig:zreduced}. We also 
+included a gray area representing the 30\% deviation of our theoretical 
+curves}\DIFdelend \DIFaddbegin \DIFadd{data from Fig.~\ref{fig:zreduced} obtained using 
+Eq.~(\ref{eq:u-scaling})}\DIFaddend . As can be noted, the \DIFdelbegin \DIFdel{universal }\DIFdelend scaling works very well
+\DIFdelbegin \DIFdel{. All the curves and data lays }\DIFdelend \DIFaddbegin \DIFadd{and is independent of the ion charge or the complexity of the molecular
+target. 
+Our theoretical curves lay }\DIFaddend in a narrow band valid for any charged ion 
+(\DIFdelbegin \DIFdel{scaled 
+with Z}\DIFdelend \DIFaddbegin \DIFadd{reduced with $Z^\alpha$}\DIFaddend ) in any molecule (scaled with the number of 
+active electrons) \DIFdelbegin \DIFdel{. 
+We decided not to include in this figure }\DIFdelend \DIFaddbegin \DIFadd{with a dispersion of about xx\%. If we consider
+the experimental data, the uncertainty of our scaling grows to 30\%, 
+which is shown with the gray area.
+It is worth noting that we did not include }\DIFaddend the data for uracil from 
+Refs.~\cite{agnihotri2012,agnihotri2013}, and for Li$^{+3}$ on 
+water~\cite{Luna_Li_water}. The discussion about these experimental 
+values exceeds the present work. 
+%DIF < is open for future work.
+
+
+\DIFdelbegin \DIFdel{In principle, the }\textit{\DIFdel{universal}} %DIFAUXCMD
+\DIFdel{scaling should }\DIFdelend \DIFaddbegin \begin{figure*}[!htb]%DIF > [h]
+\centering
+\includegraphics[width=0.75\textwidth]{zmol_werror.eps}
+\caption{\DIFaddFL{(Color online) Universal scaling with the ions charge $Z$ and 
+the number of active electrons in the molecule $n_e$ given by 
+Eq.~(\ref{eq:u-scaling}) with $\alpha=1.2$. Curves: present CDW-SSM 
+theoretical results. Symbols: experimental impact of H$^+$ on 
+\mbox{\LARGE$\color{red}\circ$} adenine~\mbox{%DIFAUXCMD
+\cite{iriki2011}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangle}$}} \DIFaddFL{uracil~\mbox{%DIFAUXCMD
+\cite{itoh2013}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\DIFaddFL{$\color{red}\pmb{\triangledown}$}} \DIFaddFL{pyrimidine~\mbox{%DIFAUXCMD
+\cite{wolff2014} }\hspace{0pt}%DIFAUXCMD
+and 
 }{\fontsize{10}{20}\DIFaddFL{$\color{red}\pmb{\meddiamond}$}} \DIFaddFL{THF~\mbox{%DIFAUXCMD
 \cite{wang2016}}\hspace{0pt}%DIFAUXCMD
 ;
-%DIF >  water
+}{\fontsize{11}{20}\DIFaddFL{$\color{Purple}\pmb{\lozenge}$}} \DIFaddFL{C$^{+6}$ on adenine \mbox{%DIFAUXCMD
+\cite{tribedi2019}}\hspace{0pt}%DIFAUXCMD
+;
 \mbox{\fontsize{11}{20}$\color{red}\pmb{\odot}$}~\mbox{%DIFAUXCMD
 \cite{Luna2007}}\hspace{0pt}%DIFAUXCMD
 , 
@@ -404,155 +789,86 @@ He$^{+2}$,
 \DIFaddFL{O$^{+8}$ \mbox{%DIFAUXCMD
 \cite{Tribedi_O_water} }\hspace{0pt}%DIFAUXCMD
 on water.
-Markers~$\square$~\mbox{%DIFAUXCMD
-\cite{rahman2016}}\hspace{0pt}%DIFAUXCMD
-, 
-$\rhd$~\mbox{%DIFAUXCMD
-\cite{bug2017}}\hspace{0pt}%DIFAUXCMD
-, 
-$\lhd$~\mbox{%DIFAUXCMD
-\cite{wolf2019}}\hspace{0pt}%DIFAUXCMD
-, and 
-$\medstar$~\mbox{%DIFAUXCMD
-\cite{fuss2009} }\hspace{0pt}%DIFAUXCMD
-correspond to electron impact ionization with 
-the equi-velocity conversion.}}
-\label{fig:zreduced}
-\end{figure*} 
-
-\DIFaddend The CDW ionization cross sections $\sigma^{\mathrm{CDW}}$ of atomic H, 
-C, N, O targets scale as $\sigma_e=\sigma^{\mathrm{CDW}}/n_e$ with $n_e$ 
-being $1$ for H, $4$ for C, N, and O, i.e.\DIFaddbegin \DIFadd{,
-}\DIFaddend \begin{equation}
- \frac{\sigma_{\mathrm{H}}^{\mathrm{CDW}}}{1}\sim
- \frac{\sigma_{\mathrm{C}}^{\mathrm{CDW}}}{4}\sim
- \frac{\sigma_{\mathrm{N}}^{\mathrm{CDW}}}{4}\sim
- \frac{\sigma_{\mathrm{O}}^{\mathrm{CDW}}}{4}
-\end{equation}
-The SSM leads to the molecular numbers of active electrons included in 
-Table \ref{nn}.
-
-\contourlength{0.03em}
-\contournumber{30}
-
-\DIFdelbegin %DIFDELCMD < \begin{table}[H]
-%DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{table}[t]
-\DIFaddendFL \begin{center}
-\begin{tabular}{|ll|ll|ll|}
-\hline
- Molecule & $n_e$ & Molecule          & $n_e$ & Molecule          & $n_e$ \\
-\hline
- H$_2$O   & 6  & CO$_2$               \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 12 & C$_4$H$_5$N$_3$O     \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 37   \\ 
- N$_2$    & 8  & C$_4$H$_8$O          \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 28 & C$_5$H$_6$N$_2$O$_2$ \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 42   \\ 
- O$_2$    & 8  & C$_4$H$_4$N$_2$      \DIFdelbeginFL \DIFdelFL{\ \ \ \  }\DIFdelendFL & 28 & C$_5$H$_5$N$_5$      \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 45   \\ 
- CH$_4$   & 8  & C$_4$H$_4$N$_2$O$_2$ \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 36 & C$_5$H$_5$N$_5$O     \DIFdelbeginFL \DIFdelFL{\ \ \ \ }\DIFdelendFL & 49   \\ 
- \hline
-\end{tabular}
-\caption{Number of active electrons per target at intermediate to high 
-energies obtained from the CDW calculations~\cite{MendezJPB20}.}
-\label{nn}
-\end{center}
-\end{table}
-
-\begin{figure*}[!t]%[h]
-\centering
-\includegraphics[width=0.7\textwidth]{zmol_werror.eps}
-\caption{(Color online) Universal scaling with the ions charge $Z$ and 
-the number of active electrons in the molecule $n_e$ given by Eq. 
-(\ref{u-scaling}) \DIFaddbeginFL \DIFaddFL{with $\alpha=1.2$}\DIFaddendFL . Curves: present CDW-SSM theoretical 
-results. Symbols: experimental impact of H$^+$ on 
-\mbox{\LARGE$\color{red}\circ$} adenine~\cite{iriki2011}, 
-{\fontsize{11}{20}$\color{red}\pmb{\triangle}$} uracil~\cite{itoh2013}, 
-{\fontsize{11}{20}$\color{red}\pmb{\triangledown}$} pyrimidine~\cite{wolff2014} and 
-{\fontsize{10}{20}$\color{red}\pmb{\meddiamond}$} THF~\cite{wang2016};
-{\fontsize{11}{20}$\color{Purple}\pmb{\lozenge}$} C$^{+6}$ on adenine \cite{tribedi2019};
-\mbox{\fontsize{11}{20}$\color{red}\pmb{\odot}$}~\cite{Luna2007}, 
-{\fontsize{11}{20}\color{red}$\pmb{\logof}$}~\cite{Rudd86}, 
-{\fontsize{11}{20}\color{red}$\pmb{\varowedge}$}~\cite{pRudd85}, 
-{\fontsize{11}{20}\color{red}$\pmb{\varoslash}$}~\cite{toburen80} H$^+$,
-{\fontsize{11}{20}\color{ForestGreen}$\pmb{\varolessthan}$}~\cite{Ohsawa05},
-{\fontsize{11}{20}\color{ForestGreen}$\pmb{\varogreaterthan}$}~\cite{Rudd85},
-{\fontsize{11}{20}\color{ForestGreen}$\pmb{\varoslash}$}~\cite{toburen80} He$^{+2}$,
-{\fontsize{11}{20}\color{Purple}$\pmb{\ovee}$}~C$^{+6}$ \cite{DalCappello2009,Bhattacharjee17}, and 
-{\fontsize{11}{20}\color{BurntOrange}$\pmb{\obslash}$}
-O$^{+8}$ \cite{Tribedi_O_water} on water.
 H$^{+}$ impact on 
-{\fontsize{11}{20}${\color{red}\pmb{\boxast}}$}~N$_2$, 
-{\fontsize{11}{20}${\color{red}\pmb{\boxbox}}$}~O$_2$, 
-{\fontsize{11}{20}${\color{red}\pmb{\boxbar}}$}~CO, 
-{\fontsize{11}{20}${\color{red}\pmb{\boxbslash}}$}~CO$_2$, and
-{\fontsize{11}{20}${\color{red}\pmb{\boxdot}}$}~CH$_4$; 
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\boxast}}$}}\DIFaddFL{~N$_2$, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\boxbox}}$}}\DIFaddFL{~O$_2$, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\boxbar}}$}}\DIFaddFL{~CO, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\boxbslash}}$}}\DIFaddFL{~CO$_2$, and
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\boxdot}}$}}\DIFaddFL{~CH$_4$; 
 and He$^{+2}$ impact on 
-{\fontsize{11}{20}${\color{ForestGreen}\pmb{\boxast}}$}~N$_2$,
-{\fontsize{11}{20}${\color{ForestGreen}\pmb{\boxbox}}$}~O$_2$, 
-{\fontsize{11}{20}${\color{ForestGreen}\pmb{\boxbar}}$}~CO, 
-{\fontsize{11}{20}${\color{ForestGreen}\pmb{\boxbslash}}$}~CO$_2$, and
-{\fontsize{11}{20}${\color{ForestGreen}\pmb{\boxdot}}$} 
-\DIFdelbeginFL \DIFdelFL{~}\DIFdelendFL CH$_4$~\cite{Rudd85,Rudd1983}, 
-{\fontsize{11}{20}${\color{red}\pmb{\varowedge}}$}~H$^{+}$ on 
-CH$_4$~\cite{Luna2019}; 
-and electron impact on $\rhd$~pyrimidine~\cite{bug2017}, and $\lhd$, 
-$\medstar$~\cite{wolf2019,fuss2009} THF.}
+}{\fontsize{11}{20}\DIFaddFL{${\color{ForestGreen}\pmb{\boxast}}$}}\DIFaddFL{~N$_2$,
+}{\fontsize{11}{20}\DIFaddFL{${\color{ForestGreen}\pmb{\boxbox}}$}}\DIFaddFL{~O$_2$, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{ForestGreen}\pmb{\boxbar}}$}}\DIFaddFL{~CO, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{ForestGreen}\pmb{\boxbslash}}$}}\DIFaddFL{~CO$_2$, and
+}{\fontsize{11}{20}\DIFaddFL{${\color{ForestGreen}\pmb{\boxdot}}$}} 
+\DIFaddFL{CH$_4$~\mbox{%DIFAUXCMD
+\cite{Rudd85,Rudd1983}}\hspace{0pt}%DIFAUXCMD
+, 
+}{\fontsize{11}{20}\DIFaddFL{${\color{red}\pmb{\varowedge}}$}}\DIFaddFL{~H$^{+}$ on 
+CH$_4$~\mbox{%DIFAUXCMD
+\cite{Luna2019}}\hspace{0pt}%DIFAUXCMD
+; 
+and electron impact on $\rhd$~pyrimidine~\mbox{%DIFAUXCMD
+\cite{bug2017}}\hspace{0pt}%DIFAUXCMD
+, and $\lhd$, 
+$\medstar$~\mbox{%DIFAUXCMD
+\cite{wolf2019,fuss2009} }\hspace{0pt}%DIFAUXCMD
+THF.}}
 \label{fig:zalpha}
 \end{figure*} 
 
-The universal scaling we propose here is expressed as $\sigma_U$ as a 
-function of $E/Z^{2-\alpha}$, with
- \begin{equation}
-     \sigma_U=\frac{\sigma_e}{Z^{\alpha}}=\frac{\sigma/n_e}{Z^{\alpha}}\,,
-     \label{u-scaling}
- \end{equation}
-$\sigma$ is the ionization cross section for the molecular target, 
-$\alpha=1.2$ and $n_e$ is the number of active electrons per molecule 
-given in Table \ref{nn}. In Fig.~\ref{fig:zalpha}, we test the universal 
-scaling of Eq.\DIFaddbegin \DIFadd{~}\DIFaddend (\ref{u-scaling}) for all the theoretical and 
-experimental values displayed in Fig. \ref{fig:zreduced}. We also 
-included a gray area representing the 30\% deviation of our theoretical 
-curves. As can be noted, the universal scaling works very well. All the 
-curves and data lays in a narrow band valid for any charged ion (scaled 
-with Z) in any molecule (scaled with the number of active electrons). 
-We decided not to include in this figure the data for uracil from 
-Refs.~\cite{agnihotri2012,agnihotri2013}, and for Li$^{+3}$ on 
-water~\cite{Luna_Li_water}. The discussion about these experimental 
-values exceeds the present work. %is open for future work.
-
-In principle, the \textit{universal} scaling should be valid for 
-different ion--molecule combinations. We proved this statement by 
-including in Fig.~\ref{fig:zalpha} the measurements by 
-Rudd\DIFaddbegin \DIFadd{~}\DIFaddend \textit{et al.} \cite{Rudd85,Rudd1983} for H$^{+}$ and He$^{+2}$ 
-in N$_2$, O$_2$, CH$_4$, CO and CO$_2$, and the recent values by 
-Luna\DIFaddbegin \DIFadd{~}\DIFaddend \textit{et al.} \cite{Luna2019} for H$^{+}$ in CH$_4$. 
+\DIFadd{We consider this scaling robust enough to }\DIFaddend be valid for different 
+ion--molecule combinations. We \DIFdelbegin \DIFdel{proved this statement by including }\DIFdelend \DIFaddbegin \DIFadd{tested the generality of our scaling 
+by including several data sets of molecular targets that were not
+considered previously. We included }\DIFaddend in Fig.~\ref{fig:zalpha} the
+measurements by Rudd\DIFaddbegin \DIFadd{~}\DIFaddend \textit{et al.} \cite{Rudd85,Rudd1983} for 
+H$^{+}$ and He$^{+2}$ in N$_2$, O$_2$, CH$_4$, CO and CO$_2$, and 
+the recent values by Luna\DIFaddbegin \DIFadd{~}\DIFaddend \textit{et al.} \cite{Luna2019} for 
+H$^{+}$ in CH$_4$. 
 
 The good agreement shown in Fig.~\ref{fig:zalpha} summaries the main 
-result of this work, and holds the validity of our universal scaling. 
+result of this work, and holds the validity of our \DIFdelbegin \DIFdel{universal }\DIFdelend scaling. 
 Although the theoretical \DIFdelbegin \DIFdel{CDW--SSM results %DIF < Present scaling rule 
 }\DIFdelend \DIFaddbegin \DIFadd{CDW-SSM results }\DIFaddend are valid for energies above 
-the maximum of the cross sections, the scaling of the experimental data 
-extends to lower impact energies%DIF < is more extensive
-, as can be noted in 
-Fig.\DIFaddbegin \DIFadd{~}\DIFaddend \ref{fig:zalpha}. The importance of scaling rules lays in their 
-predictive capability. New measurements for other ions and molecules 
-are expected to reinforce the present proposal. 
+the maximum of the cross sections, \DIFaddbegin \DIFadd{it is worth noting from 
+Fig.~\ref{fig:zalpha} that }\DIFaddend the scaling of the experimental data extends 
+\DIFaddbegin \DIFadd{even }\DIFaddend to lower impact energies%DIF < is more extensive
+\DIFdelbegin \DIFdel{, as can be noted in Fig. \ref{fig:zalpha}.
+The importance of scaling rules lays in their predictive capability. 
+}\DIFdelend \DIFaddbegin \DIFadd{. 
+%DIF >  The importance of scaling rules lays in their predictive capability. 
+}\DIFaddend New measurements for other ions and molecules are expected to 
+reinforce the present proposal. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
-In this letter, we present a scaling for the ionization cross sections 
-of highly charged ions in biological targets. The scaling rule states 
-the cross sections divided by $Z^{\alpha}$ as a function of the reduced 
-impact energy $E/Z^{2-\alpha}$, with $\alpha=1.2$. The scaling was 
-obtained by means of the CDW-SSM calculations for five different charged 
-ions in eight targets and tested with the available experimental data. 
-A universal scaling rule  is also proposed, which reduced the cross 
-sections with the number of active electrons of the molecule. The 
-universal scaling proved to be valid for a large number of experimental 
-data.
+\DIFdelbegin \DIFdel{In this letter, we present a scaling }\DIFdelend \DIFaddbegin 
+
+\DIFadd{We present scaling rules }\DIFaddend for the ionization
+cross sections of highly charged ions in biological targets. The \DIFdelbegin \DIFdel{scaling rule states the cross sections divided by }\DIFdelend \DIFaddbegin \DIFadd{first
+scaling reduces the nature of the projectile by scaling the cross 
+section with the ion charge, }\DIFaddend $Z^{\alpha}$\DIFaddbegin \DIFadd{, }\DIFaddend as a function of the 
+reduced impact energy $E/Z^{2-\alpha}$, with $\alpha=1.2$. The \DIFdelbegin \DIFdel{scaling was }\DIFdelend \DIFaddbegin \DIFadd{second
+scaling considers the molecular characteristic of the target by taking 
+into account the number of active electrons per molecule, $n_e$. 
+The last scaling law combines the $Z$-reduction with the $n_e$-scaling 
+of cross section, and it becomes independent of the ion charge and 
+the molecular target. The scalings were }\DIFaddend obtained by means of 
+\DIFdelbegin \DIFdel{the }\DIFdelend CDW-SSM calculations for five different charged ions in eight targets 
+and tested with the available experimental data. \DIFdelbegin \DIFdel{A universal scaling rule  is also proposed, which reduced the cross sections with the number of active electrons of the molecule. The universal scaling }\DIFdelend \DIFaddbegin \DIFadd{The generality of our
+independent scaling is }\DIFaddend proved to be valid \DIFdelbegin \DIFdel{for a large }\DIFdelend \DIFaddbegin \DIFadd{in a wide energy range 
+by considering a significant }\DIFaddend number of experimental data \DIFdelbegin \DIFdel{.
 %DIF < %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}\DIFdelend \DIFaddbegin \DIFadd{sets for 
+other collisional systems.
+}\DIFaddend 
 
 \DIFdelbegin %DIFDELCMD < \bigskip
 %DIFDELCMD < %%%
 %DIF < \section*{References}
 \DIFdelend %DIF > %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 \begin{thebibliography}{}
 
