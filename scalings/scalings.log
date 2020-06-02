@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  14 MAY 2020 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.14)  2 JUN 2020 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**diff.tex
-(./diff.tex
+**scalings.tex
+(./scalings.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -457,81 +457,51 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box45
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box46
-\UL@hyphenbox=\box47
-\UL@skip=\skip52
-\UL@hook=\toks26
-\UL@height=\dimen119
-\UL@pe=\count116
-\UL@pixel=\dimen120
-\ULC@box=\box48
-Package: ulem 2012/05/18
-\ULdepth=\dimen121
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/settobox.sty
-Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
-)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/letltxmacro.sty
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-)
-\DIFdelgraphicsbox=\box49
-\DIFdelgraphicswidth=\skip53
-\DIFdelgraphicsheight=\skip54
-LaTeX Info: Redefining \DIFaddbegin on input line 81.
-LaTeX Info: Redefining \DIFaddend on input line 82.
-LaTeX Info: Redefining \DIFdelbegin on input line 83.
-LaTeX Info: Redefining \DIFdelend on input line 84.
-LaTeX Info: Redefining \DIFaddbeginFL on input line 89.
-LaTeX Info: Redefining \DIFaddendFL on input line 90.
-LaTeX Info: Redefining \DIFdelbeginFL on input line 91.
-LaTeX Info: Redefining \DIFdelendFL on input line 92.
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 95.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 19.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 95.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 19.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 95.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 95.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 95.
-(./diff.aux)
-\openout1 = `diff.aux'.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 19.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 19.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 19.
+(./scalings.aux)
+\openout1 = `scalings.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen122
-\scratchbox=\box50
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen123
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count116
+\scratchdimen=\dimen119
+\scratchbox=\box46
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen120
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -589,177 +559,94 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
-line 95.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 95.
-\openout3 = `diffNotes.bib'.
+line 19.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 19.
+\openout3 = `scalingsNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 95.
-LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 119.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 119.
-
+LaTeX Font Info:    Try loading font information for U+stmry on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 144--164
-[]\OT1/cmr/m/n/10 The []|   []   |   []   |   []   []ion-iza-tion of bi-o-log-i
--cal
+Underfull \hbox (badness 1502) in paragraph at lines 67--82
+[]\OT1/cmr/m/n/10 In re-cent work [[]], we com-bined the con-tin-uum
  []
 
-
-Underfull \hbox (badness 2941) in paragraph at lines 144--164
-[]|   [][][]|   [][] \OT1/cmr/m/n/10 [[]], []|   []   [][]|   []   []med-i-cal
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 165--191
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2503) in paragraph at lines 224--225
-|   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 224--225
-|   []   |   []   |   []   |   []   |   []
- []
-
-Package epstopdf Info: Source file: <zscale_alpha.eps>
-(epstopdf)                    date: 2020-05-04 20:29:29
-(epstopdf)                    size: 619962 bytes
-(epstopdf)             Output file: <zscale_alpha-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-04 20:29:32
-(epstopdf)                    size: 80157 bytes
-(epstopdf)             Command: <repstopdf --outfile=zscale_alpha-eps-converted
--to.pdf zscale_alpha.eps>
-(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Source file: <zscale_alpha-wref.eps>
+(epstopdf)                    date: 2020-05-26 14:50:00
+(epstopdf)                    size: 599337 bytes
+(epstopdf)             Output file: <zscale_alpha-wref-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 14:50:02
+(epstopdf)                    size: 79975 bytes
+(epstopdf)             Command: <repstopdf --outfile=zscale_alpha-wref-eps-conv
+erted-to.pdf zscale_alpha-wref.eps>
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./zscale_alpha-eps-converted-to.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<zscale_alpha-eps-converted-to.pdf, id=1, 1300.86pt x 1734.48pt>
-File: zscale_alpha-eps-converted-to.pdf Graphic file (type pdf)
-<use zscale_alpha-eps-converted-to.pdf>
-Package pdftex.def Info: zscale_alpha-eps-converted-to.pdf  used on input line 
-229.
-(pdftex.def)             Requested size: 433.50311pt x 577.99097pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 298.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 298.
-
+pdfTeX warning: pdflatex (file ./zscale_alpha-wref-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<zscale_alpha-wref-eps-converted-to.pdf, id=1, 1300.86pt x 1734.48pt>
+File: zscale_alpha-wref-eps-converted-to.pdf Graphic file (type pdf)
+<use zscale_alpha-wref-eps-converted-to.pdf>
+Package pdftex.def Info: zscale_alpha-wref-eps-converted-to.pdf  used on input 
+line 106.
+(pdftex.def)             Requested size: 458.99689pt x 611.99979pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (25.22137pt too high) has occurred while \output is active []
+Overfull \vbox (23.99979pt too high) has occurred while \output is active []
 
 
-Overfull \vbox (25.22137pt too high) has occurred while \output is active []
+Overfull \vbox (23.99979pt too high) has occurred while \output is active []
 
 
-[2 <./zscale_alpha-eps-converted-to.pdf>]
-Underfull \hbox (badness 1762) in paragraph at lines 321--328
-\OT1/cmr/m/n/10 keeps the $\OML/cmm/m/it/10 Z[]\OMX/MnSymbolE/m/n/10 ~\OML/cmm/
-m/it/10 E$ \OT1/cmr/m/n/10 re-la-tion-ship for any value of []|   []
- []
-
-
-LaTeX Warning: Reference `Montenegro' on page 3 undefined on input line 444.
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 444--448
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 444--448
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-LaTeX Warning: Reference `Montenegro' on page 3 undefined on input line 450.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--461
-[]|   []   [][]|   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-LaTeX Warning: Reference `u-scaling' on page 3 undefined on input line 590.
-
-[3]
-
-LaTeX Warning: Reference `u-scaling' on page 4 undefined on input line 720.
-
-Package epstopdf Info: Source file: <zmol_werror.eps>
-(epstopdf)                    date: 2020-04-28 11:38:15
-(epstopdf)                    size: 1234969 bytes
-(epstopdf)             Output file: <zmol_werror-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-04-28 11:38:15
-(epstopdf)                    size: 345378 bytes
-(epstopdf)             Command: <repstopdf --outfile=zmol_werror-eps-converted-
-to.pdf zmol_werror.eps>
-(epstopdf)             \includegraphics on input line 744.
+[2 <./zscale_alpha-wref-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <zmol_werror-wref.eps>
+(epstopdf)                    date: 2020-05-26 14:50:00
+(epstopdf)                    size: 1289373 bytes
+(epstopdf)             Output file: <zmol_werror-wref-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-26 14:50:03
+(epstopdf)                    size: 354918 bytes
+(epstopdf)             Command: <repstopdf --outfile=zmol_werror-wref-eps-conve
+rted-to.pdf zmol_werror-wref.eps>
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./zmol_werror-eps-converted-to.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<zmol_werror-eps-converted-to.pdf, id=60, 1156.32pt x 1011.78pt>
-File: zmol_werror-eps-converted-to.pdf Graphic file (type pdf)
-<use zmol_werror-eps-converted-to.pdf>
-Package pdftex.def Info: zmol_werror-eps-converted-to.pdf  used on input line 7
-44.
-(pdftex.def)             Requested size: 382.5pt x 334.6758pt.
+pdfTeX warning: pdflatex (file ./zmol_werror-wref-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<zmol_werror-wref-eps-converted-to.pdf, id=49, 1156.32pt x 1011.78pt>
+File: zmol_werror-wref-eps-converted-to.pdf Graphic file (type pdf)
+<use zmol_werror-wref-eps-converted-to.pdf>
+Package pdftex.def Info: zmol_werror-wref-eps-converted-to.pdf  used on input l
+ine 222.
+(pdftex.def)             Requested size: 408.00156pt x 356.99986pt.
+[3]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¤ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
 
-Underfull \hbox (badness 1377) in paragraph at lines 912--914
+Underfull \hbox (badness 1377) in paragraph at lines 336--338
  []\OT1/cmr/m/n/9 P. de Vera, R. Garcia-Molina,I. Abril, and A. V.
  []
 
-[4] [5 <./zmol_werror-eps-converted-to.pdf>]
-Underfull \hbox (badness 1142) in paragraph at lines 1034--1037
+[4 <./zmol_werror-wref-eps-converted-to.pdf>]
+Underfull \hbox (badness 1142) in paragraph at lines 456--460
  []\OT1/cmr/m/n/9 C. Dal Cap-pello, C. Cham-pion, O. Boudri-oua, H.
  []
 
@@ -767,58 +654,44 @@ Missing character: There is no Ã in font cmr9!
 Missing character: There is no ± in font cmr9!
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no £ in font cmr9!
-No file diff.bbl.
-[6] (./diff.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occured.
-
-
-LaTeX Warning: There were undefined references.
-
- ) 
+No file scalings.bbl.
+[5] (./scalings.aux) ) 
 Here is how much of TeX's memory you used:
- 7726 strings out of 494847
- 102874 string characters out of 6179080
- 367393 words of memory out of 5000000
- 10856 multiletter control sequences out of 15000+600000
- 43390 words of font info for 155 fonts, out of 8000000 for 9000
+ 7458 strings out of 494847
+ 99245 string characters out of 6179080
+ 172177 words of memory out of 5000000
+ 10614 multiletter control sequences out of 15000+600000
+ 24579 words of font info for 88 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 41i,10n,35p,5040b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}</usr/share/texlive/texmf-dist/fon
-ts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/mnsymbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymb
-ol/MnSymbol9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/stmaryrd/stmary10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/wasy2-ps/wasy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wa
-sy2-ps/wasy9.pfb>
-Output written on diff.pdf (6 pages, 766464 bytes).
+ 41i,8n,35p,777b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/M
+nSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.
+enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}</usr/share/te
+xlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/mnsymbol/MnSymbol9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
+fb>
+Output written on scalings.pdf (5 pages, 685694 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 137 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
